@@ -15,10 +15,17 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path, re_path, include
+from django.urls import path, re_path
+from rest_framework import routers
 from rest_framework_jwt.views import obtain_jwt_token
 
+from erp_systems.views.menu_view import MenuView
+
 urlpatterns = [
-    re_path(r'^user/login/$', obtain_jwt_token),  # JWT签发和认证视图
-    re_path(r'^', include('erp_systems.urls'))
+
 ]
+
+router = routers.DefaultRouter()
+router.register(r'menu', MenuView)  # 菜单路由
+print(router.urls)
+urlpatterns += router.urls
