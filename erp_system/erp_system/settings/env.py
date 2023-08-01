@@ -29,7 +29,7 @@ SECRET_KEY = "django-insecure-#_(*%nzov(t_4p*564v)#m^67re4-)y=%i^$z_39-!i^6r!_pr
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     "rest_framework",
     "corsheaders",  # 同源策略
     "erp_systems",  # 系统模块
+    "drf_yasg2",  # swagger
 ]
 
 MIDDLEWARE = [
@@ -172,7 +173,7 @@ LOGGING = {
     },
     'handlers': {  # 日志处理方法
         'console': {  # 向终端中输出日志
-            'level': 'INFO',
+            'level': 'DEBUG',
             'filters': ['require_debug_true'],
             'class': 'logging.StreamHandler',
             'formatter': 'simple'
@@ -180,17 +181,17 @@ LOGGING = {
         'file': {  # 向文件中输出日志
             'level': 'INFO',
             'class': 'logging.handlers.RotatingFileHandler',
-            'filename': os.path.join(BASE_DIR, 'logs/erp.log'),  # 日志文件的位置
+            'filename': os.path.join(BASE_DIR,'logs/erp.log'),  # 日志文件的位置
             'maxBytes': 300 * 1024 * 1024,
             'backupCount': 10,
             'formatter': 'verbose'
         },
     },
-    'loggers': {  # 日志器
+     'loggers': {  # 日志器
         'erp': {  # 自己用的logger应用如下配置
-            'handlers': ['console', 'file'],  # 上线之后可以把'console'移除
-            'level': 'DEBUG',
-            'propagate': True,  # 是否向上一级logger实例传递日志信息
+          'handlers': ['console', 'file'],  # 上线之后可以把'console'移除
+          'level': 'DEBUG',
+          'propagate': True,  # 是否向上一级logger实例传递日志信息
         },
         'django': {  # 定义了一个名为django的日志器
             'handlers': ['console', 'file'],  # 可以同时向终端与文件中输出日志
@@ -201,12 +202,15 @@ LOGGING = {
 }
 
 REST_FRAMEWORK = {
+    # coreapi
+    'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.coreapi.AutoSchema',
     'DEFAULT_AUTHENTICATION_CLASSES': (
         #  配置认证方式的选项【drf的认证是内部循环遍历每一个注册的认证类，一旦认证通过识别到用户身份，则不会继续循环】
         'rest_framework_jwt.authentication.JSONWebTokenAuthentication',
         'rest_framework.authentication.SessionAuthentication',
         'rest_framework.authentication.BasicAuthentication',
     ),
+
 }
 
 # JWT配置
@@ -222,3 +226,6 @@ CORS_ORIGIN_WHITELIST = (
     'http://api.nagle.cn:8083')
 
 CORS_ALLOW_CREDENTIALS = True  # 允许携带cookie 凡是出现在⽩白名单中的域名，都可以访问后。
+
+# 自定义用户模型类
+AUTH_USER_MODEL = 'erp_systems.UserModel'

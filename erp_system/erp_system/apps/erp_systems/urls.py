@@ -14,14 +14,19 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
-from django.contrib import admin
+
 from django.urls import path, re_path
 from rest_framework import routers
 from rest_framework_jwt.views import obtain_jwt_token
 
 from erp_systems.views.menu_view import MenuView
+from erp_systems.views.user_view import RegisterUserView
+from erp_systems.views.test_log import Hello
 
 urlpatterns = [
+    re_path(r'^hello/$', Hello.as_view()),
+    re_path(r'^user/login/$', obtain_jwt_token),  # JWT签发和认证视图
+    re_path(r'^user/register/$', RegisterUserView.as_view()),  # 用户注册视图
 
 ]
 

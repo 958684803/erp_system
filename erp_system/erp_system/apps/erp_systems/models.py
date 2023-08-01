@@ -1,3 +1,4 @@
+from django.contrib.auth.models import AbstractUser
 from django.db import models
 
 from erp_system.utils.basemodel import BaseModel
@@ -9,7 +10,7 @@ from erp_system.utils.basemodel import BaseModel
 class MenuModel(BaseModel):
     number = models.IntegerField(verbose_name='排序数字', blank=True, null=True)
     url = models.CharField(verbose_name='菜单访问的url', max_length=256, blank=True, null=True)
-    delete_flag = models.CharField(verbose_name='标记删除', max_length=1, default="o")
+    delete_flag = models.CharField(verbose_name='标记删除', max_length=1, default="0")
     name = models.CharField(verbose_name='菜单名字', max_length=50)
     parent = models.ForeignKey('self', on_delete=models.CASCADE, blank=True, null=True)
 
@@ -20,3 +21,19 @@ class MenuModel(BaseModel):
 
     def __str__(self):
         return self.name
+
+
+class UserModel(AbstractUser):
+    """
+    用户模型类
+    """
+    phone = models.CharField(verbose_name='手机号', max_length=11, blank=True, null=True)
+    real_name = models.CharField(verbose_name='真实姓名', max_length=50, blank=True, null=True)
+
+    class Meta:
+        db_table = 't_user'
+        verbose_name = '用户'
+        verbose_name_plural = verbose_name
+
+    def __str__(self):
+        return self.username
