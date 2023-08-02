@@ -204,6 +204,9 @@ LOGGING = {
 REST_FRAMEWORK = {
     # coreapi
     'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.coreapi.AutoSchema',
+    'DEFAULT_PERMISSION_CLASSES': (
+        'rest_framework.permissions.IsAuthenticated',
+    ),
     'DEFAULT_AUTHENTICATION_CLASSES': (
         #  配置认证方式的选项【drf的认证是内部循环遍历每一个注册的认证类，一旦认证通过识别到用户身份，则不会继续循环】
         'rest_framework_jwt.authentication.JSONWebTokenAuthentication',
@@ -229,3 +232,6 @@ CORS_ALLOW_CREDENTIALS = True  # 允许携带cookie 凡是出现在⽩白名单�
 
 # 自定义用户模型类
 AUTH_USER_MODEL = 'erp_systems.UserModel'
+
+# 自定义用户认证
+AUTHENTICATION_BACKENDS = ['erp_systems.user_auth.UserLoginAuth']

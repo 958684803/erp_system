@@ -1,0 +1,1965 @@
+INFO 2023-08-01 14:55:57,154 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 14:59:59,353 basehttp basehttp.py: 161 "GET /menu/ HTTP/1.1" 200 2
+INFO 2023-08-01 15:03:14,631 basehttp basehttp.py: 161 "POST /menu/ HTTP/1.1" 201 171
+INFO 2023-08-01 15:05:00,648 basehttp basehttp.py: 161 "POST /menu/ HTTP/1.1" 201 172
+INFO 2023-08-01 15:06:41,232 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\menu_view.py changed, reloading.
+INFO 2023-08-01 15:06:42,695 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 15:09:03,177 basehttp basehttp.py: 161 "POST /menu/ HTTP/1.1" 201 170
+INFO 2023-08-01 15:09:11,767 basehttp basehttp.py: 161 "POST /menu/ HTTP/1.1" 201 170
+INFO 2023-08-01 15:10:55,666 basehttp basehttp.py: 161 "POST /menu/ HTTP/1.1" 201 159
+INFO 2023-08-01 15:11:02,270 basehttp basehttp.py: 161 "POST /menu/ HTTP/1.1" 201 159
+INFO 2023-08-01 15:11:08,779 basehttp basehttp.py: 161 "POST /menu/ HTTP/1.1" 201 159
+INFO 2023-08-01 15:11:11,835 basehttp basehttp.py: 161 "POST /menu/ HTTP/1.1" 201 159
+INFO 2023-08-01 15:11:50,766 basehttp basehttp.py: 161 "GET /menu/?pid=0 HTTP/1.1" 200 2
+INFO 2023-08-01 15:12:16,073 basehttp basehttp.py: 161 "GET /menu/?pid=0 HTTP/1.1" 200 2
+INFO 2023-08-01 15:12:51,785 basehttp basehttp.py: 161 "GET /menu/?pid=0 HTTP/1.1" 200 2
+INFO 2023-08-01 15:13:32,322 basehttp basehttp.py: 161 "GET /menu/?pid=1 HTTP/1.1" 200 2
+INFO 2023-08-01 15:14:31,740 basehttp basehttp.py: 161 "GET /menu/?pid=1 HTTP/1.1" 200 2
+INFO 2023-08-01 15:15:58,622 basehttp basehttp.py: 161 "GET /menu/?pid=1 HTTP/1.1" 200 2
+INFO 2023-08-01 15:16:39,877 basehttp basehttp.py: 161 "GET /menu/?pid=0 HTTP/1.1" 200 2
+INFO 2023-08-01 15:17:11,114 basehttp basehttp.py: 161 "GET /menu/?pid=0 HTTP/1.1" 200 2
+INFO 2023-08-01 15:17:36,396 basehttp basehttp.py: 161 "GET /menu/ HTTP/1.1" 200 2
+INFO 2023-08-01 15:17:57,887 basehttp basehttp.py: 161 "GET /menu/ HTTP/1.1" 200 11122
+WARNING 2023-08-01 15:17:57,985 log log.py: 224 Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING 2023-08-01 15:17:57,987 log log.py: 224 Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+WARNING 2023-08-01 15:17:57,990 log log.py: 224 Not Found: /static/rest_framework/css/prettify.css
+WARNING 2023-08-01 15:17:57,991 basehttp basehttp.py: 161 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:17:57,992 basehttp basehttp.py: 161 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:17:57,996 log log.py: 224 Not Found: /static/rest_framework/css/default.css
+WARNING 2023-08-01 15:17:57,997 log log.py: 224 Not Found: /static/rest_framework/js/csrf.js
+WARNING 2023-08-01 15:17:57,999 log log.py: 224 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2023-08-01 15:17:57,999 basehttp basehttp.py: 161 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:17:58,000 log log.py: 224 Not Found: /static/rest_framework/js/jquery-3.5.1.min.js
+WARNING 2023-08-01 15:17:58,002 basehttp basehttp.py: 161 "GET /static/rest_framework/css/default.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:17:58,004 log log.py: 224 Not Found: /static/rest_framework/js/ajax-form.js
+WARNING 2023-08-01 15:17:58,005 basehttp basehttp.py: 161 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:17:58,008 log log.py: 224 Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2023-08-01 15:17:58,009 basehttp basehttp.py: 161 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:17:58,010 log log.py: 224 Not Found: /static/rest_framework/js/default.js
+WARNING 2023-08-01 15:17:58,011 basehttp basehttp.py: 161 "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:17:58,011 basehttp basehttp.py: 161 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:17:58,012 basehttp basehttp.py: 161 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:17:58,013 basehttp basehttp.py: 161 "GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:17:58,248 log log.py: 224 Not Found: /favicon.ico
+WARNING 2023-08-01 15:17:58,248 basehttp basehttp.py: 161 "GET /favicon.ico HTTP/1.1" 404 179
+INFO 2023-08-01 15:18:22,390 basehttp basehttp.py: 161 "GET /menu/?pid=0 HTTP/1.1" 200 11172
+WARNING 2023-08-01 15:18:22,454 log log.py: 224 Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING 2023-08-01 15:18:22,454 basehttp basehttp.py: 161 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:18:22,457 log log.py: 224 Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+WARNING 2023-08-01 15:18:22,459 log log.py: 224 Not Found: /static/rest_framework/css/prettify.css
+WARNING 2023-08-01 15:18:22,461 log log.py: 224 Not Found: /static/rest_framework/css/default.css
+WARNING 2023-08-01 15:18:22,462 log log.py: 224 Not Found: /static/rest_framework/js/ajax-form.js
+WARNING 2023-08-01 15:18:22,463 log log.py: 224 Not Found: /static/rest_framework/js/csrf.js
+WARNING 2023-08-01 15:18:22,465 log log.py: 224 Not Found: /static/rest_framework/js/jquery-3.5.1.min.js
+WARNING 2023-08-01 15:18:22,465 basehttp basehttp.py: 161 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:18:22,466 basehttp basehttp.py: 161 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:18:22,466 basehttp basehttp.py: 161 "GET /static/rest_framework/css/default.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:18:22,466 basehttp basehttp.py: 161 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:18:22,468 log log.py: 224 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2023-08-01 15:18:22,468 basehttp basehttp.py: 161 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:18:22,470 log log.py: 224 Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2023-08-01 15:18:22,470 basehttp basehttp.py: 161 "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:18:22,470 log log.py: 224 Not Found: /static/rest_framework/js/default.js
+WARNING 2023-08-01 15:18:22,471 basehttp basehttp.py: 161 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:18:22,472 basehttp basehttp.py: 161 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:18:22,473 basehttp basehttp.py: 161 "GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+INFO 2023-08-01 15:18:26,746 basehttp basehttp.py: 161 "GET /menu/? HTTP/1.1" 200 11122
+WARNING 2023-08-01 15:18:26,798 log log.py: 224 Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING 2023-08-01 15:18:26,800 basehttp basehttp.py: 161 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:18:26,804 log log.py: 224 Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+WARNING 2023-08-01 15:18:26,806 log log.py: 224 Not Found: /static/rest_framework/css/prettify.css
+WARNING 2023-08-01 15:18:26,807 log log.py: 224 Not Found: /static/rest_framework/css/default.css
+WARNING 2023-08-01 15:18:26,810 log log.py: 224 Not Found: /static/rest_framework/js/jquery-3.5.1.min.js
+WARNING 2023-08-01 15:18:26,811 log log.py: 224 Not Found: /static/rest_framework/js/ajax-form.js
+WARNING 2023-08-01 15:18:26,814 log log.py: 224 Not Found: /static/rest_framework/js/csrf.js
+WARNING 2023-08-01 15:18:26,815 basehttp basehttp.py: 161 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:18:26,815 basehttp basehttp.py: 161 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:18:26,815 basehttp basehttp.py: 161 "GET /static/rest_framework/css/default.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:18:26,816 basehttp basehttp.py: 161 "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:18:26,816 basehttp basehttp.py: 161 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:18:26,816 basehttp basehttp.py: 161 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:18:26,817 log log.py: 224 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2023-08-01 15:18:26,818 log log.py: 224 Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2023-08-01 15:18:26,820 log log.py: 224 Not Found: /static/rest_framework/js/default.js
+WARNING 2023-08-01 15:18:26,822 basehttp basehttp.py: 161 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:18:26,822 basehttp basehttp.py: 161 "GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:18:26,822 basehttp basehttp.py: 161 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+INFO 2023-08-01 15:18:27,747 basehttp basehttp.py: 161 "GET /menu/?format=json HTTP/1.1" 200 2
+INFO 2023-08-01 15:18:30,005 basehttp basehttp.py: 161 "GET /menu/?format=api HTTP/1.1" 200 11210
+WARNING 2023-08-01 15:18:30,061 log log.py: 224 Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING 2023-08-01 15:18:30,061 basehttp basehttp.py: 161 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:18:30,065 log log.py: 224 Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+WARNING 2023-08-01 15:18:30,067 log log.py: 224 Not Found: /static/rest_framework/css/prettify.css
+WARNING 2023-08-01 15:18:30,068 log log.py: 224 Not Found: /static/rest_framework/css/default.css
+WARNING 2023-08-01 15:18:30,069 log log.py: 224 Not Found: /static/rest_framework/js/ajax-form.js
+WARNING 2023-08-01 15:18:30,069 log log.py: 224 Not Found: /static/rest_framework/js/csrf.js
+WARNING 2023-08-01 15:18:30,070 log log.py: 224 Not Found: /static/rest_framework/js/jquery-3.5.1.min.js
+WARNING 2023-08-01 15:18:30,071 basehttp basehttp.py: 161 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:18:30,071 basehttp basehttp.py: 161 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:18:30,072 basehttp basehttp.py: 161 "GET /static/rest_framework/css/default.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:18:30,073 basehttp basehttp.py: 161 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:18:30,073 basehttp basehttp.py: 161 "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:18:30,073 basehttp basehttp.py: 161 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:18:30,075 log log.py: 224 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2023-08-01 15:18:30,076 log log.py: 224 Not Found: /static/rest_framework/js/default.js
+WARNING 2023-08-01 15:18:30,077 log log.py: 224 Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2023-08-01 15:18:30,077 basehttp basehttp.py: 161 "GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:18:30,078 basehttp basehttp.py: 161 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:18:30,078 basehttp basehttp.py: 161 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+INFO 2023-08-01 15:18:31,650 basehttp basehttp.py: 161 "GET /menu/?format=api HTTP/1.1" 200 11210
+WARNING 2023-08-01 15:18:31,688 log log.py: 224 Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING 2023-08-01 15:18:31,689 basehttp basehttp.py: 161 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:18:31,691 log log.py: 224 Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+WARNING 2023-08-01 15:18:31,692 log log.py: 224 Not Found: /static/rest_framework/css/default.css
+WARNING 2023-08-01 15:18:31,693 log log.py: 224 Not Found: /static/rest_framework/css/prettify.css
+WARNING 2023-08-01 15:18:31,694 log log.py: 224 Not Found: /static/rest_framework/js/ajax-form.js
+WARNING 2023-08-01 15:18:31,695 log log.py: 224 Not Found: /static/rest_framework/js/csrf.js
+WARNING 2023-08-01 15:18:31,696 log log.py: 224 Not Found: /static/rest_framework/js/jquery-3.5.1.min.js
+WARNING 2023-08-01 15:18:31,696 basehttp basehttp.py: 161 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:18:31,697 basehttp basehttp.py: 161 "GET /static/rest_framework/css/default.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:18:31,697 basehttp basehttp.py: 161 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:18:31,697 basehttp basehttp.py: 161 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:18:31,698 basehttp basehttp.py: 161 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:18:31,698 basehttp basehttp.py: 161 "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:18:31,700 log log.py: 224 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2023-08-01 15:18:31,700 log log.py: 224 Not Found: /static/rest_framework/js/prettify-min.js
+WARNING 2023-08-01 15:18:31,702 log log.py: 224 Not Found: /static/rest_framework/js/default.js
+WARNING 2023-08-01 15:18:31,703 basehttp basehttp.py: 161 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:18:31,703 basehttp basehttp.py: 161 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:18:31,703 basehttp basehttp.py: 161 "GET /static/rest_framework/js/default.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:18:42,065 log log.py: 224 Not Found: /api/menu/
+WARNING 2023-08-01 15:18:42,066 basehttp basehttp.py: 161 "GET /api/menu/ HTTP/1.1" 404 179
+WARNING 2023-08-01 15:18:54,827 log log.py: 224 Not Found: /api/menu/
+WARNING 2023-08-01 15:18:54,828 basehttp basehttp.py: 161 "GET /api/menu/?pid=0 HTTP/1.1" 404 179
+INFO 2023-08-01 15:19:04,016 basehttp basehttp.py: 161 "GET /menu/?pid=0 HTTP/1.1" 200 2
+INFO 2023-08-01 15:19:27,881 basehttp basehttp.py: 161 "GET /menu/?pid=0 HTTP/1.1" 200 2
+INFO 2023-08-01 15:19:41,172 basehttp basehttp.py: 161 "GET /menu/?pid=0 HTTP/1.1" 200 2
+INFO 2023-08-01 15:20:20,752 basehttp basehttp.py: 161 "GET /menu/?pid=0 HTTP/1.1" 200 2
+INFO 2023-08-01 15:20:31,815 basehttp basehttp.py: 161 "GET /menu/?pid=1 HTTP/1.1" 200 2
+INFO 2023-08-01 15:20:40,028 basehttp basehttp.py: 161 "GET /menu/?pid=1 HTTP/1.1" 200 2
+INFO 2023-08-01 15:24:36,414 basehttp basehttp.py: 161 "GET /menu/?pid=0 HTTP/1.1" 200 2
+INFO 2023-08-01 15:24:43,629 basehttp basehttp.py: 161 "GET /menu/?pid=1 HTTP/1.1" 200 2
+INFO 2023-08-01 15:25:46,044 basehttp basehttp.py: 161 "GET /menu/?pid=1 HTTP/1.1" 200 2
+INFO 2023-08-01 15:25:55,570 basehttp basehttp.py: 161 "GET /menu/ HTTP/1.1" 200 2
+WARNING 2023-08-01 15:26:10,601 log log.py: 224 Method Not Allowed: /menu/
+WARNING 2023-08-01 15:26:10,602 basehttp basehttp.py: 161 "PUT /menu/ HTTP/1.1" 405 45
+INFO 2023-08-01 15:26:14,212 basehttp basehttp.py: 161 "GET /menu/ HTTP/1.1" 200 2
+WARNING 2023-08-01 15:26:16,759 log log.py: 224 Bad Request: /menu/
+WARNING 2023-08-01 15:26:16,759 basehttp basehttp.py: 161 "POST /menu/ HTTP/1.1" 400 37
+WARNING 2023-08-01 15:26:41,700 log log.py: 224 Bad Request: /menu/
+WARNING 2023-08-01 15:26:41,701 basehttp basehttp.py: 161 "POST /menu/ HTTP/1.1" 400 37
+WARNING 2023-08-01 15:26:46,919 log log.py: 224 Bad Request: /menu/
+WARNING 2023-08-01 15:26:46,920 basehttp basehttp.py: 161 "POST /menu/ HTTP/1.1" 400 37
+INFO 2023-08-01 15:26:50,533 basehttp basehttp.py: 161 "GET /menu/ HTTP/1.1" 200 2
+INFO 2023-08-01 15:35:03,830 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\settings\env.py changed, reloading.
+INFO 2023-08-01 15:35:05,035 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 15:35:18,945 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\urls.py changed, reloading.
+INFO 2023-08-01 15:35:20,054 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 15:35:26,149 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\urls.py changed, reloading.
+INFO 2023-08-01 15:35:27,153 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 15:35:29,059 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\urls.py changed, reloading.
+INFO 2023-08-01 15:35:30,121 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 15:39:57,598 basehttp basehttp.py: 161 "GET /docs/ HTTP/1.1" 200 50700
+WARNING 2023-08-01 15:39:57,688 log log.py: 224 Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING 2023-08-01 15:39:57,690 basehttp basehttp.py: 161 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:39:57,692 log log.py: 224 Not Found: /static/rest_framework/css/bootstrap-theme.min.css
+WARNING 2023-08-01 15:39:57,694 basehttp basehttp.py: 161 "GET /static/rest_framework/css/bootstrap-theme.min.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:39:57,695 log log.py: 224 Not Found: /static/rest_framework/css/font-awesome-4.0.3.css
+WARNING 2023-08-01 15:39:57,696 log log.py: 224 Not Found: /static/rest_framework/docs/css/base.css
+WARNING 2023-08-01 15:39:57,697 log log.py: 224 Not Found: /static/rest_framework/docs/css/jquery.json-view.min.css
+WARNING 2023-08-01 15:39:57,697 basehttp basehttp.py: 161 "GET /static/rest_framework/css/font-awesome-4.0.3.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:39:57,698 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/css/base.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:39:57,698 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/css/jquery.json-view.min.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:39:57,702 log log.py: 224 Not Found: /static/rest_framework/js/coreapi-0.1.1.js
+WARNING 2023-08-01 15:39:57,702 basehttp basehttp.py: 161 "GET /static/rest_framework/js/coreapi-0.1.1.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:39:57,711 log log.py: 224 Not Found: /static/rest_framework/docs/js/jquery.json-view.min.js
+WARNING 2023-08-01 15:39:57,712 log log.py: 224 Not Found: /static/rest_framework/docs/js/api.js
+WARNING 2023-08-01 15:39:57,714 log log.py: 224 Not Found: /static/rest_framework/js/jquery-3.5.1.min.js
+WARNING 2023-08-01 15:39:57,716 log log.py: 224 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2023-08-01 15:39:57,717 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/js/api.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:39:57,717 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/js/jquery.json-view.min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:39:57,717 basehttp basehttp.py: 161 "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:39:57,718 basehttp basehttp.py: 161 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+INFO 2023-08-01 15:39:57,724 basehttp basehttp.py: 161 "GET /docs/schema.js HTTP/1.1" 200 7036
+WARNING 2023-08-01 15:39:57,740 log log.py: 224 Not Found: /static/rest_framework/js/coreapi-0.1.1.js
+WARNING 2023-08-01 15:39:57,740 basehttp basehttp.py: 161 "GET /static/rest_framework/js/coreapi-0.1.1.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:39:57,918 log log.py: 224 Not Found: /static/rest_framework/docs/img/favicon.ico
+WARNING 2023-08-01 15:39:57,918 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/img/favicon.ico HTTP/1.1" 404 179
+INFO 2023-08-01 15:40:15,139 basehttp basehttp.py: 161 "GET /docs/ HTTP/1.1" 200 50700
+WARNING 2023-08-01 15:40:15,190 log log.py: 224 Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING 2023-08-01 15:40:15,191 log log.py: 224 Not Found: /static/rest_framework/css/bootstrap-theme.min.css
+WARNING 2023-08-01 15:40:15,193 log log.py: 224 Not Found: /static/rest_framework/css/font-awesome-4.0.3.css
+WARNING 2023-08-01 15:40:15,194 log log.py: 224 Not Found: /static/rest_framework/docs/css/base.css
+WARNING 2023-08-01 15:40:15,195 log log.py: 224 Not Found: /static/rest_framework/docs/css/jquery.json-view.min.css
+WARNING 2023-08-01 15:40:15,196 log log.py: 224 Not Found: /static/rest_framework/js/coreapi-0.1.1.js
+WARNING 2023-08-01 15:40:15,196 basehttp basehttp.py: 161 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:40:15,197 basehttp basehttp.py: 161 "GET /static/rest_framework/css/bootstrap-theme.min.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:40:15,197 basehttp basehttp.py: 161 "GET /static/rest_framework/css/font-awesome-4.0.3.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:40:15,197 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/css/base.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:40:15,204 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/css/jquery.json-view.min.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:40:15,204 basehttp basehttp.py: 161 "GET /static/rest_framework/js/coreapi-0.1.1.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:40:15,205 log log.py: 224 Not Found: /static/rest_framework/js/jquery-3.5.1.min.js
+WARNING 2023-08-01 15:40:15,206 log log.py: 224 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2023-08-01 15:40:15,207 log log.py: 224 Not Found: /static/rest_framework/docs/js/jquery.json-view.min.js
+INFO 2023-08-01 15:40:15,207 basehttp basehttp.py: 161 "GET /docs/schema.js HTTP/1.1" 200 7036
+WARNING 2023-08-01 15:40:15,208 log log.py: 224 Not Found: /static/rest_framework/docs/js/api.js
+WARNING 2023-08-01 15:40:15,209 basehttp basehttp.py: 161 "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:40:15,210 basehttp basehttp.py: 161 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:40:15,210 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/js/jquery.json-view.min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:40:15,211 log log.py: 224 Not Found: /static/rest_framework/js/coreapi-0.1.1.js
+WARNING 2023-08-01 15:40:15,212 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/js/api.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:40:15,212 basehttp basehttp.py: 161 "GET /static/rest_framework/js/coreapi-0.1.1.js HTTP/1.1" 404 179
+INFO 2023-08-01 15:40:24,784 basehttp basehttp.py: 161 "GET /docs/ HTTP/1.1" 200 50700
+WARNING 2023-08-01 15:40:24,834 log log.py: 224 Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING 2023-08-01 15:40:24,835 log log.py: 224 Not Found: /static/rest_framework/docs/css/base.css
+WARNING 2023-08-01 15:40:24,836 log log.py: 224 Not Found: /static/rest_framework/docs/css/jquery.json-view.min.css
+WARNING 2023-08-01 15:40:24,837 log log.py: 224 Not Found: /static/rest_framework/css/font-awesome-4.0.3.css
+WARNING 2023-08-01 15:40:24,837 log log.py: 224 Not Found: /static/rest_framework/css/bootstrap-theme.min.css
+WARNING 2023-08-01 15:40:24,838 log log.py: 224 Not Found: /static/rest_framework/js/coreapi-0.1.1.js
+WARNING 2023-08-01 15:40:24,839 basehttp basehttp.py: 161 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:40:24,839 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/css/jquery.json-view.min.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:40:24,839 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/css/base.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:40:24,841 basehttp basehttp.py: 161 "GET /static/rest_framework/css/font-awesome-4.0.3.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:40:24,847 log log.py: 224 Not Found: /static/rest_framework/js/jquery-3.5.1.min.js
+WARNING 2023-08-01 15:40:24,848 basehttp basehttp.py: 161 "GET /static/rest_framework/js/coreapi-0.1.1.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:40:24,848 basehttp basehttp.py: 161 "GET /static/rest_framework/css/bootstrap-theme.min.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:40:24,849 log log.py: 224 Not Found: /static/rest_framework/js/bootstrap.min.js
+INFO 2023-08-01 15:40:24,849 basehttp basehttp.py: 161 "GET /docs/schema.js HTTP/1.1" 200 7036
+WARNING 2023-08-01 15:40:24,850 log log.py: 224 Not Found: /static/rest_framework/docs/js/jquery.json-view.min.js
+WARNING 2023-08-01 15:40:24,851 log log.py: 224 Not Found: /static/rest_framework/docs/js/api.js
+WARNING 2023-08-01 15:40:24,852 basehttp basehttp.py: 161 "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 404 179
+INFO 2023-08-01 15:40:24,852 basehttp basehttp.py: 75 - Broken pipe from ('127.0.0.1', 60709)
+
+WARNING 2023-08-01 15:40:24,854 log log.py: 224 Not Found: /static/rest_framework/js/coreapi-0.1.1.js
+WARNING 2023-08-01 15:40:24,855 basehttp basehttp.py: 161 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:40:24,855 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/js/jquery.json-view.min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:40:24,856 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/js/api.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:40:24,856 basehttp basehttp.py: 161 "GET /static/rest_framework/js/coreapi-0.1.1.js HTTP/1.1" 404 179
+INFO 2023-08-01 15:40:53,364 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 15:40:56,696 basehttp basehttp.py: 161 "GET /docs/ HTTP/1.1" 200 50700
+WARNING 2023-08-01 15:40:56,745 log log.py: 224 Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING 2023-08-01 15:40:56,746 log log.py: 224 Not Found: /static/rest_framework/css/bootstrap-theme.min.css
+WARNING 2023-08-01 15:40:56,747 log log.py: 224 Not Found: /static/rest_framework/docs/css/base.css
+WARNING 2023-08-01 15:40:56,748 log log.py: 224 Not Found: /static/rest_framework/css/font-awesome-4.0.3.css
+WARNING 2023-08-01 15:40:56,749 log log.py: 224 Not Found: /static/rest_framework/docs/css/jquery.json-view.min.css
+WARNING 2023-08-01 15:40:56,749 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/css/base.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:40:56,749 basehttp basehttp.py: 161 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:40:56,749 basehttp basehttp.py: 161 "GET /static/rest_framework/css/bootstrap-theme.min.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:40:56,750 basehttp basehttp.py: 161 "GET /static/rest_framework/css/font-awesome-4.0.3.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:40:56,751 log log.py: 224 Not Found: /static/rest_framework/js/coreapi-0.1.1.js
+WARNING 2023-08-01 15:40:56,751 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/css/jquery.json-view.min.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:40:56,752 log log.py: 224 Not Found: /static/rest_framework/js/jquery-3.5.1.min.js
+WARNING 2023-08-01 15:40:56,757 log log.py: 224 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2023-08-01 15:40:56,759 log log.py: 224 Not Found: /static/rest_framework/docs/js/jquery.json-view.min.js
+WARNING 2023-08-01 15:40:56,760 basehttp basehttp.py: 161 "GET /static/rest_framework/js/coreapi-0.1.1.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:40:56,761 log log.py: 224 Not Found: /static/rest_framework/docs/js/api.js
+INFO 2023-08-01 15:40:56,762 basehttp basehttp.py: 161 "GET /docs/schema.js HTTP/1.1" 200 7036
+WARNING 2023-08-01 15:40:56,763 basehttp basehttp.py: 161 "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:40:56,763 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/js/jquery.json-view.min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:40:56,763 basehttp basehttp.py: 161 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:40:56,764 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/js/api.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:40:56,778 log log.py: 224 Not Found: /static/rest_framework/js/coreapi-0.1.1.js
+WARNING 2023-08-01 15:40:56,779 basehttp basehttp.py: 161 "GET /static/rest_framework/js/coreapi-0.1.1.js HTTP/1.1" 404 179
+INFO 2023-08-01 15:41:02,655 basehttp basehttp.py: 161 "GET /docs/ HTTP/1.1" 200 50700
+WARNING 2023-08-01 15:41:02,705 log log.py: 224 Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING 2023-08-01 15:41:02,706 log log.py: 224 Not Found: /static/rest_framework/css/bootstrap-theme.min.css
+WARNING 2023-08-01 15:41:02,708 log log.py: 224 Not Found: /static/rest_framework/css/font-awesome-4.0.3.css
+WARNING 2023-08-01 15:41:02,709 log log.py: 224 Not Found: /static/rest_framework/docs/css/base.css
+WARNING 2023-08-01 15:41:02,710 log log.py: 224 Not Found: /static/rest_framework/docs/css/jquery.json-view.min.css
+WARNING 2023-08-01 15:41:02,711 log log.py: 224 Not Found: /static/rest_framework/js/coreapi-0.1.1.js
+WARNING 2023-08-01 15:41:02,711 basehttp basehttp.py: 161 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:41:02,712 basehttp basehttp.py: 161 "GET /static/rest_framework/css/bootstrap-theme.min.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:41:02,712 basehttp basehttp.py: 161 "GET /static/rest_framework/css/font-awesome-4.0.3.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:41:02,713 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/css/jquery.json-view.min.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:41:02,713 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/css/base.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:41:02,718 basehttp basehttp.py: 161 "GET /static/rest_framework/js/coreapi-0.1.1.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:41:02,720 log log.py: 224 Not Found: /static/rest_framework/js/jquery-3.5.1.min.js
+WARNING 2023-08-01 15:41:02,722 log log.py: 224 Not Found: /static/rest_framework/js/bootstrap.min.js
+INFO 2023-08-01 15:41:02,722 basehttp basehttp.py: 161 "GET /docs/schema.js HTTP/1.1" 200 7036
+WARNING 2023-08-01 15:41:02,724 log log.py: 224 Not Found: /static/rest_framework/docs/js/jquery.json-view.min.js
+WARNING 2023-08-01 15:41:02,726 log log.py: 224 Not Found: /static/rest_framework/docs/js/api.js
+WARNING 2023-08-01 15:41:02,729 basehttp basehttp.py: 161 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:41:02,729 basehttp basehttp.py: 161 "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:41:02,729 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/js/jquery.json-view.min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:41:02,730 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/js/api.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:41:02,754 log log.py: 224 Not Found: /static/rest_framework/js/coreapi-0.1.1.js
+WARNING 2023-08-01 15:41:02,754 basehttp basehttp.py: 161 "GET /static/rest_framework/js/coreapi-0.1.1.js HTTP/1.1" 404 179
+INFO 2023-08-01 15:41:23,229 basehttp basehttp.py: 161 "GET /docs/? HTTP/1.1" 200 50700
+WARNING 2023-08-01 15:41:23,280 log log.py: 224 Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING 2023-08-01 15:41:23,281 basehttp basehttp.py: 161 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:41:23,283 log log.py: 224 Not Found: /static/rest_framework/css/bootstrap-theme.min.css
+WARNING 2023-08-01 15:41:23,285 log log.py: 224 Not Found: /static/rest_framework/css/font-awesome-4.0.3.css
+WARNING 2023-08-01 15:41:23,286 log log.py: 224 Not Found: /static/rest_framework/docs/css/base.css
+WARNING 2023-08-01 15:41:23,287 log log.py: 224 Not Found: /static/rest_framework/docs/css/jquery.json-view.min.css
+WARNING 2023-08-01 15:41:23,289 log log.py: 224 Not Found: /static/rest_framework/js/coreapi-0.1.1.js
+WARNING 2023-08-01 15:41:23,294 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/css/base.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:41:23,294 basehttp basehttp.py: 161 "GET /static/rest_framework/css/font-awesome-4.0.3.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:41:23,294 basehttp basehttp.py: 161 "GET /static/rest_framework/css/bootstrap-theme.min.css HTTP/1.1" 404 179
+INFO 2023-08-01 15:41:23,294 basehttp basehttp.py: 161 "GET /docs/schema.js HTTP/1.1" 200 7036
+WARNING 2023-08-01 15:41:23,295 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/css/jquery.json-view.min.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:41:23,295 basehttp basehttp.py: 161 "GET /static/rest_framework/js/coreapi-0.1.1.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:41:23,297 log log.py: 224 Not Found: /static/rest_framework/js/jquery-3.5.1.min.js
+WARNING 2023-08-01 15:41:23,298 log log.py: 224 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2023-08-01 15:41:23,299 log log.py: 224 Not Found: /static/rest_framework/docs/js/jquery.json-view.min.js
+WARNING 2023-08-01 15:41:23,300 log log.py: 224 Not Found: /static/rest_framework/docs/js/api.js
+WARNING 2023-08-01 15:41:23,301 log log.py: 224 Not Found: /static/rest_framework/js/coreapi-0.1.1.js
+WARNING 2023-08-01 15:41:23,302 basehttp basehttp.py: 161 "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:41:23,302 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/js/jquery.json-view.min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:41:23,302 basehttp basehttp.py: 161 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:41:23,303 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/js/api.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:41:23,303 basehttp basehttp.py: 161 "GET /static/rest_framework/js/coreapi-0.1.1.js HTTP/1.1" 404 179
+INFO 2023-08-01 15:43:28,406 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+ERROR 2023-08-01 15:43:31,568 log log.py: 224 Internal Server Error: /docs/
+Traceback (most recent call last):
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\renderers.py", line 868, in render
+    return template.render(context, request=renderer_context['request'])
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\defaulttags.py", line 449, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\urls\resolvers.py", line 698, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'schema-js' with no arguments not found. 1 pattern(s) tried: ['docs/$schema\\.js\\Z']
+ERROR 2023-08-01 15:43:31,650 basehttp basehttp.py: 161 "GET /docs/ HTTP/1.1" 500 145
+ERROR 2023-08-01 15:43:43,657 log log.py: 224 Internal Server Error: /docs/
+Traceback (most recent call last):
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\renderers.py", line 868, in render
+    return template.render(context, request=renderer_context['request'])
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\defaulttags.py", line 449, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\urls\resolvers.py", line 698, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'schema-js' with no arguments not found. 1 pattern(s) tried: ['docs/$schema\\.js\\Z']
+ERROR 2023-08-01 15:43:43,660 basehttp basehttp.py: 161 "GET /docs/ HTTP/1.1" 500 145
+ERROR 2023-08-01 15:43:58,400 log log.py: 224 Internal Server Error: /docs/
+Traceback (most recent call last):
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\renderers.py", line 868, in render
+    return template.render(context, request=renderer_context['request'])
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\defaulttags.py", line 449, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\urls\resolvers.py", line 698, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'schema-js' with no arguments not found. 1 pattern(s) tried: ['docs/$schema\\.js\\Z']
+ERROR 2023-08-01 15:43:58,403 basehttp basehttp.py: 161 "GET /docs/ HTTP/1.1" 500 145
+INFO 2023-08-01 15:44:29,032 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 15:44:32,762 basehttp basehttp.py: 161 "GET /docs/ HTTP/1.1" 200 50700
+WARNING 2023-08-01 15:44:32,806 log log.py: 224 Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING 2023-08-01 15:44:32,806 log log.py: 224 Not Found: /static/rest_framework/css/bootstrap-theme.min.css
+WARNING 2023-08-01 15:44:32,808 log log.py: 224 Not Found: /static/rest_framework/docs/css/base.css
+WARNING 2023-08-01 15:44:32,808 log log.py: 224 Not Found: /static/rest_framework/css/font-awesome-4.0.3.css
+WARNING 2023-08-01 15:44:32,811 log log.py: 224 Not Found: /static/rest_framework/docs/css/jquery.json-view.min.css
+WARNING 2023-08-01 15:44:32,811 basehttp basehttp.py: 161 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:44:32,813 log log.py: 224 Not Found: /static/rest_framework/js/coreapi-0.1.1.js
+WARNING 2023-08-01 15:44:32,813 basehttp basehttp.py: 161 "GET /static/rest_framework/css/bootstrap-theme.min.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:44:32,813 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/css/jquery.json-view.min.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:44:32,814 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/css/base.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:44:32,814 basehttp basehttp.py: 161 "GET /static/rest_framework/css/font-awesome-4.0.3.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:44:32,818 basehttp basehttp.py: 161 "GET /static/rest_framework/js/coreapi-0.1.1.js HTTP/1.1" 404 179
+INFO 2023-08-01 15:44:32,819 basehttp basehttp.py: 161 "GET /docs/schema.js HTTP/1.1" 200 7036
+WARNING 2023-08-01 15:44:32,837 log log.py: 224 Not Found: /static/rest_framework/js/jquery-3.5.1.min.js
+WARNING 2023-08-01 15:44:32,839 log log.py: 224 Not Found: /static/rest_framework/js/coreapi-0.1.1.js
+WARNING 2023-08-01 15:44:32,841 log log.py: 224 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2023-08-01 15:44:32,842 log log.py: 224 Not Found: /static/rest_framework/docs/js/jquery.json-view.min.js
+WARNING 2023-08-01 15:44:32,842 log log.py: 224 Not Found: /static/rest_framework/docs/js/api.js
+WARNING 2023-08-01 15:44:32,843 basehttp basehttp.py: 161 "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:44:32,843 basehttp basehttp.py: 161 "GET /static/rest_framework/js/coreapi-0.1.1.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:44:32,844 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/js/jquery.json-view.min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:44:32,844 basehttp basehttp.py: 161 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:44:32,845 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/js/api.js HTTP/1.1" 404 179
+INFO 2023-08-01 15:47:27,314 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\settings\env.py changed, reloading.
+INFO 2023-08-01 15:47:28,365 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 15:48:17,716 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\urls.py changed, reloading.
+INFO 2023-08-01 15:48:18,716 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 15:48:26,815 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\urls.py changed, reloading.
+INFO 2023-08-01 15:48:27,884 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+WARNING 2023-08-01 15:48:33,075 log log.py: 224 Not Found: /docs/
+WARNING 2023-08-01 15:48:33,075 basehttp basehttp.py: 161 "GET /docs/ HTTP/1.1" 404 179
+INFO 2023-08-01 15:49:30,332 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\urls.py changed, reloading.
+INFO 2023-08-01 15:49:31,350 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 15:49:50,342 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 15:49:52,897 basehttp basehttp.py: 161 "GET /docs/ HTTP/1.1" 200 50700
+WARNING 2023-08-01 15:49:52,942 log log.py: 224 Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING 2023-08-01 15:49:52,943 log log.py: 224 Not Found: /static/rest_framework/css/font-awesome-4.0.3.css
+WARNING 2023-08-01 15:49:52,943 log log.py: 224 Not Found: /static/rest_framework/css/bootstrap-theme.min.css
+WARNING 2023-08-01 15:49:52,944 basehttp basehttp.py: 161 "GET /static/rest_framework/css/font-awesome-4.0.3.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:49:52,945 log log.py: 224 Not Found: /static/rest_framework/docs/css/base.css
+WARNING 2023-08-01 15:49:52,945 basehttp basehttp.py: 161 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:49:52,946 log log.py: 224 Not Found: /static/rest_framework/js/jquery-3.5.1.min.js
+WARNING 2023-08-01 15:49:52,946 basehttp basehttp.py: 161 "GET /static/rest_framework/css/bootstrap-theme.min.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:49:52,948 log log.py: 224 Not Found: /static/rest_framework/docs/css/jquery.json-view.min.css
+WARNING 2023-08-01 15:49:52,954 log log.py: 224 Not Found: /static/rest_framework/js/coreapi-0.1.1.js
+WARNING 2023-08-01 15:49:52,955 log log.py: 224 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2023-08-01 15:49:52,955 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/css/base.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:49:52,956 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/css/jquery.json-view.min.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:49:52,958 log log.py: 224 Not Found: /static/rest_framework/docs/js/jquery.json-view.min.js
+WARNING 2023-08-01 15:49:52,958 basehttp basehttp.py: 161 "GET /static/rest_framework/js/coreapi-0.1.1.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:49:52,958 basehttp basehttp.py: 161 "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:49:52,959 log log.py: 224 Not Found: /static/rest_framework/docs/js/api.js
+WARNING 2023-08-01 15:49:52,959 basehttp basehttp.py: 161 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+INFO 2023-08-01 15:49:52,960 basehttp basehttp.py: 161 "GET /docs/schema.js HTTP/1.1" 200 7036
+WARNING 2023-08-01 15:49:52,961 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/js/jquery.json-view.min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:49:52,961 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/js/api.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:49:52,972 log log.py: 224 Not Found: /static/rest_framework/js/coreapi-0.1.1.js
+WARNING 2023-08-01 15:49:52,972 basehttp basehttp.py: 161 "GET /static/rest_framework/js/coreapi-0.1.1.js HTTP/1.1" 404 179
+INFO 2023-08-01 15:50:52,706 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\urls.py changed, reloading.
+INFO 2023-08-01 15:50:53,770 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 15:51:20,425 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\urls.py changed, reloading.
+INFO 2023-08-01 15:51:21,387 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 15:51:42,920 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 15:52:16,476 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 15:52:23,378 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 15:55:54,989 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\urls.py changed, reloading.
+INFO 2023-08-01 15:55:55,961 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 15:56:05,422 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\urls.py changed, reloading.
+INFO 2023-08-01 15:56:06,384 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 15:56:10,153 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\urls.py changed, reloading.
+INFO 2023-08-01 15:56:11,126 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 15:56:50,504 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\settings\env.py changed, reloading.
+INFO 2023-08-01 15:56:51,564 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 15:57:01,991 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 15:57:06,610 basehttp basehttp.py: 161 "GET /docs/ HTTP/1.1" 200 50718
+WARNING 2023-08-01 15:57:06,674 log log.py: 224 Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING 2023-08-01 15:57:06,676 log log.py: 224 Not Found: /static/rest_framework/css/bootstrap-theme.min.css
+WARNING 2023-08-01 15:57:06,678 log log.py: 224 Not Found: /static/rest_framework/css/font-awesome-4.0.3.css
+WARNING 2023-08-01 15:57:06,678 basehttp basehttp.py: 161 "GET /static/rest_framework/css/bootstrap-theme.min.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:57:06,678 basehttp basehttp.py: 161 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:57:06,681 log log.py: 224 Not Found: /static/rest_framework/docs/css/base.css
+WARNING 2023-08-01 15:57:06,686 basehttp basehttp.py: 161 "GET /static/rest_framework/css/font-awesome-4.0.3.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:57:06,689 log log.py: 224 Not Found: /static/rest_framework/js/jquery-3.5.1.min.js
+WARNING 2023-08-01 15:57:06,690 log log.py: 224 Not Found: /static/rest_framework/docs/css/jquery.json-view.min.css
+WARNING 2023-08-01 15:57:06,691 log log.py: 224 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2023-08-01 15:57:06,692 log log.py: 224 Not Found: /static/rest_framework/js/coreapi-0.1.1.js
+WARNING 2023-08-01 15:57:06,693 basehttp basehttp.py: 161 "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 404 179
+INFO 2023-08-01 15:57:06,693 basehttp basehttp.py: 161 "GET /docs/schema.js HTTP/1.1" 200 7044
+WARNING 2023-08-01 15:57:06,693 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/css/base.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:57:06,694 basehttp basehttp.py: 161 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:57:06,694 basehttp basehttp.py: 161 "GET /static/rest_framework/js/coreapi-0.1.1.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:57:06,694 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/css/jquery.json-view.min.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:57:06,695 log log.py: 224 Not Found: /static/rest_framework/docs/js/jquery.json-view.min.js
+WARNING 2023-08-01 15:57:06,696 log log.py: 224 Not Found: /static/rest_framework/docs/js/api.js
+WARNING 2023-08-01 15:57:06,697 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/js/api.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:57:06,697 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/js/jquery.json-view.min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:57:06,713 log log.py: 224 Not Found: /static/rest_framework/js/coreapi-0.1.1.js
+WARNING 2023-08-01 15:57:06,714 basehttp basehttp.py: 161 "GET /static/rest_framework/js/coreapi-0.1.1.js HTTP/1.1" 404 179
+INFO 2023-08-01 15:59:28,529 basehttp basehttp.py: 161 "GET /docs/ HTTP/1.1" 200 50718
+WARNING 2023-08-01 15:59:28,568 log log.py: 224 Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING 2023-08-01 15:59:28,569 log log.py: 224 Not Found: /static/rest_framework/css/bootstrap-theme.min.css
+WARNING 2023-08-01 15:59:28,573 log log.py: 224 Not Found: /static/rest_framework/css/font-awesome-4.0.3.css
+WARNING 2023-08-01 15:59:28,574 basehttp basehttp.py: 161 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:59:28,577 log log.py: 224 Not Found: /static/rest_framework/docs/css/base.css
+WARNING 2023-08-01 15:59:28,577 basehttp basehttp.py: 161 "GET /static/rest_framework/css/bootstrap-theme.min.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:59:28,577 basehttp basehttp.py: 161 "GET /static/rest_framework/css/font-awesome-4.0.3.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:59:28,583 log log.py: 224 Not Found: /static/rest_framework/docs/css/jquery.json-view.min.css
+INFO 2023-08-01 15:59:28,583 basehttp basehttp.py: 161 "GET /docs/schema.js HTTP/1.1" 200 7044
+WARNING 2023-08-01 15:59:28,584 log log.py: 224 Not Found: /static/rest_framework/js/jquery-3.5.1.min.js
+INFO 2023-08-01 15:59:28,585 basehttp basehttp.py: 75 - Broken pipe from ('127.0.0.1', 64177)
+
+WARNING 2023-08-01 15:59:28,585 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/css/base.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:59:28,587 log log.py: 224 Not Found: /static/rest_framework/js/coreapi-0.1.1.js
+WARNING 2023-08-01 15:59:28,588 log log.py: 224 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2023-08-01 15:59:28,589 log log.py: 224 Not Found: /static/rest_framework/docs/js/jquery.json-view.min.js
+WARNING 2023-08-01 15:59:28,590 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/css/jquery.json-view.min.css HTTP/1.1" 404 179
+WARNING 2023-08-01 15:59:28,591 log log.py: 224 Not Found: /static/rest_framework/docs/js/api.js
+INFO 2023-08-01 15:59:28,591 basehttp basehttp.py: 75 - Broken pipe from ('127.0.0.1', 64178)
+
+WARNING 2023-08-01 15:59:28,591 basehttp basehttp.py: 161 "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:59:28,592 basehttp basehttp.py: 161 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:59:28,592 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/js/jquery.json-view.min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:59:28,592 basehttp basehttp.py: 161 "GET /static/rest_framework/js/coreapi-0.1.1.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:59:28,593 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/js/api.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:59:28,598 log log.py: 224 Not Found: /static/rest_framework/js/coreapi-0.1.1.js
+WARNING 2023-08-01 15:59:28,598 basehttp basehttp.py: 161 "GET /static/rest_framework/js/coreapi-0.1.1.js HTTP/1.1" 404 179
+WARNING 2023-08-01 15:59:28,765 log log.py: 224 Not Found: /static/rest_framework/docs/img/favicon.ico
+WARNING 2023-08-01 15:59:28,766 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/img/favicon.ico HTTP/1.1" 404 179
+INFO 2023-08-01 16:05:54,088 autoreload autoreload.py: 251 D:\py3.8-virtual\erp_system\Lib\site-packages\rest_framework\documentation.py changed, reloading.
+INFO 2023-08-01 16:05:55,130 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 16:06:09,714 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 16:06:15,634 basehttp basehttp.py: 161 "GET /docs/ HTTP/1.1" 200 50718
+WARNING 2023-08-01 16:06:15,688 log log.py: 224 Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING 2023-08-01 16:06:15,691 log log.py: 224 Not Found: /static/rest_framework/css/bootstrap-theme.min.css
+WARNING 2023-08-01 16:06:15,692 log log.py: 224 Not Found: /static/rest_framework/css/font-awesome-4.0.3.css
+WARNING 2023-08-01 16:06:15,694 log log.py: 224 Not Found: /static/rest_framework/docs/css/base.css
+WARNING 2023-08-01 16:06:15,695 basehttp basehttp.py: 161 "GET /static/rest_framework/css/bootstrap-theme.min.css HTTP/1.1" 404 179
+WARNING 2023-08-01 16:06:15,695 basehttp basehttp.py: 161 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2023-08-01 16:06:15,695 basehttp basehttp.py: 161 "GET /static/rest_framework/css/font-awesome-4.0.3.css HTTP/1.1" 404 179
+WARNING 2023-08-01 16:06:15,696 log log.py: 224 Not Found: /static/rest_framework/docs/css/jquery.json-view.min.css
+WARNING 2023-08-01 16:06:15,697 log log.py: 224 Not Found: /static/rest_framework/js/coreapi-0.1.1.js
+WARNING 2023-08-01 16:06:15,698 log log.py: 224 Not Found: /static/rest_framework/js/jquery-3.4.1.min.js
+WARNING 2023-08-01 16:06:15,698 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/css/base.css HTTP/1.1" 404 179
+WARNING 2023-08-01 16:06:15,703 log log.py: 224 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2023-08-01 16:06:15,706 log log.py: 224 Not Found: /static/rest_framework/docs/js/jquery.json-view.min.js
+WARNING 2023-08-01 16:06:15,706 basehttp basehttp.py: 161 "GET /static/rest_framework/js/coreapi-0.1.1.js HTTP/1.1" 404 179
+WARNING 2023-08-01 16:06:15,706 basehttp basehttp.py: 161 "GET /static/rest_framework/js/jquery-3.4.1.min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 16:06:15,707 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/css/jquery.json-view.min.css HTTP/1.1" 404 179
+WARNING 2023-08-01 16:06:15,709 log log.py: 224 Not Found: /static/rest_framework/docs/js/api.js
+WARNING 2023-08-01 16:06:15,710 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/js/jquery.json-view.min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 16:06:15,710 basehttp basehttp.py: 161 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+INFO 2023-08-01 16:06:15,710 basehttp basehttp.py: 161 "GET /docs/schema.js HTTP/1.1" 200 7044
+WARNING 2023-08-01 16:06:15,711 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/js/api.js HTTP/1.1" 404 179
+WARNING 2023-08-01 16:06:15,730 log log.py: 224 Not Found: /static/rest_framework/js/coreapi-0.1.1.js
+WARNING 2023-08-01 16:06:15,730 basehttp basehttp.py: 161 "GET /static/rest_framework/js/coreapi-0.1.1.js HTTP/1.1" 404 179
+INFO 2023-08-01 16:06:20,034 basehttp basehttp.py: 161 "GET /docs/ HTTP/1.1" 200 50718
+WARNING 2023-08-01 16:06:20,088 log log.py: 224 Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING 2023-08-01 16:06:20,090 log log.py: 224 Not Found: /static/rest_framework/css/bootstrap-theme.min.css
+WARNING 2023-08-01 16:06:20,094 log log.py: 224 Not Found: /static/rest_framework/css/font-awesome-4.0.3.css
+WARNING 2023-08-01 16:06:20,095 log log.py: 224 Not Found: /static/rest_framework/docs/css/base.css
+WARNING 2023-08-01 16:06:20,096 log log.py: 224 Not Found: /static/rest_framework/docs/css/jquery.json-view.min.css
+WARNING 2023-08-01 16:06:20,097 log log.py: 224 Not Found: /static/rest_framework/js/coreapi-0.1.1.js
+WARNING 2023-08-01 16:06:20,098 basehttp basehttp.py: 161 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2023-08-01 16:06:20,098 basehttp basehttp.py: 161 "GET /static/rest_framework/css/bootstrap-theme.min.css HTTP/1.1" 404 179
+WARNING 2023-08-01 16:06:20,098 basehttp basehttp.py: 161 "GET /static/rest_framework/css/font-awesome-4.0.3.css HTTP/1.1" 404 179
+WARNING 2023-08-01 16:06:20,098 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/css/base.css HTTP/1.1" 404 179
+WARNING 2023-08-01 16:06:20,106 basehttp basehttp.py: 161 "GET /static/rest_framework/js/coreapi-0.1.1.js HTTP/1.1" 404 179
+WARNING 2023-08-01 16:06:20,106 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/css/jquery.json-view.min.css HTTP/1.1" 404 179
+WARNING 2023-08-01 16:06:20,108 log log.py: 224 Not Found: /static/rest_framework/js/jquery-3.4.1.min.js
+WARNING 2023-08-01 16:06:20,110 log log.py: 224 Not Found: /static/rest_framework/js/bootstrap.min.js
+INFO 2023-08-01 16:06:20,111 basehttp basehttp.py: 161 "GET /docs/schema.js HTTP/1.1" 200 7044
+WARNING 2023-08-01 16:06:20,113 log log.py: 224 Not Found: /static/rest_framework/docs/js/jquery.json-view.min.js
+WARNING 2023-08-01 16:06:20,114 log log.py: 224 Not Found: /static/rest_framework/docs/js/api.js
+WARNING 2023-08-01 16:06:20,115 basehttp basehttp.py: 161 "GET /static/rest_framework/js/jquery-3.4.1.min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 16:06:20,115 basehttp basehttp.py: 161 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 16:06:20,117 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/js/jquery.json-view.min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 16:06:20,117 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/js/api.js HTTP/1.1" 404 179
+WARNING 2023-08-01 16:06:20,123 log log.py: 224 Not Found: /static/rest_framework/js/coreapi-0.1.1.js
+WARNING 2023-08-01 16:06:20,123 basehttp basehttp.py: 161 "GET /static/rest_framework/js/coreapi-0.1.1.js HTTP/1.1" 404 179
+INFO 2023-08-01 16:07:17,991 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\urls.py changed, reloading.
+INFO 2023-08-01 16:07:19,067 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 16:07:49,263 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 16:08:13,557 basehttp basehttp.py: 161 "GET /swagger HTTP/1.1" 301 0
+ERROR 2023-08-01 16:08:13,572 log log.py: 224 Internal Server Error: /swagger/
+Traceback (most recent call last):
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\drf_yasg\renderers.py", line 79, in render
+    return render_to_string(self.template, renderer_context, renderer_context['request'])
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: drf-yasg/swagger-ui.html
+ERROR 2023-08-01 16:08:13,583 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 500 145
+ERROR 2023-08-01 16:08:43,638 log log.py: 224 Internal Server Error: /swagger/
+Traceback (most recent call last):
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\drf_yasg\renderers.py", line 79, in render
+    return render_to_string(self.template, renderer_context, renderer_context['request'])
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: drf-yasg/swagger-ui.html
+ERROR 2023-08-01 16:08:43,639 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 500 145
+WARNING 2023-08-01 16:08:47,719 log log.py: 224 Not Found: /swagger/q
+WARNING 2023-08-01 16:08:47,719 basehttp basehttp.py: 161 "GET /swagger/q HTTP/1.1" 404 179
+ERROR 2023-08-01 16:08:50,753 log log.py: 224 Internal Server Error: /swagger/
+Traceback (most recent call last):
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\drf_yasg\renderers.py", line 79, in render
+    return render_to_string(self.template, renderer_context, renderer_context['request'])
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: drf-yasg/swagger-ui.html
+ERROR 2023-08-01 16:08:50,755 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 500 145
+INFO 2023-08-01 16:09:04,713 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+ERROR 2023-08-01 16:09:06,686 log log.py: 224 Internal Server Error: /swagger/
+Traceback (most recent call last):
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\drf_yasg\renderers.py", line 79, in render
+    return render_to_string(self.template, renderer_context, renderer_context['request'])
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: drf-yasg/swagger-ui.html
+ERROR 2023-08-01 16:09:06,688 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 500 145
+INFO 2023-08-01 16:09:54,571 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 16:10:05,522 basehttp basehttp.py: 161 "GET /docs/ HTTP/1.1" 200 50718
+WARNING 2023-08-01 16:10:05,573 log log.py: 224 Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING 2023-08-01 16:10:05,573 basehttp basehttp.py: 161 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2023-08-01 16:10:05,579 log log.py: 224 Not Found: /static/rest_framework/css/bootstrap-theme.min.css
+WARNING 2023-08-01 16:10:05,581 log log.py: 224 Not Found: /static/rest_framework/css/font-awesome-4.0.3.css
+WARNING 2023-08-01 16:10:05,583 log log.py: 224 Not Found: /static/rest_framework/docs/css/base.css
+WARNING 2023-08-01 16:10:05,584 log log.py: 224 Not Found: /static/rest_framework/docs/css/jquery.json-view.min.css
+WARNING 2023-08-01 16:10:05,585 basehttp basehttp.py: 161 "GET /static/rest_framework/css/bootstrap-theme.min.css HTTP/1.1" 404 179
+WARNING 2023-08-01 16:10:05,585 basehttp basehttp.py: 161 "GET /static/rest_framework/css/font-awesome-4.0.3.css HTTP/1.1" 404 179
+WARNING 2023-08-01 16:10:05,586 log log.py: 224 Not Found: /static/rest_framework/js/coreapi-0.1.1.js
+WARNING 2023-08-01 16:10:05,586 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/css/base.css HTTP/1.1" 404 179
+WARNING 2023-08-01 16:10:05,588 log log.py: 224 Not Found: /static/rest_framework/js/jquery-3.4.1.min.js
+WARNING 2023-08-01 16:10:05,589 log log.py: 224 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2023-08-01 16:10:05,589 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/css/jquery.json-view.min.css HTTP/1.1" 404 179
+WARNING 2023-08-01 16:10:05,594 log log.py: 224 Not Found: /static/rest_framework/docs/js/jquery.json-view.min.js
+WARNING 2023-08-01 16:10:05,596 log log.py: 224 Not Found: /static/rest_framework/docs/js/api.js
+WARNING 2023-08-01 16:10:05,597 basehttp basehttp.py: 161 "GET /static/rest_framework/js/coreapi-0.1.1.js HTTP/1.1" 404 179
+WARNING 2023-08-01 16:10:05,597 basehttp basehttp.py: 161 "GET /static/rest_framework/js/jquery-3.4.1.min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 16:10:05,597 basehttp basehttp.py: 161 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 16:10:05,597 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/js/jquery.json-view.min.js HTTP/1.1" 404 179
+INFO 2023-08-01 16:10:05,597 basehttp basehttp.py: 161 "GET /docs/schema.js HTTP/1.1" 200 7044
+INFO 2023-08-01 16:10:05,598 basehttp basehttp.py: 75 - Broken pipe from ('127.0.0.1', 62459)
+
+WARNING 2023-08-01 16:10:05,598 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/js/api.js HTTP/1.1" 404 179
+WARNING 2023-08-01 16:10:05,604 log log.py: 224 Not Found: /static/rest_framework/js/coreapi-0.1.1.js
+WARNING 2023-08-01 16:10:05,604 basehttp basehttp.py: 161 "GET /static/rest_framework/js/coreapi-0.1.1.js HTTP/1.1" 404 179
+INFO 2023-08-01 16:10:12,415 basehttp basehttp.py: 161 "GET /menu/ HTTP/1.1" 200 2
+INFO 2023-08-01 16:10:49,835 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\models.py changed, reloading.
+INFO 2023-08-01 16:10:50,919 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 16:11:49,506 basehttp basehttp.py: 161 "GET /menu/ HTTP/1.1" 200 2
+INFO 2023-08-01 16:12:41,370 basehttp basehttp.py: 161 "POST /menu/ HTTP/1.1" 201 171
+INFO 2023-08-01 16:12:57,127 basehttp basehttp.py: 161 "GET /menu/ HTTP/1.1" 200 173
+INFO 2023-08-01 16:13:06,062 basehttp basehttp.py: 161 "GET /docs/ HTTP/1.1" 200 50718
+WARNING 2023-08-01 16:13:06,110 log log.py: 224 Not Found: /static/rest_framework/css/bootstrap-theme.min.css
+WARNING 2023-08-01 16:13:06,111 log log.py: 224 Not Found: /static/rest_framework/css/font-awesome-4.0.3.css
+WARNING 2023-08-01 16:13:06,112 log log.py: 224 Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING 2023-08-01 16:13:06,112 basehttp basehttp.py: 161 "GET /static/rest_framework/css/bootstrap-theme.min.css HTTP/1.1" 404 179
+WARNING 2023-08-01 16:13:06,112 basehttp basehttp.py: 161 "GET /static/rest_framework/css/font-awesome-4.0.3.css HTTP/1.1" 404 179
+WARNING 2023-08-01 16:13:06,114 log log.py: 224 Not Found: /static/rest_framework/docs/css/base.css
+WARNING 2023-08-01 16:13:06,116 log log.py: 224 Not Found: /static/rest_framework/js/coreapi-0.1.1.js
+WARNING 2023-08-01 16:13:06,117 log log.py: 224 Not Found: /static/rest_framework/docs/css/jquery.json-view.min.css
+WARNING 2023-08-01 16:13:06,121 basehttp basehttp.py: 161 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2023-08-01 16:13:06,123 log log.py: 224 Not Found: /static/rest_framework/js/jquery-3.4.1.min.js
+WARNING 2023-08-01 16:13:06,126 log log.py: 224 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2023-08-01 16:13:06,126 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/css/jquery.json-view.min.css HTTP/1.1" 404 179
+WARNING 2023-08-01 16:13:06,126 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/css/base.css HTTP/1.1" 404 179
+WARNING 2023-08-01 16:13:06,126 basehttp basehttp.py: 161 "GET /static/rest_framework/js/coreapi-0.1.1.js HTTP/1.1" 404 179
+INFO 2023-08-01 16:13:06,127 basehttp basehttp.py: 161 "GET /docs/schema.js HTTP/1.1" 200 7044
+WARNING 2023-08-01 16:13:06,129 log log.py: 224 Not Found: /static/rest_framework/docs/js/api.js
+WARNING 2023-08-01 16:13:06,129 basehttp basehttp.py: 161 "GET /static/rest_framework/js/jquery-3.4.1.min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 16:13:06,131 log log.py: 224 Not Found: /static/rest_framework/docs/js/jquery.json-view.min.js
+WARNING 2023-08-01 16:13:06,131 basehttp basehttp.py: 161 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 16:13:06,133 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/js/api.js HTTP/1.1" 404 179
+WARNING 2023-08-01 16:13:06,135 log log.py: 224 Not Found: /static/rest_framework/js/coreapi-0.1.1.js
+WARNING 2023-08-01 16:13:06,135 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/js/jquery.json-view.min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 16:13:06,135 basehttp basehttp.py: 161 "GET /static/rest_framework/js/coreapi-0.1.1.js HTTP/1.1" 404 179
+INFO 2023-08-01 16:13:07,601 basehttp basehttp.py: 161 "GET /docs/ HTTP/1.1" 200 50718
+WARNING 2023-08-01 16:13:07,647 log log.py: 224 Not Found: /static/rest_framework/css/bootstrap.min.css
+WARNING 2023-08-01 16:13:07,650 log log.py: 224 Not Found: /static/rest_framework/docs/css/base.css
+WARNING 2023-08-01 16:13:07,651 log log.py: 224 Not Found: /static/rest_framework/docs/css/jquery.json-view.min.css
+WARNING 2023-08-01 16:13:07,651 log log.py: 224 Not Found: /static/rest_framework/css/font-awesome-4.0.3.css
+WARNING 2023-08-01 16:13:07,652 log log.py: 224 Not Found: /static/rest_framework/css/bootstrap-theme.min.css
+WARNING 2023-08-01 16:13:07,654 log log.py: 224 Not Found: /static/rest_framework/js/coreapi-0.1.1.js
+WARNING 2023-08-01 16:13:07,654 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/css/base.css HTTP/1.1" 404 179
+WARNING 2023-08-01 16:13:07,655 basehttp basehttp.py: 161 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 404 179
+WARNING 2023-08-01 16:13:07,655 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/css/jquery.json-view.min.css HTTP/1.1" 404 179
+WARNING 2023-08-01 16:13:07,655 basehttp basehttp.py: 161 "GET /static/rest_framework/css/font-awesome-4.0.3.css HTTP/1.1" 404 179
+WARNING 2023-08-01 16:13:07,656 basehttp basehttp.py: 161 "GET /static/rest_framework/css/bootstrap-theme.min.css HTTP/1.1" 404 179
+WARNING 2023-08-01 16:13:07,656 basehttp basehttp.py: 161 "GET /static/rest_framework/js/coreapi-0.1.1.js HTTP/1.1" 404 179
+WARNING 2023-08-01 16:13:07,661 log log.py: 224 Not Found: /static/rest_framework/js/bootstrap.min.js
+WARNING 2023-08-01 16:13:07,662 log log.py: 224 Not Found: /static/rest_framework/docs/js/jquery.json-view.min.js
+WARNING 2023-08-01 16:13:07,663 log log.py: 224 Not Found: /static/rest_framework/docs/js/api.js
+WARNING 2023-08-01 16:13:07,664 log log.py: 224 Not Found: /static/rest_framework/js/jquery-3.4.1.min.js
+INFO 2023-08-01 16:13:07,664 basehttp basehttp.py: 161 "GET /docs/schema.js HTTP/1.1" 200 7044
+WARNING 2023-08-01 16:13:07,665 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/js/api.js HTTP/1.1" 404 179
+WARNING 2023-08-01 16:13:07,665 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/js/jquery.json-view.min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 16:13:07,665 basehttp basehttp.py: 161 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 16:13:07,665 basehttp basehttp.py: 161 "GET /static/rest_framework/js/jquery-3.4.1.min.js HTTP/1.1" 404 179
+WARNING 2023-08-01 16:13:07,685 log log.py: 224 Not Found: /static/rest_framework/js/coreapi-0.1.1.js
+WARNING 2023-08-01 16:13:07,685 basehttp basehttp.py: 161 "GET /static/rest_framework/js/coreapi-0.1.1.js HTTP/1.1" 404 179
+ERROR 2023-08-01 16:14:58,487 log log.py: 224 Internal Server Error: /swagger/
+Traceback (most recent call last):
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\drf_yasg\renderers.py", line 79, in render
+    return render_to_string(self.template, renderer_context, renderer_context['request'])
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: drf-yasg/swagger-ui.html
+ERROR 2023-08-01 16:14:58,490 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 500 145
+INFO 2023-08-01 16:15:23,804 basehttp basehttp.py: 161 "GET /menu/ HTTP/1.1" 200 2
+INFO 2023-08-01 16:15:30,510 basehttp basehttp.py: 161 "POST /menu/ HTTP/1.1" 201 171
+INFO 2023-08-01 16:16:37,948 basehttp basehttp.py: 161 "POST /menu/ HTTP/1.1" 201 172
+INFO 2023-08-01 16:17:00,376 basehttp basehttp.py: 161 "POST /menu/ HTTP/1.1" 201 170
+INFO 2023-08-01 16:17:03,426 basehttp basehttp.py: 161 "POST /menu/ HTTP/1.1" 201 170
+INFO 2023-08-01 16:17:30,560 basehttp basehttp.py: 161 "POST /menu/ HTTP/1.1" 201 159
+INFO 2023-08-01 16:17:33,242 basehttp basehttp.py: 161 "POST /menu/ HTTP/1.1" 201 160
+INFO 2023-08-01 16:17:39,204 basehttp basehttp.py: 161 "POST /menu/ HTTP/1.1" 201 159
+INFO 2023-08-01 16:17:41,793 basehttp basehttp.py: 161 "POST /menu/ HTTP/1.1" 201 160
+INFO 2023-08-01 16:17:44,672 basehttp basehttp.py: 161 "GET /menu/ HTTP/1.1" 200 1330
+INFO 2023-08-01 16:19:28,957 basehttp basehttp.py: 161 "GET /menu/ HTTP/1.1" 200 1330
+INFO 2023-08-01 16:19:39,686 basehttp basehttp.py: 161 "GET /menu/ HTTP/1.1" 200 1330
+INFO 2023-08-01 16:19:54,528 basehttp basehttp.py: 161 "GET /menu/?pid=1 HTTP/1.1" 200 174
+INFO 2023-08-01 16:20:03,798 basehttp basehttp.py: 161 "GET /menu/?pid=2 HTTP/1.1" 200 2
+INFO 2023-08-01 16:20:08,380 basehttp basehttp.py: 161 "GET /menu/?pid=3 HTTP/1.1" 200 322
+INFO 2023-08-01 16:20:14,710 basehttp basehttp.py: 161 "GET /menu/?pid=4 HTTP/1.1" 200 322
+INFO 2023-08-01 16:20:22,507 basehttp basehttp.py: 161 "GET /menu/?pid=0 HTTP/1.1" 200 515
+INFO 2023-08-01 16:22:53,556 basehttp basehttp.py: 161 "DELETE /menu/5/ HTTP/1.1" 204 0
+INFO 2023-08-01 16:23:37,007 basehttp basehttp.py: 161 "DELETE /menu/3/ HTTP/1.1" 204 0
+INFO 2023-08-01 16:26:25,067 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+WARNING 2023-08-01 16:26:58,152 log log.py: 224 Bad Request: /menu/batch_destroy/
+WARNING 2023-08-01 16:26:58,153 basehttp basehttp.py: 161 "DELETE /menu/batch_destroy/ HTTP/1.1" 400 83
+WARNING 2023-08-01 16:27:04,581 log log.py: 224 Bad Request: /menu/batch_destroy/
+WARNING 2023-08-01 16:27:04,581 basehttp basehttp.py: 161 "DELETE /menu/batch_destroy/ HTTP/1.1" 400 46
+INFO 2023-08-01 16:27:14,804 basehttp basehttp.py: 161 "DELETE /menu/batch_destroy/ HTTP/1.1" 204 0
+WARNING 2023-08-01 16:29:58,161 log log.py: 224 Method Not Allowed: /menu/batch_destroy/
+WARNING 2023-08-01 16:29:58,161 basehttp basehttp.py: 161 "GET /menu/batch_destroy/ HTTP/1.1" 405 45
+INFO 2023-08-01 16:30:06,465 basehttp basehttp.py: 161 "GET /menu/ HTTP/1.1" 200 1169
+INFO 2023-08-01 16:30:14,353 basehttp basehttp.py: 161 "GET /menu/?pid=0 HTTP/1.1" 200 515
+INFO 2023-08-01 16:31:10,810 basehttp basehttp.py: 161 "POST /menu/ HTTP/1.1" 201 164
+WARNING 2023-08-01 16:33:08,678 log log.py: 224 Not Found: /menu/batch_destory/
+WARNING 2023-08-01 16:33:08,679 basehttp basehttp.py: 161 "DELETE /menu/batch_destory/ HTTP/1.1" 404 25
+INFO 2023-08-01 16:33:22,902 basehttp basehttp.py: 161 "DELETE /menu/batch_destroy/ HTTP/1.1" 204 0
+INFO 2023-08-01 16:33:54,998 basehttp basehttp.py: 161 "DELETE /menu/batch_destroy/ HTTP/1.1" 204 0
+WARNING 2023-08-01 16:35:16,327 log log.py: 224 Method Not Allowed: /menu/batch_destroy/
+WARNING 2023-08-01 16:35:16,327 basehttp basehttp.py: 161 "POST /menu/batch_destroy/ HTTP/1.1" 405 46
+WARNING 2023-08-01 16:36:04,725 log log.py: 224 Not Found: /menu/5/
+WARNING 2023-08-01 16:36:04,726 basehttp basehttp.py: 161 "DELETE /menu/5/ HTTP/1.1" 404 25
+INFO 2023-08-01 16:42:10,328 basehttp basehttp.py: 161 "GET /menu/?pid=0 HTTP/1.1" 200 509
+INFO 2023-08-01 16:42:55,577 basehttp basehttp.py: 161 "GET /menu/?pid=0 HTTP/1.1" 200 509
+INFO 2023-08-01 16:43:26,427 basehttp basehttp.py: 161 "GET /menu/ HTTP/1.1" 200 843
+INFO 2023-08-01 16:43:49,494 basehttp basehttp.py: 161 "GET /menu/?pid=0 HTTP/1.1" 200 509
+INFO 2023-08-01 16:44:09,192 basehttp basehttp.py: 161 "GET /menu/ HTTP/1.1" 200 843
+INFO 2023-08-01 16:44:37,987 basehttp basehttp.py: 161 "GET /menu/ HTTP/1.1" 200 1495
+INFO 2023-08-01 16:45:02,946 basehttp basehttp.py: 161 "GET /menu/?pid=0 HTTP/1.1" 200 680
+INFO 2023-08-01 16:45:25,210 basehttp basehttp.py: 161 "GET /menu/?pid=1 HTTP/1.1" 200 174
+INFO 2023-08-01 16:45:36,909 basehttp basehttp.py: 161 "GET /menu/?pid=3 HTTP/1.1" 200 322
+INFO 2023-08-01 16:47:13,987 basehttp basehttp.py: 161 "GET /menu/ HTTP/1.1" 200 1495
+INFO 2023-08-01 17:03:37,992 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\models.py changed, reloading.
+INFO 2023-08-01 17:03:39,339 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 17:04:04,449 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\models.py changed, reloading.
+INFO 2023-08-01 17:04:05,472 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 17:04:23,808 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\models.py changed, reloading.
+INFO 2023-08-01 17:04:24,863 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 17:04:38,838 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\models.py changed, reloading.
+INFO 2023-08-01 17:04:39,833 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 17:04:53,763 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\models.py changed, reloading.
+INFO 2023-08-01 17:04:54,921 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 17:05:03,172 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 17:05:32,644 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\settings\env.py changed, reloading.
+INFO 2023-08-01 17:05:33,764 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 17:05:56,576 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 17:10:26,455 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 17:26:12,208 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 17:29:14,778 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\urls.py changed, reloading.
+INFO 2023-08-01 17:29:15,981 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 17:29:25,540 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\urls.py changed, reloading.
+INFO 2023-08-01 17:29:26,675 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 17:30:37,133 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 17:33:43,217 basehttp basehttp.py: 161 "POST /user/register HTTP/1.1" 301 0
+WARNING 2023-08-01 17:33:43,226 log log.py: 224 Method Not Allowed: /user/register/
+WARNING 2023-08-01 17:33:43,227 basehttp basehttp.py: 161 "GET /user/register/ HTTP/1.1" 405 45
+INFO 2023-08-01 17:33:55,257 basehttp basehttp.py: 161 "POST /user/register HTTP/1.1" 301 0
+WARNING 2023-08-01 17:33:55,261 log log.py: 224 Method Not Allowed: /user/register/
+WARNING 2023-08-01 17:33:55,261 basehttp basehttp.py: 161 "GET /user/register/ HTTP/1.1" 405 45
+ERROR 2023-08-01 17:35:28,431 log log.py: 224 Internal Server Error: /user/register/
+Traceback (most recent call last):
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\generics.py", line 190, in post
+    return self.create(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 234, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 433, in run_validation
+    value = self.to_internal_value(data)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 486, in to_internal_value
+    for field in fields:
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 369, in _writable_fields
+    for field in self.fields.values():
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 1038, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 1110, in get_field_names
+    assert not (fields is None and exclude is None), (
+AssertionError: ("Creating a ModelSerializer without either the 'fields' attribute or the 'exclude' attribute has been deprecated since 3.3.0, and is now disallowed. Add an explicit fields = '__all__' to the UserSerializer serializer.",)
+ERROR 2023-08-01 17:35:28,462 basehttp basehttp.py: 161 "POST /user/register/ HTTP/1.1" 500 145
+ERROR 2023-08-01 17:36:20,403 log log.py: 224 Internal Server Error: /user/register/
+Traceback (most recent call last):
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\generics.py", line 190, in post
+    return self.create(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 234, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 433, in run_validation
+    value = self.to_internal_value(data)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 486, in to_internal_value
+    for field in fields:
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 369, in _writable_fields
+    for field in self.fields.values():
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 1038, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 1110, in get_field_names
+    assert not (fields is None and exclude is None), (
+AssertionError: ("Creating a ModelSerializer without either the 'fields' attribute or the 'exclude' attribute has been deprecated since 3.3.0, and is now disallowed. Add an explicit fields = '__all__' to the UserSerializer serializer.",)
+ERROR 2023-08-01 17:36:20,407 basehttp basehttp.py: 161 "POST /user/register/ HTTP/1.1" 500 145
+ERROR 2023-08-01 17:36:54,546 log log.py: 224 Internal Server Error: /user/register/
+Traceback (most recent call last):
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\generics.py", line 190, in post
+    return self.create(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 234, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 433, in run_validation
+    value = self.to_internal_value(data)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 486, in to_internal_value
+    for field in fields:
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 369, in _writable_fields
+    for field in self.fields.values():
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 1038, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 1110, in get_field_names
+    assert not (fields is None and exclude is None), (
+AssertionError: ("Creating a ModelSerializer without either the 'fields' attribute or the 'exclude' attribute has been deprecated since 3.3.0, and is now disallowed. Add an explicit fields = '__all__' to the UserSerializer serializer.",)
+ERROR 2023-08-01 17:36:54,550 basehttp basehttp.py: 161 "POST /user/register/ HTTP/1.1" 500 145
+INFO 2023-08-01 17:37:21,347 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+ERROR 2023-08-01 17:37:36,532 log log.py: 224 Internal Server Error: /user/register/
+Traceback (most recent call last):
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\generics.py", line 190, in post
+    return self.create(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 234, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 433, in run_validation
+    value = self.to_internal_value(data)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 486, in to_internal_value
+    for field in fields:
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 369, in _writable_fields
+    for field in self.fields.values():
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 1038, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 1110, in get_field_names
+    assert not (fields is None and exclude is None), (
+AssertionError: ("Creating a ModelSerializer without either the 'fields' attribute or the 'exclude' attribute has been deprecated since 3.3.0, and is now disallowed. Add an explicit fields = '__all__' to the UserSerializer serializer.",)
+ERROR 2023-08-01 17:37:36,538 basehttp basehttp.py: 161 "POST /user/register/ HTTP/1.1" 500 145
+ERROR 2023-08-01 17:38:00,093 log log.py: 224 Internal Server Error: /user/register/
+Traceback (most recent call last):
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\generics.py", line 190, in post
+    return self.create(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 234, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 433, in run_validation
+    value = self.to_internal_value(data)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 486, in to_internal_value
+    for field in fields:
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 369, in _writable_fields
+    for field in self.fields.values():
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 1038, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 1110, in get_field_names
+    assert not (fields is None and exclude is None), (
+AssertionError: ("Creating a ModelSerializer without either the 'fields' attribute or the 'exclude' attribute has been deprecated since 3.3.0, and is now disallowed. Add an explicit fields = '__all__' to the UserSerializer serializer.",)
+ERROR 2023-08-01 17:38:00,098 basehttp basehttp.py: 161 "POST /user/register/ HTTP/1.1" 500 145
+ERROR 2023-08-01 17:38:06,327 log log.py: 224 Internal Server Error: /user/register/
+Traceback (most recent call last):
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\generics.py", line 190, in post
+    return self.create(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 234, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 433, in run_validation
+    value = self.to_internal_value(data)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 486, in to_internal_value
+    for field in fields:
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 369, in _writable_fields
+    for field in self.fields.values():
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 1038, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 1110, in get_field_names
+    assert not (fields is None and exclude is None), (
+AssertionError: ("Creating a ModelSerializer without either the 'fields' attribute or the 'exclude' attribute has been deprecated since 3.3.0, and is now disallowed. Add an explicit fields = '__all__' to the UserSerializer serializer.",)
+ERROR 2023-08-01 17:38:06,329 basehttp basehttp.py: 161 "POST /user/register/ HTTP/1.1" 500 145
+ERROR 2023-08-01 17:38:14,737 log log.py: 224 Internal Server Error: /user/register/
+Traceback (most recent call last):
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\generics.py", line 190, in post
+    return self.create(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 234, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 433, in run_validation
+    value = self.to_internal_value(data)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 486, in to_internal_value
+    for field in fields:
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 369, in _writable_fields
+    for field in self.fields.values():
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 1038, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 1110, in get_field_names
+    assert not (fields is None and exclude is None), (
+AssertionError: ("Creating a ModelSerializer without either the 'fields' attribute or the 'exclude' attribute has been deprecated since 3.3.0, and is now disallowed. Add an explicit fields = '__all__' to the UserSerializer serializer.",)
+ERROR 2023-08-01 17:38:14,739 basehttp basehttp.py: 161 "POST /user/register/ HTTP/1.1" 500 145
+INFO 2023-08-01 17:39:45,901 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+ERROR 2023-08-01 17:39:49,104 log log.py: 224 Internal Server Error: /user/register/
+Traceback (most recent call last):
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\generics.py", line 190, in post
+    return self.create(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 234, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 433, in run_validation
+    value = self.to_internal_value(data)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 486, in to_internal_value
+    for field in fields:
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 369, in _writable_fields
+    for field in self.fields.values():
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 1038, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 1110, in get_field_names
+    assert not (fields is None and exclude is None), (
+AssertionError: ("Creating a ModelSerializer without either the 'fields' attribute or the 'exclude' attribute has been deprecated since 3.3.0, and is now disallowed. Add an explicit fields = '__all__' to the RegisterUserSerializer serializer.",)
+ERROR 2023-08-01 17:39:49,108 basehttp basehttp.py: 161 "POST /user/register/ HTTP/1.1" 500 145
+INFO 2023-08-01 17:40:22,730 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+ERROR 2023-08-01 17:40:25,906 log log.py: 224 Internal Server Error: /user/register/
+Traceback (most recent call last):
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\generics.py", line 190, in post
+    return self.create(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 234, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 433, in run_validation
+    value = self.to_internal_value(data)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 486, in to_internal_value
+    for field in fields:
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 369, in _writable_fields
+    for field in self.fields.values():
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 1038, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 1110, in get_field_names
+    assert not (fields is None and exclude is None), (
+AssertionError: ("Creating a ModelSerializer without either the 'fields' attribute or the 'exclude' attribute has been deprecated since 3.3.0, and is now disallowed. Add an explicit fields = '__all__' to the RegisterUserSerializer serializer.",)
+ERROR 2023-08-01 17:40:25,909 basehttp basehttp.py: 161 "POST /user/register/ HTTP/1.1" 500 145
+ERROR 2023-08-01 17:41:47,302 log log.py: 224 Internal Server Error: /user/register/
+Traceback (most recent call last):
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\generics.py", line 190, in post
+    return self.create(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 234, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 433, in run_validation
+    value = self.to_internal_value(data)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 486, in to_internal_value
+    for field in fields:
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 369, in _writable_fields
+    for field in self.fields.values():
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 1038, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 1110, in get_field_names
+    assert not (fields is None and exclude is None), (
+AssertionError: ("Creating a ModelSerializer without either the 'fields' attribute or the 'exclude' attribute has been deprecated since 3.3.0, and is now disallowed. Add an explicit fields = '__all__' to the RegisterUserSerializer serializer.",)
+ERROR 2023-08-01 17:41:47,304 basehttp basehttp.py: 161 "POST /user/register/ HTTP/1.1" 500 145
+ERROR 2023-08-01 17:42:05,577 log log.py: 224 Internal Server Error: /user/register/
+Traceback (most recent call last):
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\generics.py", line 190, in post
+    return self.create(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 234, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 433, in run_validation
+    value = self.to_internal_value(data)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 486, in to_internal_value
+    for field in fields:
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 369, in _writable_fields
+    for field in self.fields.values():
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 1038, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 1110, in get_field_names
+    assert not (fields is None and exclude is None), (
+AssertionError: ("Creating a ModelSerializer without either the 'fields' attribute or the 'exclude' attribute has been deprecated since 3.3.0, and is now disallowed. Add an explicit fields = '__all__' to the RegisterUserSerializer serializer.",)
+ERROR 2023-08-01 17:42:05,580 basehttp basehttp.py: 161 "POST /user/register/ HTTP/1.1" 500 145
+WARNING 2023-08-01 17:42:11,611 log log.py: 224 Method Not Allowed: /user/register/
+WARNING 2023-08-01 17:42:11,612 basehttp basehttp.py: 161 "GET /user/register/ HTTP/1.1" 405 45
+ERROR 2023-08-01 17:42:16,027 log log.py: 224 Internal Server Error: /user/register/
+Traceback (most recent call last):
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\generics.py", line 190, in post
+    return self.create(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 234, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 433, in run_validation
+    value = self.to_internal_value(data)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 486, in to_internal_value
+    for field in fields:
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 369, in _writable_fields
+    for field in self.fields.values():
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 1038, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 1110, in get_field_names
+    assert not (fields is None and exclude is None), (
+AssertionError: ("Creating a ModelSerializer without either the 'fields' attribute or the 'exclude' attribute has been deprecated since 3.3.0, and is now disallowed. Add an explicit fields = '__all__' to the RegisterUserSerializer serializer.",)
+ERROR 2023-08-01 17:42:16,029 basehttp basehttp.py: 161 "POST /user/register/ HTTP/1.1" 500 145
+ERROR 2023-08-01 17:42:21,446 log log.py: 224 Internal Server Error: /user/register/
+Traceback (most recent call last):
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\generics.py", line 190, in post
+    return self.create(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 234, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 433, in run_validation
+    value = self.to_internal_value(data)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 486, in to_internal_value
+    for field in fields:
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 369, in _writable_fields
+    for field in self.fields.values():
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 1038, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 1110, in get_field_names
+    assert not (fields is None and exclude is None), (
+AssertionError: ("Creating a ModelSerializer without either the 'fields' attribute or the 'exclude' attribute has been deprecated since 3.3.0, and is now disallowed. Add an explicit fields = '__all__' to the RegisterUserSerializer serializer.",)
+ERROR 2023-08-01 17:42:21,451 basehttp basehttp.py: 161 "POST /user/register/ HTTP/1.1" 500 145
+WARNING 2023-08-01 17:42:25,367 log log.py: 224 Method Not Allowed: /user/register/
+WARNING 2023-08-01 17:42:25,367 basehttp basehttp.py: 161 "PUT /user/register/ HTTP/1.1" 405 45
+ERROR 2023-08-01 17:42:29,201 log log.py: 224 Internal Server Error: /user/register/
+Traceback (most recent call last):
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\generics.py", line 190, in post
+    return self.create(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 234, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 433, in run_validation
+    value = self.to_internal_value(data)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 486, in to_internal_value
+    for field in fields:
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 369, in _writable_fields
+    for field in self.fields.values():
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 1038, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 1110, in get_field_names
+    assert not (fields is None and exclude is None), (
+AssertionError: ("Creating a ModelSerializer without either the 'fields' attribute or the 'exclude' attribute has been deprecated since 3.3.0, and is now disallowed. Add an explicit fields = '__all__' to the RegisterUserSerializer serializer.",)
+ERROR 2023-08-01 17:42:29,203 basehttp basehttp.py: 161 "POST /user/register/ HTTP/1.1" 500 145
+INFO 2023-08-01 17:44:15,685 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\settings\env.py changed, reloading.
+INFO 2023-08-01 17:44:17,002 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 17:44:30,838 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+ERROR 2023-08-01 17:44:35,781 log log.py: 224 Internal Server Error: /user/register/
+Traceback (most recent call last):
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\generics.py", line 190, in post
+    return self.create(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 234, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 433, in run_validation
+    value = self.to_internal_value(data)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 486, in to_internal_value
+    for field in fields:
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 369, in _writable_fields
+    for field in self.fields.values():
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 1038, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 1110, in get_field_names
+    assert not (fields is None and exclude is None), (
+AssertionError: ("Creating a ModelSerializer without either the 'fields' attribute or the 'exclude' attribute has been deprecated since 3.3.0, and is now disallowed. Add an explicit fields = '__all__' to the RegisterUserSerializer serializer.",)
+ERROR 2023-08-01 17:44:35,784 basehttp basehttp.py: 161 "POST /user/register/ HTTP/1.1" 500 145
+ERROR 2023-08-01 17:46:17,197 log log.py: 224 Internal Server Error: /user/register/
+Traceback (most recent call last):
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\generics.py", line 190, in post
+    return self.create(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 234, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 433, in run_validation
+    value = self.to_internal_value(data)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 486, in to_internal_value
+    for field in fields:
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 369, in _writable_fields
+    for field in self.fields.values():
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 1038, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 1110, in get_field_names
+    assert not (fields is None and exclude is None), (
+AssertionError: ("Creating a ModelSerializer without either the 'fields' attribute or the 'exclude' attribute has been deprecated since 3.3.0, and is now disallowed. Add an explicit fields = '__all__' to the RegisterUserSerializer serializer.",)
+ERROR 2023-08-01 17:46:17,200 basehttp basehttp.py: 161 "POST /user/register/ HTTP/1.1" 500 145
+INFO 2023-08-01 17:53:35,034 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\urls.py changed, reloading.
+INFO 2023-08-01 17:53:36,228 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 17:54:09,667 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\urls.py changed, reloading.
+INFO 2023-08-01 17:54:11,019 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 17:55:49,014 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+ERROR 2023-08-01 17:56:23,258 log log.py: 224 Internal Server Error: /hello/
+Traceback (most recent call last):
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: get() takes 1 positional argument but 2 were given
+ERROR 2023-08-01 17:56:23,260 basehttp basehttp.py: 161 "GET /hello/ HTTP/1.1" 500 145
+ERROR 2023-08-01 17:56:30,091 log log.py: 224 Internal Server Error: /hello/
+Traceback (most recent call last):
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: get() takes 1 positional argument but 2 were given
+ERROR 2023-08-01 17:56:30,092 basehttp basehttp.py: 161 "GET /hello/ HTTP/1.1" 500 145
+ERROR 2023-08-01 17:56:42,713 log log.py: 224 Internal Server Error: /hello/
+Traceback (most recent call last):
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: get() takes 1 positional argument but 2 were given
+ERROR 2023-08-01 17:56:42,715 basehttp basehttp.py: 161 "GET /hello/ HTTP/1.1" 500 145
+ERROR 2023-08-01 17:57:10,150 log log.py: 224 Internal Server Error: /hello/
+Traceback (most recent call last):
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: get() takes 1 positional argument but 2 were given
+ERROR 2023-08-01 17:57:10,151 basehttp basehttp.py: 161 "GET /hello/ HTTP/1.1" 500 145
+ERROR 2023-08-01 17:57:50,340 log log.py: 224 Internal Server Error: /hello/
+Traceback (most recent call last):
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: get() takes 1 positional argument but 2 were given
+ERROR 2023-08-01 17:57:50,342 basehttp basehttp.py: 161 "GET /hello/ HTTP/1.1" 500 145
+INFO 2023-08-01 17:57:56,487 basehttp basehttp.py: 161 "GET /menu/ HTTP/1.1" 200 2
+INFO 2023-08-01 17:58:01,948 basehttp basehttp.py: 161 "GET /menu/?pid=0 HTTP/1.1" 200 2
+INFO 2023-08-01 17:58:07,970 basehttp basehttp.py: 161 "GET /menu/?pid=3 HTTP/1.1" 200 2
+INFO 2023-08-01 17:58:22,020 basehttp basehttp.py: 161 "POST /menu/ HTTP/1.1" 201 163
+INFO 2023-08-01 17:58:56,711 basehttp basehttp.py: 161 "POST /menu/ HTTP/1.1" 201 192
+INFO 2023-08-01 17:59:02,418 basehttp basehttp.py: 161 "POST /menu/ HTTP/1.1" 201 196
+INFO 2023-08-01 17:59:07,718 basehttp basehttp.py: 161 "POST /menu/ HTTP/1.1" 201 187
+INFO 2023-08-01 17:59:16,120 basehttp basehttp.py: 161 "POST /menu/ HTTP/1.1" 201 192
+INFO 2023-08-01 17:59:20,860 basehttp basehttp.py: 161 "GET /menu/ HTTP/1.1" 200 936
+INFO 2023-08-01 17:59:27,036 basehttp basehttp.py: 161 "GET /menu/?pid=0 HTTP/1.1" 200 358
+INFO 2023-08-01 17:59:29,758 basehttp basehttp.py: 161 "GET /menu/?pid=3 HTTP/1.1" 200 2
+ERROR 2023-08-01 17:59:42,779 log log.py: 224 Internal Server Error: /hello/
+Traceback (most recent call last):
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: get() takes 1 positional argument but 2 were given
+ERROR 2023-08-01 17:59:42,783 basehttp basehttp.py: 161 "GET /hello/ HTTP/1.1" 500 145
+INFO 2023-08-01 18:00:42,424 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\urls.py changed, reloading.
+INFO 2023-08-01 18:00:43,441 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+ERROR 2023-08-01 18:01:01,189 log log.py: 224 Internal Server Error: /hello/
+Traceback (most recent call last):
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: get() takes 1 positional argument but 2 were given
+ERROR 2023-08-01 18:01:01,191 basehttp basehttp.py: 161 "GET /hello/ HTTP/1.1" 500 145
+INFO 2023-08-01 18:01:31,130 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+ERROR 2023-08-01 18:01:42,161 log log.py: 224 Internal Server Error: /hello/
+Traceback (most recent call last):
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: get() takes 1 positional argument but 2 were given
+ERROR 2023-08-01 18:01:42,165 basehttp basehttp.py: 161 "GET /hello/ HTTP/1.1" 500 145
+INFO 2023-08-01 18:04:31,954 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+ERROR 2023-08-01 18:04:36,899 log log.py: 224 Internal Server Error: /hello/
+Traceback (most recent call last):
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: get() takes 1 positional argument but 2 were given
+ERROR 2023-08-01 18:04:36,903 basehttp basehttp.py: 161 "GET /hello/ HTTP/1.1" 500 145
+INFO 2023-08-01 18:06:21,436 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\settings\env.py changed, reloading.
+INFO 2023-08-01 18:06:22,572 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 18:11:32,073 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 18:13:06,657 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 18:13:55,986 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\settings\env.py changed, reloading.
+INFO 2023-08-01 18:13:56,959 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 18:14:09,830 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+ERROR 2023-08-01 18:14:16,134 log log.py: 224 Internal Server Error: /hello/
+Traceback (most recent call last):
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: get() takes 1 positional argument but 2 were given
+ERROR 2023-08-01 18:14:16,137 basehttp basehttp.py: 161 "GET /hello/ HTTP/1.1" 500 89816
+INFO 2023-08-01 18:14:36,961 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+ERROR 2023-08-01 18:14:39,277 log log.py: 224 Internal Server Error: /hello/
+Traceback (most recent call last):
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: get() takes 1 positional argument but 2 were given
+ERROR 2023-08-01 18:14:39,279 basehttp basehttp.py: 161 "GET /hello/ HTTP/1.1" 500 145
+INFO 2023-08-01 18:14:48,325 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+ERROR 2023-08-01 18:14:52,660 log log.py: 224 Internal Server Error: /hello/
+Traceback (most recent call last):
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: get() takes 1 positional argument but 2 were given
+ERROR 2023-08-01 18:14:52,664 basehttp basehttp.py: 161 "GET /hello/ HTTP/1.1" 500 89816
+INFO 2023-08-01 18:15:57,994 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\test_log.py changed, reloading.
+INFO 2023-08-01 18:15:58,957 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 18:16:05,175 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 18:16:07,115 test_log test_log.py: 11 hello info
+ERROR 2023-08-01 18:16:07,116 test_log test_log.py: 13 hello error
+INFO 2023-08-01 18:16:07,118 basehttp basehttp.py: 161 "GET /hello/ HTTP/1.1" 200 18
+WARNING 2023-08-01 18:16:20,490 log log.py: 224 Method Not Allowed: /user/register/
+WARNING 2023-08-01 18:16:20,491 basehttp basehttp.py: 161 "GET /user/register/ HTTP/1.1" 405 45
+ERROR 2023-08-01 18:16:25,007 log log.py: 224 Internal Server Error: /user/register/
+Traceback (most recent call last):
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\generics.py", line 190, in post
+    return self.create(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 234, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 433, in run_validation
+    value = self.to_internal_value(data)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 486, in to_internal_value
+    for field in fields:
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 369, in _writable_fields
+    for field in self.fields.values():
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 1038, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 1110, in get_field_names
+    assert not (fields is None and exclude is None), (
+AssertionError: ("Creating a ModelSerializer without either the 'fields' attribute or the 'exclude' attribute has been deprecated since 3.3.0, and is now disallowed. Add an explicit fields = '__all__' to the RegisterUserSerializer serializer.",)
+ERROR 2023-08-01 18:16:25,010 basehttp basehttp.py: 161 "POST /user/register/ HTTP/1.1" 500 142933
+INFO 2023-08-01 18:17:45,248 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\serializer\user_serializer.py changed, reloading.
+INFO 2023-08-01 18:17:46,190 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 18:17:52,761 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+ERROR 2023-08-01 18:17:55,463 log log.py: 224 Internal Server Error: /user/register/
+Traceback (most recent call last):
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\generics.py", line 190, in post
+    return self.create(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 234, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 433, in run_validation
+    value = self.to_internal_value(data)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 486, in to_internal_value
+    for field in fields:
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 369, in _writable_fields
+    for field in self.fields.values():
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 1038, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 1110, in get_field_names
+    assert not (fields is None and exclude is None), (
+AssertionError: ("Creating a ModelSerializer without either the 'fields' attribute or the 'exclude' attribute has been deprecated since 3.3.0, and is now disallowed. Add an explicit fields = '__all__' to the RegisterUserSerializer serializer.",)
+ERROR 2023-08-01 18:17:55,470 basehttp basehttp.py: 161 "POST /user/register/ HTTP/1.1" 500 142933
+INFO 2023-08-01 18:18:23,848 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\serializer\user_serializer.py changed, reloading.
+INFO 2023-08-01 18:18:24,917 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 18:18:55,969 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+WARNING 2023-08-01 18:18:57,369 log log.py: 224 Bad Request: /user/register/
+WARNING 2023-08-01 18:18:57,369 basehttp basehttp.py: 161 "POST /user/register/ HTTP/1.1" 400 81
+INFO 2023-08-01 18:19:30,194 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\serializer\user_serializer.py changed, reloading.
+INFO 2023-08-01 18:19:31,580 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+ERROR 2023-08-01 18:19:37,499 log log.py: 224 Internal Server Error: /user/register/
+Traceback (most recent call last):
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\generics.py", line 190, in post
+    return self.create(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 234, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 433, in run_validation
+    value = self.to_internal_value(data)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 486, in to_internal_value
+    for field in fields:
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 369, in _writable_fields
+    for field in self.fields.values():
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 1072, in get_fields
+    fields[field_name] = field_class(**field_kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\fields.py", line 808, in __init__
+    super().__init__(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'unique'
+ERROR 2023-08-01 18:19:37,508 basehttp basehttp.py: 161 "POST /user/register/ HTTP/1.1" 500 138624
+INFO 2023-08-01 18:22:17,521 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+WARNING 2023-08-01 18:22:20,194 log log.py: 224 Bad Request: /user/register/
+WARNING 2023-08-01 18:22:20,194 basehttp basehttp.py: 161 "POST /user/register/ HTTP/1.1" 400 81
+INFO 2023-08-01 18:22:50,890 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+WARNING 2023-08-01 18:22:53,961 log log.py: 224 Bad Request: /user/register/
+WARNING 2023-08-01 18:22:53,962 basehttp basehttp.py: 161 "POST /user/register/ HTTP/1.1" 400 81
+WARNING 2023-08-01 18:23:36,516 log log.py: 224 Bad Request: /user/register/
+WARNING 2023-08-01 18:23:36,517 basehttp basehttp.py: 161 "POST /user/register/ HTTP/1.1" 400 81
+WARNING 2023-08-01 18:23:44,490 log log.py: 224 Bad Request: /user/register/
+WARNING 2023-08-01 18:23:44,491 basehttp basehttp.py: 161 "POST /user/register/ HTTP/1.1" 400 81
+WARNING 2023-08-01 18:23:50,970 log log.py: 224 Bad Request: /user/register/
+WARNING 2023-08-01 18:23:50,970 basehttp basehttp.py: 161 "POST /user/register/ HTTP/1.1" 400 81
+WARNING 2023-08-01 18:24:21,361 log log.py: 224 Bad Request: /user/register/
+WARNING 2023-08-01 18:24:21,361 basehttp basehttp.py: 161 "POST /user/register/ HTTP/1.1" 400 35
+WARNING 2023-08-01 18:24:39,767 log log.py: 224 Bad Request: /user/register/
+WARNING 2023-08-01 18:24:39,768 basehttp basehttp.py: 161 "POST /user/register/ HTTP/1.1" 400 63
+WARNING 2023-08-01 18:24:44,712 log log.py: 224 Bad Request: /user/register/
+WARNING 2023-08-01 18:24:44,713 basehttp basehttp.py: 161 "POST /user/register/ HTTP/1.1" 400 63
+INFO 2023-08-01 18:24:48,486 basehttp basehttp.py: 161 "POST /user/register/ HTTP/1.1" 201 69
+WARNING 2023-08-01 18:25:06,224 log log.py: 224 Bad Request: /user/register/
+WARNING 2023-08-01 18:25:06,225 basehttp basehttp.py: 161 "POST /user/register/ HTTP/1.1" 400 59
+INFO 2023-08-01 18:25:25,817 basehttp basehttp.py: 161 "POST /user/register/ HTTP/1.1" 201 67
+WARNING 2023-08-01 18:38:27,675 log log.py: 224 Not Found: /docs/
+WARNING 2023-08-01 18:38:27,675 basehttp basehttp.py: 161 "GET /docs/ HTTP/1.1" 404 4199
+INFO 2023-08-01 18:38:37,068 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\urls.py changed, reloading.
+INFO 2023-08-01 18:38:38,567 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-01 18:38:41,261 basehttp basehttp.py: 161 "GET /docs/ HTTP/1.1" 200 65856
+INFO 2023-08-01 18:38:41,324 basehttp basehttp.py: 161 "GET /static/rest_framework/css/font-awesome-4.0.3.css HTTP/1.1" 200 21658
+INFO 2023-08-01 18:38:41,324 basehttp basehttp.py: 161 "GET /static/rest_framework/css/bootstrap-theme.min.css HTTP/1.1" 200 23411
+INFO 2023-08-01 18:38:41,325 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/css/base.css HTTP/1.1" 200 6147
+INFO 2023-08-01 18:38:41,326 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/css/jquery.json-view.min.css HTTP/1.1" 200 1307
+INFO 2023-08-01 18:38:41,327 basehttp basehttp.py: 161 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2023-08-01 18:38:41,332 basehttp basehttp.py: 161 "GET /static/rest_framework/js/coreapi-0.1.1.js HTTP/1.1" 200 157600
+INFO 2023-08-01 18:38:41,342 basehttp basehttp.py: 161 "GET /docs/schema.js HTTP/1.1" 200 8768
+INFO 2023-08-01 18:38:41,343 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/js/jquery.json-view.min.js HTTP/1.1" 200 2700
+INFO 2023-08-01 18:38:41,344 basehttp basehttp.py: 161 "GET /static/rest_framework/docs/js/api.js HTTP/1.1" 200 10539
+INFO 2023-08-01 18:38:41,348 basehttp basehttp.py: 161 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2023-08-01 18:38:41,348 basehttp basehttp.py: 161 "GET /static/rest_framework/js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+INFO 2023-08-01 18:38:41,692 basehttp basehttp.py: 161 "GET /static/rest_framework/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+INFO 2023-08-01 18:40:28,137 test_log test_log.py: 11 hello info
+ERROR 2023-08-01 18:40:28,137 test_log test_log.py: 13 hello error
+INFO 2023-08-01 18:40:28,139 basehttp basehttp.py: 161 "GET /hello/ HTTP/1.1" 200 18
+INFO 2023-08-01 18:40:30,463 basehttp basehttp.py: 161 "GET /menu/ HTTP/1.1" 200 936
+INFO 2023-08-01 18:40:37,415 basehttp basehttp.py: 161 "GET /menu/ HTTP/1.1" 200 936
+INFO 2023-08-02 15:05:16,666 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+WARNING 2023-08-02 15:05:35,625 log log.py: 224 Method Not Allowed: /user/login/
+WARNING 2023-08-02 15:05:35,626 basehttp basehttp.py: 161 "GET /user/login/ HTTP/1.1" 405 45
+INFO 2023-08-02 15:06:18,684 basehttp basehttp.py: 161 "POST /user/login/ HTTP/1.1" 200 206
+WARNING 2023-08-02 15:06:32,469 log log.py: 224 Unauthorized: /menu/
+WARNING 2023-08-02 15:06:32,471 basehttp basehttp.py: 161 "GET /menu/ HTTP/1.1" 401 43
+INFO 2023-08-02 15:08:08,593 basehttp basehttp.py: 161 "GET /menu/?pid=0 HTTP/1.1" 200 358
+INFO 2023-08-02 15:08:56,342 basehttp basehttp.py: 161 "GET /menu/ HTTP/1.1" 200 936
+INFO 2023-08-02 15:11:24,432 basehttp basehttp.py: 161 "POST /user/login/ HTTP/1.1" 200 206
+INFO 2023-08-02 15:13:58,613 basehttp basehttp.py: 161 "POST /user/login/ HTTP/1.1" 200 206
+WARNING 2023-08-02 15:20:40,734 log log.py: 224 Unauthorized: /menu/
+WARNING 2023-08-02 15:20:40,735 basehttp basehttp.py: 161 "GET /menu/ HTTP/1.1" 401 43
+WARNING 2023-08-02 15:22:36,256 log log.py: 224 Unauthorized: /menu/
+WARNING 2023-08-02 15:22:36,256 basehttp basehttp.py: 161 "GET /menu/ HTTP/1.1" 401 38
+INFO 2023-08-02 15:22:44,139 basehttp basehttp.py: 161 "POST /user/login/ HTTP/1.1" 200 206
+WARNING 2023-08-02 15:22:47,655 log log.py: 224 Unauthorized: /menu/
+WARNING 2023-08-02 15:22:47,656 basehttp basehttp.py: 161 "GET /menu/ HTTP/1.1" 401 38
+WARNING 2023-08-02 15:24:02,188 log log.py: 224 Unauthorized: /menu/
+WARNING 2023-08-02 15:24:02,190 basehttp basehttp.py: 161 "GET /menu/ HTTP/1.1" 401 38
+INFO 2023-08-02 15:28:50,900 basehttp basehttp.py: 161 "POST /user/login/ HTTP/1.1" 200 206
+WARNING 2023-08-02 15:29:39,086 log log.py: 224 Unauthorized: /menu/
+WARNING 2023-08-02 15:29:39,086 basehttp basehttp.py: 161 "GET /menu/?pid=0 HTTP/1.1" 401 43
+INFO 2023-08-02 15:29:51,680 basehttp basehttp.py: 161 "GET /menu/ HTTP/1.1" 200 936
+INFO 2023-08-02 15:29:58,279 basehttp basehttp.py: 161 "GET /menu/?pid=0 HTTP/1.1" 200 358
+INFO 2023-08-02 15:30:10,012 basehttp basehttp.py: 161 "GET /menu/?pid=3 HTTP/1.1" 200 2
+INFO 2023-08-02 15:30:24,825 basehttp basehttp.py: 161 "GET /menu/?pid=3 HTTP/1.1" 200 2
+INFO 2023-08-02 15:30:41,236 basehttp basehttp.py: 161 "GET /menu/?pid=0 HTTP/1.1" 200 358
+INFO 2023-08-02 15:30:49,424 basehttp basehttp.py: 161 "GET /menu/ HTTP/1.1" 200 936
+INFO 2023-08-02 15:30:57,294 basehttp basehttp.py: 161 "GET /menu/?pid=1 HTTP/1.1" 200 391
