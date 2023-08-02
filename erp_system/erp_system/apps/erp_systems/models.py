@@ -29,6 +29,7 @@ class UserModel(AbstractUser):
     """
     phone = models.CharField(verbose_name='手机号', max_length=11, blank=True, null=True)
     real_name = models.CharField(verbose_name='真实姓名', max_length=50, blank=True, null=True)
+    roles = models.ManyToManyField('RoleModel', verbose_name='用户拥有的角色', blank=True)
 
     class Meta:
         db_table = 't_user'
@@ -37,3 +38,51 @@ class UserModel(AbstractUser):
 
     def __str__(self):
         return self.username
+
+
+class PermissionModel(BaseModel):
+    """
+    权限模型类
+    """
+
+    choice_methods = (
+        ('GET', '查'),
+        ('POST', '增'),
+        ('PUT', '改'),
+        ('DELETE', '删'),
+        ('PATCH', '局部修改')
+    )
+    is_menu = models.BooleanField(verbose_name='是否是菜单', default=False)
+    name = models.CharField(verbose_name='权限名字', max_length=50)
+    method = models.CharField(verbose_name='请求方法', max_length=10, choices=choice_methods, blank=True, null=True)
+    path = models.CharField(verbose_name='权限访问的url', max_length=256, blank=True, null=True)
+    menu = models.ForeignKey('MenuModel', on_delete=models.CASCADE, blank=True, null=True)
+    desc = models.CharField(verbose_name='权限描述', max_length=256, blank=True, null=True)
+
+    class Meta:
+        db_table = 't_permission'
+        verbose_name = '权限'
+        verbose_name_plural = verbose_name
+        ordering = ['id']
+
+    def __str__(self):
+        return self.name
+
+
+class RoleModel(BaseModel):
+    """
+    角色模型类
+    """
+    name = models.CharField(verbose_name='角色名字', max_length=50)
+    permissions = models.ManyToManyField('PermissionModel', verbose_name='角色拥有的权限', blank=True)
+
+    class Meta:
+
+        db_table = 't_role'
+    verbose_name = '角色'
+    verbose_name_plural = verbose_name
+    ording = ['id']
+
+
+def __str__(self):
+    return self.name
