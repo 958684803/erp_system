@@ -1,4 +1,7 @@
+from drf_yasg import openapi
+from drf_yasg.utils import swagger_auto_schema
 from rest_framework import status
+from rest_framework.decorators import action
 from rest_framework.response import Response
 
 
@@ -8,6 +11,11 @@ class BatchDestroy:
     批量删除的类
     """
 
+    del_ids = openapi.Schema(type=openapi.TYPE_OBJECT,required=['ids'],properties={
+        'ids': openapi.Schema(type=openapi.TYPE_ARRAY,items=openapi.Schema(type=openapi.TYPE_INTEGER),description='需要删除的菜单id列表')
+    })
+    @swagger_auto_schema(methods=['delete'], request_body=del_ids)
+    @action(methods=['delete'], detail=False)
     def batchdestroy(self, request, *args, **kwargs):
         ids = request.data.get('ids', None)
         if not ids:

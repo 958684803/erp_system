@@ -49,6 +49,10 @@ class RoleViewSet(viewsets.ModelViewSet, BatchDestroy):
 
     获取某个角色的详情，status：200（成功），return：某个角色的详情
 
+    batchdestroy:
+    角色--批量删除
+
+    角色批量删除，status：204（成功），return：空
 
 
     """
@@ -91,6 +95,7 @@ class RoleViewSet(viewsets.ModelViewSet, BatchDestroy):
             return Response({'msg': 'admin角色不能删除', 'status': 400})
         return super().destroy(request, *args, **kwargs)
 
+    @action(methods=['delete'], detail=False)
     def batchdestroy(self, request, *args, **kwargs):
         # 重写批量删除方法，不能删除admin这个角色
         del_ids = request.data.get('ids')
