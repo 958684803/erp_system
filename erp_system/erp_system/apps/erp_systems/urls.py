@@ -23,10 +23,8 @@ from erp_systems.views.menu_view import MenuView
 from erp_systems.views.permission_view import PermissionViewSet
 from erp_systems.views.role_view import RoleViewSet
 from erp_systems.views.user_view import RegisterUserView
-from erp_systems.views.test_log import Hello
 
 urlpatterns = [
-    re_path(r'^hello/$', Hello.as_view()),
     re_path(r'^user/login/$', obtain_jwt_token),  # JWT签发和认证视图
     re_path(r'^user/register/$', RegisterUserView.as_view()),  # 用户注册视图
 

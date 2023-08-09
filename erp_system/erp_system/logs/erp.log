@@ -2651,3 +2651,78 @@ INFO 2023-08-09 23:31:50,057 basehttp basehttp.py: 161 "GET /role/1/ HTTP/1.1" 2
 INFO 2023-08-09 23:32:12,258 basehttp basehttp.py: 161 "POST /role/set_permission/ HTTP/1.1" 200 41
 INFO 2023-08-09 23:32:16,920 basehttp basehttp.py: 161 "GET /role/1/ HTTP/1.1" 200 945
 INFO 2023-08-09 23:35:06,966 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\settings\env.py changed, reloading.
+INFO 2023-08-09 23:42:03,100 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:42:46,479 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\menu_view.py changed, reloading.
+INFO 2023-08-09 23:42:47,543 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:43:03,005 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\menu_view.py changed, reloading.
+INFO 2023-08-09 23:43:04,119 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:43:11,812 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\menu_view.py changed, reloading.
+INFO 2023-08-09 23:43:13,165 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:43:18,499 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\menu_view.py changed, reloading.
+INFO 2023-08-09 23:43:19,810 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:43:26,338 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\menu_view.py changed, reloading.
+INFO 2023-08-09 23:43:27,433 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:43:30,547 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\menu_view.py changed, reloading.
+INFO 2023-08-09 23:43:31,756 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:43:34,944 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\menu_view.py changed, reloading.
+INFO 2023-08-09 23:43:36,011 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:43:45,841 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\menu_view.py changed, reloading.
+INFO 2023-08-09 23:43:47,101 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:44:03,698 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\menu_view.py changed, reloading.
+INFO 2023-08-09 23:44:04,998 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:44:14,907 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\menu_view.py changed, reloading.
+INFO 2023-08-09 23:44:16,426 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:44:29,531 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\menu_view.py changed, reloading.
+INFO 2023-08-09 23:44:30,861 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:44:55,290 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\permission_view.py changed, reloading.
+INFO 2023-08-09 23:44:56,500 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:45:05,199 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\permission_view.py changed, reloading.
+INFO 2023-08-09 23:45:06,395 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+WARNING 2023-08-09 23:45:19,359 log log.py: 224 Bad Request: /permission/get_menu_id_permission/
+WARNING 2023-08-09 23:45:19,359 basehttp basehttp.py: 161 "GET /permission/get_menu_id_permission/ HTTP/1.1" 400 50
+WARNING 2023-08-09 23:45:32,986 log log.py: 224 Bad Request: /permission/get_menu_id_permission/
+WARNING 2023-08-09 23:45:32,987 basehttp basehttp.py: 161 "GET /permission/get_menu_id_permission/ HTTP/1.1" 400 50
+INFO 2023-08-09 23:46:13,701 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\permission_view.py changed, reloading.
+INFO 2023-08-09 23:46:15,073 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:46:31,629 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\permission_view.py changed, reloading.
+INFO 2023-08-09 23:46:32,944 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:46:43,953 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\permission_view.py changed, reloading.
+INFO 2023-08-09 23:46:45,265 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:46:48,865 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 200 2168
+INFO 2023-08-09 23:46:49,269 basehttp basehttp.py: 161 "GET /swagger/?format=openapi HTTP/1.1" 200 12542
+INFO 2023-08-09 23:47:24,555 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\menu_view.py changed, reloading.
+INFO 2023-08-09 23:47:25,957 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:47:26,612 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 200 2168
+INFO 2023-08-09 23:47:27,080 basehttp basehttp.py: 161 "GET /swagger/?format=openapi HTTP/1.1" 200 12646
+INFO 2023-08-09 23:47:34,771 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\menu_view.py changed, reloading.
+INFO 2023-08-09 23:47:35,940 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:47:36,645 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 200 2168
+INFO 2023-08-09 23:47:36,859 basehttp basehttp.py: 161 "GET /swagger/?format=openapi HTTP/1.1" 200 13112
+INFO 2023-08-09 23:47:46,950 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\menu_view.py changed, reloading.
+INFO 2023-08-09 23:47:48,194 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:47:48,762 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 200 2168
+INFO 2023-08-09 23:47:49,002 basehttp basehttp.py: 161 "GET /swagger/?format=openapi HTTP/1.1" 200 13101
+INFO 2023-08-09 23:47:57,126 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\menu_view.py changed, reloading.
+INFO 2023-08-09 23:47:58,430 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:47:59,092 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 200 2168
+INFO 2023-08-09 23:47:59,314 basehttp basehttp.py: 161 "GET /swagger/?format=openapi HTTP/1.1" 200 12646
+INFO 2023-08-09 23:48:05,088 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\menu_view.py changed, reloading.
+INFO 2023-08-09 23:48:06,297 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:48:09,186 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 200 2168
+INFO 2023-08-09 23:48:09,406 basehttp basehttp.py: 161 "GET /swagger/?format=openapi HTTP/1.1" 200 12646
+INFO 2023-08-09 23:48:32,235 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 200 2168
+INFO 2023-08-09 23:48:32,482 basehttp basehttp.py: 161 "GET /swagger/?format=openapi HTTP/1.1" 200 12646
+INFO 2023-08-09 23:49:42,869 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\urls.py changed, reloading.
+INFO 2023-08-09 23:49:44,074 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:49:48,277 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:49:54,096 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:49:57,027 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 200 2168
+INFO 2023-08-09 23:49:57,392 basehttp basehttp.py: 161 "GET /swagger/?format=openapi HTTP/1.1" 200 12478
+INFO 2023-08-09 23:50:32,335 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\permission_view.py changed, reloading.
+INFO 2023-08-09 23:50:33,565 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:50:38,983 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 200 2168
+INFO 2023-08-09 23:50:39,389 basehttp basehttp.py: 161 "GET /swagger/?format=openapi HTTP/1.1" 200 12615
+WARNING 2023-08-09 23:50:45,855 log log.py: 224 Unauthorized: /permission/get_menu_id_permission/
+WARNING 2023-08-09 23:50:45,856 basehttp basehttp.py: 161 "GET /permission/get_menu_id_permission/ HTTP/1.1" 401 43
+WARNING 2023-08-09 23:50:54,295 log log.py: 224 Bad Request: /permission/get_menu_id_permission/
+WARNING 2023-08-09 23:50:54,295 basehttp basehttp.py: 161 "GET /permission/get_menu_id_permission/ HTTP/1.1" 400 50

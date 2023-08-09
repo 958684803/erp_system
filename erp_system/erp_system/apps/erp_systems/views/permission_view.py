@@ -8,7 +8,34 @@ from erp_systems.serializer.permission_serializer import PermissionSerializer
 
 class PermissionViewSet(viewsets.ModelViewSet):
     """
-    权限模型的视图类
+    list:
+    权限--获取列表
+
+    获取权限列表，status：200（成功），return：权限列表
+
+    create:
+    权限--新增
+
+    权限新增，status：201（成功），return：新增权限信息
+
+    read:
+    权限--获取某个权限的详情
+
+    获取某个权限的详情，status：200（成功），return：某个权限的详情
+    update:
+    权限--修改
+
+    权限修改，status：200（成功），return：修改后的权限信息
+
+    partial_update:
+    权限--部分修改
+
+    部分权限修改，status：200（成功），return：修改后的权限信息
+
+    delete:
+    权限--删除
+
+    权限删除，status：204（成功），return：空
     """
     queryset = PermissionModel.objects.all()
     serializer_class = PermissionSerializer

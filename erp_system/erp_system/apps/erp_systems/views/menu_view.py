@@ -17,16 +17,40 @@ logger = logging.getLogger('erp')
 # 创建菜单的视图类
 class MenuView(viewsets.ModelViewSet):
     """
-    新增功能菜单的模型类
+    list:
+    菜单--获取列表
 
-    1。新增菜单
-    2. 查询单个功能菜单
-    3. 查询所有功能菜单
-    4. 查询某个父菜单下面所有的子菜单
-    5. 修改功能菜单
-    6. 删除某一个功能菜单
-    7. 查询所有的顶级菜单列表
-    8. 批量删除
+    获取菜单列表，status：200（成功），return：菜单列表
+
+    create:
+    菜单--新增
+
+    菜单新增，status：201（成功），return：新增菜单信息
+
+    batch_destroy:
+    菜单--批量删除
+
+    菜单批量删除，status：204（成功），return：空
+
+    read:
+    菜单--获取某个菜单的详情
+
+    获取某个菜单的详情，status：200（成功），return：某个菜单的详情
+
+    update:
+    菜单--修改
+
+    菜单修改，status：200（成功），return：修改后的菜单信息
+
+    partial_update:
+    菜单--部分修改
+
+    部分菜单修改，status：200（成功），return：修改后的菜单信息
+
+    delete:
+    菜单--删除
+
+    菜单删除，status：204（成功），return：空
     """
     permission_classes = [IsAuthenticated, ]
     queryset = MenuModel.objects.filter(delete_flag='0').all()
