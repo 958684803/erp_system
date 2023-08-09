@@ -77,11 +77,10 @@ class RoleModel(BaseModel):
     permissions = models.ManyToManyField('PermissionModel', verbose_name='角色拥有的权限', blank=True)
 
     class Meta:
-
         db_table = 't_role'
-    verbose_name = '角色'
-    verbose_name_plural = verbose_name
-    ording = ['id']
+        verbose_name = '角色'
+        verbose_name_plural = verbose_name
+        ordering = ['id']
 
 
 def __str__(self):
