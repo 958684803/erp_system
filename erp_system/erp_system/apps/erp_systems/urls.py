@@ -20,6 +20,7 @@ from rest_framework import routers
 from rest_framework_jwt.views import obtain_jwt_token
 
 from erp_systems.views.menu_view import MenuView
+from erp_systems.views.permission_view import PermissionViewSet
 from erp_systems.views.user_view import RegisterUserView
 from erp_systems.views.test_log import Hello
 
@@ -32,5 +33,6 @@ urlpatterns = [
 
 router = routers.DefaultRouter()
 router.register(r'menu', MenuView)  # 菜单路由
+router.register(r'permission', PermissionViewSet)  # 权限路由
 print(router.urls)
 urlpatterns += router.urls

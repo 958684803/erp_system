@@ -9,8 +9,8 @@ from rest_framework.response import Response
 from erp_systems.models import MenuModel
 from erp_systems.serializer.menu_serializer import MenuSerializer
 
-
 logger = logging.getLogger('erp')
+
 
 # Create your views here.
 
@@ -28,7 +28,7 @@ class MenuView(viewsets.ModelViewSet):
     7. 查询所有的顶级菜单列表
     8. 批量删除
     """
-    permission_classes = [IsAuthenticated,]
+    permission_classes = [IsAuthenticated, ]
     queryset = MenuModel.objects.filter(delete_flag='0').all()
     serializer_class = MenuSerializer
 
