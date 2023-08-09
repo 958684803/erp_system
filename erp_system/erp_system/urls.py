@@ -22,17 +22,6 @@ from rest_framework import permissions
 from rest_framework_jwt.views import obtain_jwt_token
 from rest_framework.documentation import include_docs_urls
 
-#
-urlpatterns = [
-    re_path(r'^user/login/$', obtain_jwt_token),  # JWT签发和认证视图
-    re_path(r'^', include('erp_systems.urls')),
-    path('docs/', include_docs_urls(title='站点页面标题')),
-    # drf_yasg
-    # re_path(r'^swagger(?P<format>\.json|\.yaml)$', schema_view.without_ui(cache_timeout=0), name='schema-spec'),
-    # re_path(r'^swagger/$', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
-    # re_path(r'^redoc/$', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
-    # re_path(r'^swagger/$', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
-]
 schema_view = get_schema_view(
     openapi.Info(
         title="API接口文档平台",  # 必传
@@ -45,8 +34,14 @@ schema_view = get_schema_view(
     public=True,
     permission_classes=(permissions.AllowAny,),  # 权限类
 )
-
-urlpatterns += [
+#
+urlpatterns = [
+    re_path(r'^user/login/$', obtain_jwt_token),  # JWT签发和认证视图
+    re_path(r'^', include('erp_systems.urls')),
+    path('docs/', include_docs_urls(title='站点页面标题')),
+    # drf_yasg
     path('swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
     path('redoc/', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
+
 ]
+

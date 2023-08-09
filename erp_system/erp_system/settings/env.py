@@ -43,7 +43,7 @@ INSTALLED_APPS = [
     "rest_framework",
     "corsheaders",  # 同源策略
     "erp_systems",  # 系统模块
-    "drf_yasg2",  # swagger
+    "drf_yasg",  # swagger
 ]
 
 MIDDLEWARE = [

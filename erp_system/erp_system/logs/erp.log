@@ -1963,3 +1963,691 @@ INFO 2023-08-02 15:30:24,825 basehttp basehttp.py: 161 "GET /menu/?pid=3 HTTP/1.
 INFO 2023-08-02 15:30:41,236 basehttp basehttp.py: 161 "GET /menu/?pid=0 HTTP/1.1" 200 358
 INFO 2023-08-02 15:30:49,424 basehttp basehttp.py: 161 "GET /menu/ HTTP/1.1" 200 936
 INFO 2023-08-02 15:30:57,294 basehttp basehttp.py: 161 "GET /menu/?pid=1 HTTP/1.1" 200 391
+INFO 2023-08-02 19:45:47,654 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+WARNING 2023-08-02 19:45:50,342 log log.py: 224 Unauthorized: /
+WARNING 2023-08-02 19:45:50,343 basehttp basehttp.py: 161 "GET / HTTP/1.1" 401 5014
+INFO 2023-08-02 19:45:50,386 basehttp basehttp.py: 161 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2023-08-02 19:45:50,401 basehttp basehttp.py: 161 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2023-08-02 19:45:50,403 basehttp basehttp.py: 161 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2023-08-02 19:45:50,405 basehttp basehttp.py: 161 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1131
+INFO 2023-08-02 19:45:50,407 basehttp basehttp.py: 161 "GET /static/rest_framework/js/jquery-3.4.1.min.js HTTP/1.1" 304 0
+INFO 2023-08-02 19:45:50,408 basehttp basehttp.py: 161 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2023-08-02 19:45:50,415 basehttp basehttp.py: 161 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2023-08-02 19:45:50,417 basehttp basehttp.py: 161 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2023-08-02 19:45:50,418 basehttp basehttp.py: 161 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2023-08-02 19:45:50,425 basehttp basehttp.py: 161 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2023-08-02 19:45:50,465 basehttp basehttp.py: 161 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2023-08-02 19:45:50,822 log log.py: 224 Not Found: /favicon.ico
+WARNING 2023-08-02 19:45:50,823 basehttp basehttp.py: 161 "GET /favicon.ico HTTP/1.1" 404 4747
+ERROR 2023-08-02 19:46:05,045 log log.py: 224 Internal Server Error: /swagger/
+Traceback (most recent call last):
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\drf_yasg\renderers.py", line 79, in render
+    return render_to_string(self.template, renderer_context, renderer_context['request'])
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: drf-yasg/swagger-ui.html
+ERROR 2023-08-02 19:46:05,047 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 500 95629
+INFO 2023-08-02 19:46:21,921 basehttp basehttp.py: 161 "GET /redoc HTTP/1.1" 301 0
+ERROR 2023-08-02 19:46:21,958 log log.py: 224 Internal Server Error: /redoc/
+Traceback (most recent call last):
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\drf_yasg\renderers.py", line 79, in render
+    return render_to_string(self.template, renderer_context, renderer_context['request'])
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: drf-yasg/redoc.html
+ERROR 2023-08-02 19:46:21,960 basehttp basehttp.py: 161 "GET /redoc/ HTTP/1.1" 500 93833
+INFO 2023-08-02 19:47:02,772 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\urls.py changed, reloading.
+INFO 2023-08-02 19:47:03,710 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+ERROR 2023-08-02 19:47:07,964 log log.py: 224 Internal Server Error: /swagger/
+Traceback (most recent call last):
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\drf_yasg\renderers.py", line 79, in render
+    return render_to_string(self.template, renderer_context, renderer_context['request'])
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: drf-yasg/swagger-ui.html
+ERROR 2023-08-02 19:47:07,967 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 500 95629
+INFO 2023-08-02 19:49:16,023 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+WARNING 2023-08-02 19:49:31,067 log log.py: 224 Unauthorized: /
+WARNING 2023-08-02 19:49:31,068 basehttp basehttp.py: 161 "GET / HTTP/1.1" 401 5014
+ERROR 2023-08-02 19:49:36,428 log log.py: 224 Internal Server Error: /swagger/
+Traceback (most recent call last):
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\drf_yasg\renderers.py", line 79, in render
+    return render_to_string(self.template, renderer_context, renderer_context['request'])
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: drf-yasg/swagger-ui.html
+ERROR 2023-08-02 19:49:36,430 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 500 95640
+INFO 2023-08-02 19:51:59,875 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\settings\env.py changed, reloading.
+INFO 2023-08-02 19:52:00,866 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-02 19:52:08,848 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+ERROR 2023-08-02 19:52:17,478 log log.py: 224 Internal Server Error: /swagger/
+Traceback (most recent call last):
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\drf_yasg\renderers.py", line 79, in render
+    return render_to_string(self.template, renderer_context, renderer_context['request'])
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: drf-yasg/swagger-ui.html
+ERROR 2023-08-02 19:52:17,481 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 500 96230
+INFO 2023-08-02 19:52:27,239 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+ERROR 2023-08-02 19:52:31,949 log log.py: 224 Internal Server Error: /swagger/
+Traceback (most recent call last):
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\drf_yasg\renderers.py", line 79, in render
+    return render_to_string(self.template, renderer_context, renderer_context['request'])
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: drf-yasg/swagger-ui.html
+ERROR 2023-08-02 19:52:31,952 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 500 96230
+INFO 2023-08-02 20:00:22,446 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\settings\env.py changed, reloading.
+INFO 2023-08-02 20:00:23,445 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-02 20:00:45,166 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\models.py changed, reloading.
+INFO 2023-08-02 20:00:46,159 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-02 20:02:36,162 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\models.py changed, reloading.
+INFO 2023-08-02 20:02:37,251 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-02 20:03:32,106 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\models.py changed, reloading.
+INFO 2023-08-02 20:03:33,064 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-02 20:03:52,659 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\models.py changed, reloading.
+INFO 2023-08-02 20:03:53,708 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-02 20:04:34,158 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\models.py changed, reloading.
+INFO 2023-08-02 20:04:35,099 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-02 20:05:10,041 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\models.py changed, reloading.
+INFO 2023-08-02 20:05:11,039 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-02 20:05:31,807 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\models.py changed, reloading.
+INFO 2023-08-02 20:05:32,862 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-02 20:05:38,069 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\models.py changed, reloading.
+INFO 2023-08-02 20:05:39,079 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-02 20:06:11,686 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\models.py changed, reloading.
+INFO 2023-08-02 20:06:12,677 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-02 20:11:24,491 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\models.py changed, reloading.
+INFO 2023-08-02 20:11:25,557 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-02 20:12:00,458 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\models.py changed, reloading.
+INFO 2023-08-02 20:12:01,431 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-02 20:12:39,133 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\models.py changed, reloading.
+INFO 2023-08-02 20:12:40,116 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-02 20:12:53,044 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\models.py changed, reloading.
+INFO 2023-08-02 20:12:54,079 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-02 20:14:17,288 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-02 20:16:40,542 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\models.py changed, reloading.
+INFO 2023-08-02 20:16:41,471 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-04 14:52:06,348 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+WARNING 2023-08-04 14:57:02,089 log log.py: 224 Unauthorized: /menu/
+WARNING 2023-08-04 14:57:02,090 basehttp basehttp.py: 161 "GET /menu/?pid=0 HTTP/1.1" 401 38
+INFO 2023-08-04 14:57:07,449 basehttp basehttp.py: 161 "POST /user/login/ HTTP/1.1" 200 206
+INFO 2023-08-04 14:57:11,606 basehttp basehttp.py: 161 "GET /menu/?pid=0 HTTP/1.1" 200 358
+INFO 2023-08-04 14:57:29,509 basehttp basehttp.py: 161 "GET /menu/ HTTP/1.1" 200 936
+INFO 2023-08-04 14:57:34,589 basehttp basehttp.py: 161 "GET /menu/?pid=0 HTTP/1.1" 200 358
+INFO 2023-08-04 14:57:39,419 basehttp basehttp.py: 161 "GET /menu/?pid=0 HTTP/1.1" 200 358
+INFO 2023-08-04 14:57:44,864 basehttp basehttp.py: 161 "GET /menu/ HTTP/1.1" 200 936
+INFO 2023-08-04 14:57:52,583 basehttp basehttp.py: 161 "GET /menu/?pid=0 HTTP/1.1" 200 358
+INFO 2023-08-04 14:58:01,871 basehttp basehttp.py: 161 "GET /menu/?pid=3 HTTP/1.1" 200 2
+INFO 2023-08-04 14:58:12,410 basehttp basehttp.py: 161 "GET /menu/?pid=3 HTTP/1.1" 200 2
+INFO 2023-08-04 14:58:29,965 basehttp basehttp.py: 161 "GET /menu/?pid=2 HTTP/1.1" 200 189
+INFO 2023-08-04 14:59:01,056 basehttp basehttp.py: 161 "GET /menu/ HTTP/1.1" 200 936
+WARNING 2023-08-04 14:59:49,649 log log.py: 224 Bad Request: /menu/
+WARNING 2023-08-04 14:59:49,649 basehttp basehttp.py: 161 "POST /menu/ HTTP/1.1" 400 58
+INFO 2023-08-04 15:00:01,320 signals signals.py: 25 创建菜单时为菜单添加权限
+INFO 2023-08-04 15:00:01,350 basehttp basehttp.py: 161 "POST /menu/ HTTP/1.1" 201 169
+INFO 2023-08-04 15:04:21,814 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\signals.py changed, reloading.
+INFO 2023-08-04 15:04:23,159 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-04 15:08:21,697 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-04 15:08:36,209 signals signals.py: 25 创建菜单时为菜单添加权限
+INFO 2023-08-04 15:08:36,243 basehttp basehttp.py: 161 "POST /menu/ HTTP/1.1" 201 169
+INFO 2023-08-04 15:09:06,224 basehttp basehttp.py: 161 "GET /menu/?pid=0 HTTP/1.1" 200 698
+INFO 2023-08-04 15:09:15,795 signals signals.py: 25 创建菜单时为菜单添加权限
+INFO 2023-08-04 15:09:15,916 basehttp basehttp.py: 161 "POST /menu/ HTTP/1.1" 201 172
+INFO 2023-08-09 16:26:30,240 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+WARNING 2023-08-09 16:26:36,517 log log.py: 224 Unauthorized: /menu/
+WARNING 2023-08-09 16:26:36,519 basehttp basehttp.py: 161 "POST /menu/ HTTP/1.1" 401 38
+WARNING 2023-08-09 16:27:00,066 log log.py: 224 Unauthorized: /menu/
+WARNING 2023-08-09 16:27:00,067 basehttp basehttp.py: 161 "POST /menu/ HTTP/1.1" 401 38
+WARNING 2023-08-09 16:27:12,046 log log.py: 224 Unauthorized: /menu/
+WARNING 2023-08-09 16:27:12,047 basehttp basehttp.py: 161 "GET /menu/?pid=0 HTTP/1.1" 401 38
+INFO 2023-08-09 16:27:30,891 basehttp basehttp.py: 75 - Broken pipe from ('127.0.0.1', 65047)
+
+INFO 2023-08-09 16:28:04,491 basehttp basehttp.py: 161 "POST /user/login/ HTTP/1.1" 200 206
+INFO 2023-08-09 16:28:09,978 basehttp basehttp.py: 161 "GET /menu/?pid=0 HTTP/1.1" 200 698
+INFO 2023-08-09 16:28:28,886 signals signals.py: 25 创建菜单时为菜单添加权限
+INFO 2023-08-09 16:28:28,974 basehttp basehttp.py: 161 "POST /menu/ HTTP/1.1" 201 169
+INFO 2023-08-09 16:29:35,749 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\models.py changed, reloading.
+INFO 2023-08-09 16:29:36,686 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 16:33:44,278 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 16:35:18,295 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+WARNING 2023-08-09 16:35:21,011 log log.py: 224 Unauthorized: /user/register/
+WARNING 2023-08-09 16:35:21,012 basehttp basehttp.py: 161 "POST /user/register/ HTTP/1.1" 401 31
+WARNING 2023-08-09 16:35:45,967 log log.py: 224 Unauthorized: /user/register/
+WARNING 2023-08-09 16:35:45,968 basehttp basehttp.py: 161 "POST /user/register/ HTTP/1.1" 401 31
+INFO 2023-08-09 16:36:26,837 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\user_view.py changed, reloading.
+INFO 2023-08-09 16:36:27,922 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+WARNING 2023-08-09 16:36:29,085 log log.py: 224 Unauthorized: /user/register/
+WARNING 2023-08-09 16:36:29,085 basehttp basehttp.py: 161 "POST /user/register/ HTTP/1.1" 401 31
+WARNING 2023-08-09 16:36:52,551 log log.py: 224 Unauthorized: /user/register/
+WARNING 2023-08-09 16:36:52,552 basehttp basehttp.py: 161 "POST /user/register/ HTTP/1.1" 401 31
+INFO 2023-08-09 16:37:42,126 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+WARNING 2023-08-09 16:37:47,831 log log.py: 224 Forbidden: /user/register/
+WARNING 2023-08-09 16:37:47,832 basehttp basehttp.py: 161 "POST /user/register/ HTTP/1.1" 403 43
+INFO 2023-08-09 16:42:27,684 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+WARNING 2023-08-09 16:42:32,435 log log.py: 224 Forbidden: /user/register/
+WARNING 2023-08-09 16:42:32,436 basehttp basehttp.py: 161 "POST /user/register/ HTTP/1.1" 403 49
+INFO 2023-08-09 16:42:44,392 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+WARNING 2023-08-09 16:42:46,114 log log.py: 224 Forbidden: /user/register/
+WARNING 2023-08-09 16:42:46,115 basehttp basehttp.py: 161 "POST /user/register/ HTTP/1.1" 403 43
+INFO 2023-08-09 16:42:58,327 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 16:43:01,036 basehttp basehttp.py: 161 "POST /user/register/ HTTP/1.1" 201 73
+INFO 2023-08-09 16:48:57,428 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\settings\env.py changed, reloading.
+INFO 2023-08-09 16:48:58,527 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 16:52:24,546 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\settings\env.py changed, reloading.
+INFO 2023-08-09 16:52:25,492 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+WARNING 2023-08-09 16:52:28,139 log log.py: 224 Bad Request: /user/register/
+WARNING 2023-08-09 16:52:28,140 basehttp basehttp.py: 161 "POST /user/register/ HTTP/1.1" 400 59
+INFO 2023-08-09 16:52:42,352 basehttp basehttp.py: 161 "POST /user/register/ HTTP/1.1" 201 69
+INFO 2023-08-09 16:53:46,290 basehttp basehttp.py: 161 "GET /menu/?pid=0 HTTP/1.1" 200 2
+INFO 2023-08-09 16:53:54,802 basehttp basehttp.py: 161 "GET /menu/?pid=0 HTTP/1.1" 200 2
+INFO 2023-08-09 16:54:00,417 basehttp basehttp.py: 161 "GET /menu/ HTTP/1.1" 200 2
+INFO 2023-08-09 16:54:03,471 basehttp basehttp.py: 161 "GET /menu/?pid=0 HTTP/1.1" 200 2
+INFO 2023-08-09 16:54:07,969 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 16:54:10,491 basehttp basehttp.py: 161 "GET /menu/?pid=0 HTTP/1.1" 200 2
+INFO 2023-08-09 16:54:14,080 basehttp basehttp.py: 161 "GET /menu/?pid=2 HTTP/1.1" 200 2
+INFO 2023-08-09 16:54:32,394 signals signals.py: 25 创建菜单时为菜单添加权限
+INFO 2023-08-09 16:54:32,420 basehttp basehttp.py: 161 "POST /menu/ HTTP/1.1" 201 172
+INFO 2023-08-09 16:55:19,525 signals signals.py: 25 创建菜单时为菜单添加权限
+INFO 2023-08-09 16:55:19,689 basehttp basehttp.py: 161 "POST /menu/ HTTP/1.1" 201 175
+INFO 2023-08-09 16:55:58,427 signals signals.py: 25 创建菜单时为菜单添加权限
+INFO 2023-08-09 16:55:58,448 basehttp basehttp.py: 161 "POST /menu/ HTTP/1.1" 201 169
+INFO 2023-08-09 16:56:11,562 signals signals.py: 25 创建菜单时为菜单添加权限
+INFO 2023-08-09 16:56:11,687 basehttp basehttp.py: 161 "POST /menu/ HTTP/1.1" 201 169
+INFO 2023-08-09 16:56:50,902 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 16:57:08,897 signals signals.py: 25 创建菜单时为菜单添加权限
+INFO 2023-08-09 16:57:09,020 basehttp basehttp.py: 161 "POST /menu/ HTTP/1.1" 201 170
+INFO 2023-08-09 18:10:05,498 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\urls.py changed, reloading.
+INFO 2023-08-09 18:10:06,995 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+WARNING 2023-08-09 18:11:10,555 log log.py: 224 Not Found: /user/permission/
+WARNING 2023-08-09 18:11:10,557 basehttp basehttp.py: 161 "GET /user/permission/ HTTP/1.1" 404 5464
+INFO 2023-08-09 18:11:21,366 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+WARNING 2023-08-09 18:11:25,670 log log.py: 224 Not Found: /user/permission/
+WARNING 2023-08-09 18:11:25,671 basehttp basehttp.py: 161 "GET /user/permission/ HTTP/1.1" 404 5464
+WARNING 2023-08-09 18:11:42,494 log log.py: 224 Unauthorized: /permission/
+WARNING 2023-08-09 18:11:42,494 basehttp basehttp.py: 161 "GET /permission/ HTTP/1.1" 401 38
+INFO 2023-08-09 18:11:56,223 basehttp basehttp.py: 161 "POST /user/login/ HTTP/1.1" 200 206
+WARNING 2023-08-09 18:12:01,245 log log.py: 224 Unauthorized: /permission/
+WARNING 2023-08-09 18:12:01,245 basehttp basehttp.py: 161 "GET /permission/ HTTP/1.1" 401 38
+WARNING 2023-08-09 18:12:14,196 log log.py: 224 Unauthorized: /permission/
+WARNING 2023-08-09 18:12:14,196 basehttp basehttp.py: 161 "GET /permission/ HTTP/1.1" 401 38
+WARNING 2023-08-09 18:12:26,666 log log.py: 224 Unauthorized: /menu/
+WARNING 2023-08-09 18:12:26,667 basehttp basehttp.py: 161 "GET /menu/ HTTP/1.1" 401 38
+WARNING 2023-08-09 18:12:38,058 log log.py: 224 Unauthorized: /menu/
+WARNING 2023-08-09 18:12:38,058 basehttp basehttp.py: 161 "GET /menu/?pid=0 HTTP/1.1" 401 38
+INFO 2023-08-09 18:13:59,582 basehttp basehttp.py: 161 "POST /user/login/ HTTP/1.1" 200 206
+INFO 2023-08-09 18:15:03,534 basehttp basehttp.py: 161 "POST /user/login/ HTTP/1.1" 200 206
+INFO 2023-08-09 18:15:31,660 basehttp basehttp.py: 161 "POST /user/login/ HTTP/1.1" 200 206
+INFO 2023-08-09 18:16:35,633 basehttp basehttp.py: 161 "POST /user/login/ HTTP/1.1" 200 206
+INFO 2023-08-09 18:17:51,232 basehttp basehttp.py: 161 "POST /user/login/ HTTP/1.1" 200 206
+INFO 2023-08-09 18:18:20,305 basehttp basehttp.py: 161 "POST /user/login/ HTTP/1.1" 200 206
+INFO 2023-08-09 18:19:05,832 basehttp basehttp.py: 161 "POST /user/login/ HTTP/1.1" 200 206
+INFO 2023-08-09 18:19:23,436 basehttp basehttp.py: 161 "POST /user/login/ HTTP/1.1" 200 206
+INFO 2023-08-09 18:19:43,379 basehttp basehttp.py: 161 "GET /menu/ HTTP/1.1" 200 861
+ERROR 2023-08-09 18:20:23,433 log log.py: 224 Internal Server Error: /permission/
+Traceback (most recent call last):
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 760, in data
+    ret = super().data
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 677, in to_representation
+    return [
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 678, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 514, in to_representation
+    for field in fields:
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 375, in _readable_fields
+    for field in self.fields.values():
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 1038, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 1110, in get_field_names
+    assert not (fields is None and exclude is None), (
+AssertionError: ("Creating a ModelSerializer without either the 'fields' attribute or the 'exclude' attribute has been deprecated since 3.3.0, and is now disallowed. Add an explicit fields = '__all__' to the PermissionSerializer serializer.",)
+ERROR 2023-08-09 18:20:23,438 basehttp basehttp.py: 161 "GET /permission/ HTTP/1.1" 500 148051
+ERROR 2023-08-09 18:20:40,132 log log.py: 224 Internal Server Error: /permission/
+Traceback (most recent call last):
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 760, in data
+    ret = super().data
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 677, in to_representation
+    return [
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 678, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 514, in to_representation
+    for field in fields:
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 375, in _readable_fields
+    for field in self.fields.values():
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 1038, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 1110, in get_field_names
+    assert not (fields is None and exclude is None), (
+AssertionError: ("Creating a ModelSerializer without either the 'fields' attribute or the 'exclude' attribute has been deprecated since 3.3.0, and is now disallowed. Add an explicit fields = '__all__' to the PermissionSerializer serializer.",)
+ERROR 2023-08-09 18:20:40,137 basehttp basehttp.py: 161 "GET /permission/ HTTP/1.1" 500 148051
+WARNING 2023-08-09 18:20:48,079 log log.py: 224 Not Found: /user/permission/
+WARNING 2023-08-09 18:20:48,080 basehttp basehttp.py: 161 "GET /user/permission/ HTTP/1.1" 404 5464
+ERROR 2023-08-09 18:20:55,294 log log.py: 224 Internal Server Error: /permission/
+Traceback (most recent call last):
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 760, in data
+    ret = super().data
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 677, in to_representation
+    return [
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 678, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 514, in to_representation
+    for field in fields:
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 375, in _readable_fields
+    for field in self.fields.values():
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 1038, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 1110, in get_field_names
+    assert not (fields is None and exclude is None), (
+AssertionError: ("Creating a ModelSerializer without either the 'fields' attribute or the 'exclude' attribute has been deprecated since 3.3.0, and is now disallowed. Add an explicit fields = '__all__' to the PermissionSerializer serializer.",)
+ERROR 2023-08-09 18:20:55,298 basehttp basehttp.py: 161 "GET /permission/ HTTP/1.1" 500 148051
+INFO 2023-08-09 18:20:59,344 basehttp basehttp.py: 161 "GET /menu/ HTTP/1.1" 200 861
+ERROR 2023-08-09 18:21:03,398 log log.py: 224 Internal Server Error: /permission/
+Traceback (most recent call last):
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 760, in data
+    ret = super().data
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 677, in to_representation
+    return [
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 678, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 514, in to_representation
+    for field in fields:
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 375, in _readable_fields
+    for field in self.fields.values():
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 1038, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\serializers.py", line 1110, in get_field_names
+    assert not (fields is None and exclude is None), (
+AssertionError: ("Creating a ModelSerializer without either the 'fields' attribute or the 'exclude' attribute has been deprecated since 3.3.0, and is now disallowed. Add an explicit fields = '__all__' to the PermissionSerializer serializer.",)
+ERROR 2023-08-09 18:21:03,402 basehttp basehttp.py: 161 "GET /permission/ HTTP/1.1" 500 148051
+INFO 2023-08-09 18:21:40,774 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\serializer\permission_serializer.py changed, reloading.
+INFO 2023-08-09 18:21:43,995 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 18:21:46,581 basehttp basehttp.py: 161 "GET /permission/ HTTP/1.1" 200 3459
+INFO 2023-08-09 18:22:32,683 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\permission_view.py changed, reloading.
+INFO 2023-08-09 18:22:33,710 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 18:22:43,255 basehttp basehttp.py: 161 "GET /permission/?menu_id=2 HTTP/1.1" 200 3459
+INFO 2023-08-09 18:23:07,300 basehttp basehttp.py: 161 "GET /permission/?menu_id=2 HTTP/1.1" 200 3459
+INFO 2023-08-09 18:23:49,642 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 18:23:52,869 basehttp basehttp.py: 161 "GET /permission/?menu_id=2 HTTP/1.1" 200 3459
+INFO 2023-08-09 18:24:02,218 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 18:24:03,753 basehttp basehttp.py: 161 "GET /permission/?menu_id=2 HTTP/1.1" 200 3459
+INFO 2023-08-09 18:24:53,139 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 18:24:55,932 basehttp basehttp.py: 161 "GET /permission/?menu_id=2 HTTP/1.1" 200 3459
+INFO 2023-08-09 18:25:41,341 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 18:25:43,623 basehttp basehttp.py: 161 "GET /permission/?menu_id=2 HTTP/1.1" 200 3459
+INFO 2023-08-09 18:25:55,165 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 18:25:59,535 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 18:26:03,575 basehttp basehttp.py: 161 "GET /permission/?menu_id=2 HTTP/1.1" 200 3459
+INFO 2023-08-09 18:27:12,112 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 18:27:15,165 basehttp basehttp.py: 161 "GET /permission/?menu_id=2 HTTP/1.1" 200 3459
+INFO 2023-08-09 18:27:21,960 basehttp basehttp.py: 161 "GET /permission/?menu_id=2 HTTP/1.1" 200 3459
+INFO 2023-08-09 18:27:38,265 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 18:27:44,320 basehttp basehttp.py: 161 "GET /permission/?menu_id=2 HTTP/1.1" 200 3459
+INFO 2023-08-09 18:27:47,943 basehttp basehttp.py: 75 - Broken pipe from ('127.0.0.1', 53403)
+
+INFO 2023-08-09 18:57:23,263 basehttp basehttp.py: 161 "GET /permission/ HTTP/1.1" 200 3459
+INFO 2023-08-09 18:57:58,033 basehttp basehttp.py: 161 "GET /permission/?menu_id=2 HTTP/1.1" 200 3459
+INFO 2023-08-09 18:58:04,749 basehttp basehttp.py: 161 "GET /permission/ HTTP/1.1" 200 3459
+INFO 2023-08-09 18:58:37,004 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 18:58:39,763 basehttp basehttp.py: 161 "GET /permission/?menu_id=2 HTTP/1.1" 200 3459
+INFO 2023-08-09 18:59:05,991 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 18:59:09,746 basehttp basehttp.py: 161 "GET /permission/?menu_id=2 HTTP/1.1" 200 3459
+INFO 2023-08-09 20:22:43,826 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 20:22:48,832 basehttp basehttp.py: 161 "GET /permission/?menu_id=2 HTTP/1.1" 200 3459
+INFO 2023-08-09 20:23:32,082 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 20:24:15,353 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\permission_view.py changed, reloading.
+INFO 2023-08-09 20:24:17,320 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 20:24:30,495 basehttp basehttp.py: 161 "GET /permission/get_menu_id_permission?menu_id=2 HTTP/1.1" 301 0
+INFO 2023-08-09 20:24:35,169 basehttp basehttp.py: 161 "GET /permission/get_menu_id_permission/?menu_id=2 HTTP/1.1" 200 1043
+INFO 2023-08-09 20:24:38,826 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 20:24:43,212 basehttp basehttp.py: 161 "GET /permission/get_menu_id_permission?menu_id=2 HTTP/1.1" 301 0
+INFO 2023-08-09 20:24:43,240 basehttp basehttp.py: 161 "GET /permission/get_menu_id_permission/?menu_id=2 HTTP/1.1" 200 1043
+INFO 2023-08-09 20:24:51,717 basehttp basehttp.py: 161 "GET /permission/get_menu_id_permission?menu_id=3 HTTP/1.1" 301 0
+INFO 2023-08-09 20:24:51,759 basehttp basehttp.py: 161 "GET /permission/get_menu_id_permission/?menu_id=3 HTTP/1.1" 200 189
+INFO 2023-08-09 20:25:09,248 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 20:25:11,532 basehttp basehttp.py: 161 "GET /permission/get_menu_id_permission?menu_id=3 HTTP/1.1" 301 0
+INFO 2023-08-09 20:25:11,549 basehttp basehttp.py: 161 "GET /permission/get_menu_id_permission/?menu_id=3 HTTP/1.1" 200 189
+INFO 2023-08-09 22:49:00,591 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\urls.py changed, reloading.
+INFO 2023-08-09 22:49:02,227 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 22:49:09,691 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 22:50:21,513 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 22:50:41,107 basehttp basehttp.py: 161 "GET /role/ HTTP/1.1" 200 2
+INFO 2023-08-09 22:51:31,268 basehttp basehttp.py: 161 "POST /role/ HTTP/1.1" 201 136
+INFO 2023-08-09 22:52:43,017 basehttp basehttp.py: 161 "GET /permission/get_menu_id_permission?menu_id=3 HTTP/1.1" 301 0
+INFO 2023-08-09 22:52:43,041 basehttp basehttp.py: 161 "GET /permission/get_menu_id_permission/?menu_id=3 HTTP/1.1" 200 189
+INFO 2023-08-09 22:52:49,388 basehttp basehttp.py: 161 "GET /permission/?menu_id=3 HTTP/1.1" 200 3459
+WARNING 2023-08-09 22:53:35,426 log log.py: 224 Unauthorized: /role/
+WARNING 2023-08-09 22:53:35,426 basehttp basehttp.py: 161 "GET /role/ HTTP/1.1" 401 43
+INFO 2023-08-09 22:53:43,850 basehttp basehttp.py: 161 "POST /user/login/ HTTP/1.1" 200 206
+WARNING 2023-08-09 22:53:47,762 log log.py: 224 Unauthorized: /role/
+WARNING 2023-08-09 22:53:47,762 basehttp basehttp.py: 161 "GET /role/ HTTP/1.1" 401 43
+INFO 2023-08-09 22:54:11,573 basehttp basehttp.py: 161 "GET /role/ HTTP/1.1" 200 138
+INFO 2023-08-09 22:54:38,677 basehttp basehttp.py: 161 "POST /role/ HTTP/1.1" 201 136
+INFO 2023-08-09 22:54:52,967 basehttp basehttp.py: 161 "POST /role/ HTTP/1.1" 201 136
+INFO 2023-08-09 22:54:56,031 basehttp basehttp.py: 161 "GET /role/ HTTP/1.1" 200 412
+INFO 2023-08-09 22:55:21,840 basehttp basehttp.py: 161 "GET /role/?id=2 HTTP/1.1" 200 412
+INFO 2023-08-09 22:55:50,672 basehttp basehttp.py: 161 "GET /role/?id=1 HTTP/1.1" 200 412
+INFO 2023-08-09 22:55:56,669 basehttp basehttp.py: 75 - Broken pipe from ('127.0.0.1', 58445)
+
+INFO 2023-08-09 22:56:45,624 basehttp basehttp.py: 161 "GET /role/ HTTP/1.1" 200 412
+INFO 2023-08-09 22:56:55,542 basehttp basehttp.py: 161 "GET /role/?ids=1 HTTP/1.1" 200 412
+INFO 2023-08-09 23:01:03,375 basehttp basehttp.py: 161 "GET /role/ HTTP/1.1" 200 412
+INFO 2023-08-09 23:01:21,153 basehttp basehttp.py: 161 "GET /role/?id=3 HTTP/1.1" 200 412
+WARNING 2023-08-09 23:01:29,225 log log.py: 224 Method Not Allowed: /role/
+WARNING 2023-08-09 23:01:29,226 basehttp basehttp.py: 161 "PUT /role/?id=3 HTTP/1.1" 405 45
+INFO 2023-08-09 23:03:56,886 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\settings\env.py changed, reloading.
+INFO 2023-08-09 23:03:58,097 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:04:59,823 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\urls.py changed, reloading.
+INFO 2023-08-09 23:05:00,925 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:05:23,898 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\urls.py changed, reloading.
+INFO 2023-08-09 23:05:24,989 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:06:00,960 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\urls.py changed, reloading.
+INFO 2023-08-09 23:06:02,245 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:06:08,753 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+WARNING 2023-08-09 23:06:12,279 log log.py: 224 Unauthorized: /
+WARNING 2023-08-09 23:06:12,279 basehttp basehttp.py: 161 "GET / HTTP/1.1" 401 5014
+INFO 2023-08-09 23:06:12,343 basehttp basehttp.py: 161 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2023-08-09 23:06:12,343 basehttp basehttp.py: 161 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2023-08-09 23:06:12,343 basehttp basehttp.py: 161 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2023-08-09 23:06:12,343 basehttp basehttp.py: 161 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1131
+INFO 2023-08-09 23:06:12,354 basehttp basehttp.py: 161 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2023-08-09 23:06:12,354 basehttp basehttp.py: 161 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2023-08-09 23:06:12,355 basehttp basehttp.py: 161 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2023-08-09 23:06:12,355 basehttp basehttp.py: 161 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2023-08-09 23:06:12,356 basehttp basehttp.py: 161 "GET /static/rest_framework/js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+INFO 2023-08-09 23:06:12,357 basehttp basehttp.py: 161 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2023-08-09 23:06:12,406 basehttp basehttp.py: 161 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2023-08-09 23:06:12,685 log log.py: 224 Not Found: /favicon.ico
+WARNING 2023-08-09 23:06:12,685 basehttp basehttp.py: 161 "GET /favicon.ico HTTP/1.1" 404 7195
+WARNING 2023-08-09 23:06:22,690 log log.py: 224 Unauthorized: /swagger/
+WARNING 2023-08-09 23:06:22,690 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 401 16
+WARNING 2023-08-09 23:06:47,021 log log.py: 224 Unauthorized: /docs/
+WARNING 2023-08-09 23:06:47,022 basehttp basehttp.py: 161 "GET /docs/ HTTP/1.1" 401 5120
+WARNING 2023-08-09 23:06:49,944 log log.py: 224 Unauthorized: /docs/
+WARNING 2023-08-09 23:06:49,945 basehttp basehttp.py: 161 "GET /docs/ HTTP/1.1" 401 5120
+WARNING 2023-08-09 23:06:52,064 log log.py: 224 Not Found: /docs/
+WARNING 2023-08-09 23:06:52,065 basehttp basehttp.py: 161 "GET /docs/?format=api HTTP/1.1" 404 5074
+WARNING 2023-08-09 23:06:54,387 log log.py: 224 Not Found: /docs/
+WARNING 2023-08-09 23:06:54,388 basehttp basehttp.py: 161 "GET /docs/?format=api HTTP/1.1" 404 5074
+WARNING 2023-08-09 23:06:55,013 log log.py: 224 Unauthorized: /
+WARNING 2023-08-09 23:06:55,015 basehttp basehttp.py: 161 "GET /?format=api HTTP/1.1" 401 5047
+INFO 2023-08-09 23:07:01,647 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\urls.py changed, reloading.
+INFO 2023-08-09 23:07:02,600 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+WARNING 2023-08-09 23:07:48,047 log log.py: 224 Unauthorized: /docs/
+WARNING 2023-08-09 23:07:48,048 basehttp basehttp.py: 161 "GET /docs/ HTTP/1.1" 401 5120
+WARNING 2023-08-09 23:07:59,985 log log.py: 224 Unauthorized: /docs/
+WARNING 2023-08-09 23:07:59,986 basehttp basehttp.py: 161 "GET /docs/ HTTP/1.1" 401 5120
+INFO 2023-08-09 23:08:15,879 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 200 2168
+INFO 2023-08-09 23:08:15,935 basehttp basehttp.py: 161 "GET /static/drf-yasg/style.css HTTP/1.1" 200 1047
+INFO 2023-08-09 23:08:15,944 basehttp basehttp.py: 161 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 145206
+INFO 2023-08-09 23:08:15,955 basehttp basehttp.py: 161 "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2093
+INFO 2023-08-09 23:08:15,960 basehttp basehttp.py: 161 "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904
+INFO 2023-08-09 23:08:15,960 basehttp basehttp.py: 161 "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 14964
+INFO 2023-08-09 23:08:15,963 basehttp basehttp.py: 161 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 322863
+INFO 2023-08-09 23:08:15,972 basehttp basehttp.py: 161 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1046583
+INFO 2023-08-09 23:08:16,232 basehttp basehttp.py: 161 "GET /swagger/?format=openapi HTTP/1.1" 200 12401
+INFO 2023-08-09 23:08:16,238 basehttp basehttp.py: 161 "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628
+INFO 2023-08-09 23:09:02,767 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\urls.py changed, reloading.
+INFO 2023-08-09 23:09:03,796 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:09:04,382 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 200 2168
+INFO 2023-08-09 23:09:04,761 basehttp basehttp.py: 161 "GET /swagger/?format=openapi HTTP/1.1" 200 12401
+WARNING 2023-08-09 23:09:23,368 log log.py: 224 Unauthorized: /docs/
+WARNING 2023-08-09 23:09:23,369 basehttp basehttp.py: 161 "GET /docs/ HTTP/1.1" 401 5120
+WARNING 2023-08-09 23:10:46,685 log log.py: 224 Unauthorized: /role/3/
+WARNING 2023-08-09 23:10:46,685 basehttp basehttp.py: 161 "PUT /role/3/ HTTP/1.1" 401 43
+INFO 2023-08-09 23:10:59,590 basehttp basehttp.py: 161 "GET /role/ HTTP/1.1" 200 412
+WARNING 2023-08-09 23:11:06,667 log log.py: 224 Unauthorized: /role/3/
+WARNING 2023-08-09 23:11:06,667 basehttp basehttp.py: 161 "PUT /role/3/ HTTP/1.1" 401 43
+INFO 2023-08-09 23:11:26,909 basehttp basehttp.py: 161 "PUT /role/3/ HTTP/1.1" 200 136
+INFO 2023-08-09 23:11:32,427 basehttp basehttp.py: 161 "GET /role/ HTTP/1.1" 200 412
+INFO 2023-08-09 23:12:28,748 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\role_view.py changed, reloading.
+INFO 2023-08-09 23:12:29,796 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:12:30,257 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 200 2168
+INFO 2023-08-09 23:12:30,571 basehttp basehttp.py: 161 "GET /swagger/?format=openapi HTTP/1.1" 200 12569
+INFO 2023-08-09 23:12:40,540 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\role_view.py changed, reloading.
+INFO 2023-08-09 23:12:41,516 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:12:41,979 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 200 2168
+INFO 2023-08-09 23:12:42,153 basehttp basehttp.py: 161 "GET /swagger/?format=openapi HTTP/1.1" 200 12359
+INFO 2023-08-09 23:13:55,668 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\role_view.py changed, reloading.
+INFO 2023-08-09 23:13:56,685 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:14:08,569 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\role_view.py changed, reloading.
+INFO 2023-08-09 23:14:09,855 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:14:14,970 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\role_view.py changed, reloading.
+INFO 2023-08-09 23:14:16,198 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:14:22,473 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\role_view.py changed, reloading.
+INFO 2023-08-09 23:14:23,610 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:14:25,800 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 200 2168
+INFO 2023-08-09 23:14:26,125 basehttp basehttp.py: 161 "GET /swagger/?format=openapi HTTP/1.1" 200 12289
+INFO 2023-08-09 23:14:41,585 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\role_view.py changed, reloading.
+INFO 2023-08-09 23:14:42,648 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:14:45,612 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\role_view.py changed, reloading.
+INFO 2023-08-09 23:14:46,758 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:14:50,893 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\role_view.py changed, reloading.
+INFO 2023-08-09 23:14:52,104 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:14:55,073 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\role_view.py changed, reloading.
+INFO 2023-08-09 23:14:56,107 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:15:01,389 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\role_view.py changed, reloading.
+INFO 2023-08-09 23:15:02,527 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:15:05,543 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\role_view.py changed, reloading.
+INFO 2023-08-09 23:15:06,721 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:15:12,991 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\role_view.py changed, reloading.
+INFO 2023-08-09 23:15:14,258 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:15:16,148 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\role_view.py changed, reloading.
+INFO 2023-08-09 23:15:17,329 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:15:19,222 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\role_view.py changed, reloading.
+INFO 2023-08-09 23:15:20,366 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:15:24,018 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 200 2168
+INFO 2023-08-09 23:15:24,202 basehttp basehttp.py: 161 "GET /swagger/?format=openapi HTTP/1.1" 200 12456
+INFO 2023-08-09 23:16:01,431 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\role_view.py changed, reloading.
+INFO 2023-08-09 23:16:02,664 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:16:03,134 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 200 2168
+INFO 2023-08-09 23:16:03,334 basehttp basehttp.py: 161 "GET /swagger/?format=openapi HTTP/1.1" 200 12560
+INFO 2023-08-09 23:16:33,326 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\role_view.py changed, reloading.
+INFO 2023-08-09 23:16:34,466 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:16:35,012 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 200 2168
+INFO 2023-08-09 23:16:35,217 basehttp basehttp.py: 161 "GET /swagger/?format=openapi HTTP/1.1" 200 12676
+INFO 2023-08-09 23:17:13,904 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\role_view.py changed, reloading.
+INFO 2023-08-09 23:17:14,933 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:17:15,378 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 200 2168
+INFO 2023-08-09 23:17:15,575 basehttp basehttp.py: 161 "GET /swagger/?format=openapi HTTP/1.1" 200 12690
+INFO 2023-08-09 23:17:22,413 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\role_view.py changed, reloading.
+INFO 2023-08-09 23:17:23,506 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:18:11,064 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\role_view.py changed, reloading.
+INFO 2023-08-09 23:18:12,339 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:18:15,425 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\role_view.py changed, reloading.
+INFO 2023-08-09 23:18:16,540 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:18:19,504 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\role_view.py changed, reloading.
+INFO 2023-08-09 23:18:20,984 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:18:30,277 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 200 2168
+INFO 2023-08-09 23:18:30,452 basehttp basehttp.py: 161 "GET /swagger/?format=openapi HTTP/1.1" 200 12780
+INFO 2023-08-09 23:19:24,293 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\role_view.py changed, reloading.
+INFO 2023-08-09 23:19:25,439 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:19:41,625 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\role_view.py changed, reloading.
+INFO 2023-08-09 23:19:42,612 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:19:49,004 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 200 2168
+INFO 2023-08-09 23:19:49,292 basehttp basehttp.py: 161 "GET /swagger/?format=openapi HTTP/1.1" 200 12914
+WARNING 2023-08-09 23:19:54,673 log log.py: 224 Unauthorized: /role/2/
+WARNING 2023-08-09 23:19:54,673 basehttp basehttp.py: 161 "GET /role/2/ HTTP/1.1" 401 43
+INFO 2023-08-09 23:20:10,682 basehttp basehttp.py: 161 "GET /role/2/ HTTP/1.1" 200 136
+INFO 2023-08-09 23:20:46,800 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\role_view.py changed, reloading.
+INFO 2023-08-09 23:20:47,921 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:20:48,426 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 200 2168
+INFO 2023-08-09 23:20:48,729 basehttp basehttp.py: 161 "GET /swagger/?format=openapi HTTP/1.1" 200 13051
+INFO 2023-08-09 23:23:28,320 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\role_view.py changed, reloading.
+INFO 2023-08-09 23:23:29,424 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:23:29,966 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 200 2168
+INFO 2023-08-09 23:23:30,295 basehttp basehttp.py: 161 "GET /swagger/?format=openapi HTTP/1.1" 200 13064
+INFO 2023-08-09 23:24:39,976 basehttp basehttp.py: 161 "GET /role/ HTTP/1.1" 200 412
+INFO 2023-08-09 23:26:00,907 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\role_view.py changed, reloading.
+INFO 2023-08-09 23:26:01,891 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:27:06,945 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:27:07,525 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 200 2168
+INFO 2023-08-09 23:27:07,896 basehttp basehttp.py: 161 "GET /swagger/?format=openapi HTTP/1.1" 200 13064
+INFO 2023-08-09 23:27:40,566 basehttp basehttp.py: 161 "PATCH /role/1/ HTTP/1.1" 200 122
+INFO 2023-08-09 23:28:00,201 basehttp basehttp.py: 161 "PATCH /role/1/ HTTP/1.1" 200 136
+INFO 2023-08-09 23:29:14,155 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\role_view.py changed, reloading.
+INFO 2023-08-09 23:29:15,576 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:29:18,946 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 200 2168
+INFO 2023-08-09 23:29:19,255 basehttp basehttp.py: 161 "GET /swagger/?format=openapi HTTP/1.1" 200 13329
+INFO 2023-08-09 23:30:52,467 basehttp basehttp.py: 161 "PATCH /role/1/ HTTP/1.1" 200 32
+INFO 2023-08-09 23:31:17,734 basehttp basehttp.py: 161 "POST /role/set_permission/ HTTP/1.1" 200 41
+INFO 2023-08-09 23:31:24,390 basehttp basehttp.py: 161 "GET /role/ HTTP/1.1" 200 1430
+INFO 2023-08-09 23:31:50,057 basehttp basehttp.py: 161 "GET /role/1/ HTTP/1.1" 200 1154
+INFO 2023-08-09 23:32:12,258 basehttp basehttp.py: 161 "POST /role/set_permission/ HTTP/1.1" 200 41
+INFO 2023-08-09 23:32:16,920 basehttp basehttp.py: 161 "GET /role/1/ HTTP/1.1" 200 945
+INFO 2023-08-09 23:35:06,966 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\settings\env.py changed, reloading.
