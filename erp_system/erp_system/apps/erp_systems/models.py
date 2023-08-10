@@ -94,7 +94,7 @@ class DeptModel(BaseModel):
     """
     name = models.CharField(verbose_name='部门名字', unique=True, max_length=50)
     address = models.CharField(verbose_name='部门地址', max_length=50, blank=True, null=True)
-    parent = models.ForeignKey('self', verbose_name='上级部门', on_delete=models.CASCADE, blank=True, null=True)
+    parent = models.ForeignKey('self', on_delete=models.CASCADE, blank=True, null=True)
 
     class Meta:
         db_table = 't_dept'

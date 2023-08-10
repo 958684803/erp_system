@@ -40,7 +40,7 @@ class PermissionViewSet(viewsets.ModelViewSet, BatchDestroy):
 
     权限删除，status：204（成功），return：空
 
-    batch_destroy:
+    batchdestroy:
     权限--批量删除
 
     权限批量删除，status：204（成功），return：空
