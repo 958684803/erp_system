@@ -2726,3 +2726,328 @@ WARNING 2023-08-09 23:50:45,855 log log.py: 224 Unauthorized: /permission/get_me
 WARNING 2023-08-09 23:50:45,856 basehttp basehttp.py: 161 "GET /permission/get_menu_id_permission/ HTTP/1.1" 401 43
 WARNING 2023-08-09 23:50:54,295 log log.py: 224 Bad Request: /permission/get_menu_id_permission/
 WARNING 2023-08-09 23:50:54,295 basehttp basehttp.py: 161 "GET /permission/get_menu_id_permission/ HTTP/1.1" 400 50
+INFO 2023-08-09 23:57:19,460 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\menu_view.py changed, reloading.
+INFO 2023-08-09 23:57:21,046 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:57:29,693 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\menu_view.py changed, reloading.
+INFO 2023-08-09 23:57:31,324 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:57:45,366 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\menu_view.py changed, reloading.
+INFO 2023-08-09 23:57:47,150 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:57:49,937 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\menu_view.py changed, reloading.
+INFO 2023-08-09 23:57:51,285 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:57:53,247 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\menu_view.py changed, reloading.
+INFO 2023-08-09 23:57:54,598 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:59:38,195 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\menu_view.py changed, reloading.
+INFO 2023-08-09 23:59:39,527 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-09 23:59:46,017 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\menu_view.py changed, reloading.
+INFO 2023-08-09 23:59:47,288 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 00:02:49,402 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\role_view.py changed, reloading.
+INFO 2023-08-10 00:02:50,544 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 00:03:12,984 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\role_view.py changed, reloading.
+INFO 2023-08-10 00:03:14,151 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 00:03:40,518 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\role_view.py changed, reloading.
+INFO 2023-08-10 00:03:41,542 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 00:03:45,332 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\role_view.py changed, reloading.
+INFO 2023-08-10 00:03:46,631 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 00:05:31,891 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 00:05:37,400 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 200 2168
+INFO 2023-08-10 00:05:37,745 basehttp basehttp.py: 161 "GET /swagger/?format=openapi HTTP/1.1" 200 12804
+INFO 2023-08-10 00:05:49,392 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\role_view.py changed, reloading.
+INFO 2023-08-10 00:05:50,351 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 00:05:54,459 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\role_view.py changed, reloading.
+INFO 2023-08-10 00:05:55,436 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 00:05:57,319 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\role_view.py changed, reloading.
+INFO 2023-08-10 00:05:58,316 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 00:06:38,825 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\role_view.py changed, reloading.
+INFO 2023-08-10 00:06:39,888 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 00:06:40,545 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 200 2168
+INFO 2023-08-10 00:06:40,757 basehttp basehttp.py: 161 "GET /swagger/?format=openapi HTTP/1.1" 200 12899
+INFO 2023-08-10 00:07:03,725 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 200 2168
+INFO 2023-08-10 00:07:03,788 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\permission_view.py changed, reloading.
+INFO 2023-08-10 00:07:04,815 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 00:07:05,450 basehttp basehttp.py: 161 "GET /swagger/?format=openapi HTTP/1.1" 200 13106
+INFO 2023-08-10 00:07:26,964 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 00:07:38,516 basehttp basehttp.py: 161 "GET /permission/ HTTP/1.1" 200 3459
+WARNING 2023-08-10 00:08:04,944 log log.py: 224 Bad Request: /permission/batchdestroy/
+WARNING 2023-08-10 00:08:04,944 basehttp basehttp.py: 161 "DELETE /permission/batchdestroy/ HTTP/1.1" 400 46
+INFO 2023-08-10 00:10:30,130 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\permission_view.py changed, reloading.
+INFO 2023-08-10 00:10:31,220 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 00:13:44,076 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 00:14:10,155 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 00:24:26,329 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 00:34:50,516 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 00:34:54,240 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 200 2168
+INFO 2023-08-10 00:34:54,609 basehttp basehttp.py: 161 "GET /swagger/?format=openapi HTTP/1.1" 200 13325
+INFO 2023-08-10 00:36:43,061 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\utils\batch_destroy.py changed, reloading.
+INFO 2023-08-10 00:36:44,058 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 00:38:00,184 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\utils\batch_destroy.py changed, reloading.
+INFO 2023-08-10 00:38:01,245 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 00:38:04,333 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 200 2168
+INFO 2023-08-10 00:38:04,541 basehttp basehttp.py: 161 "GET /swagger/?format=openapi HTTP/1.1" 200 13544
+INFO 2023-08-10 00:38:54,215 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 200 2168
+INFO 2023-08-10 00:38:54,248 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\permission_view.py changed, reloading.
+INFO 2023-08-10 00:38:55,332 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 00:38:55,870 basehttp basehttp.py: 161 "GET /swagger/?format=openapi HTTP/1.1" 200 13624
+WARNING 2023-08-10 00:39:06,338 log log.py: 224 Unauthorized: /permission/get_menu_id_permission/
+WARNING 2023-08-10 00:39:06,339 basehttp basehttp.py: 161 "GET /permission/get_menu_id_permission/?menu_id=1 HTTP/1.1" 401 43
+INFO 2023-08-10 00:39:15,942 basehttp basehttp.py: 161 "GET /permission/get_menu_id_permission/?menu_id=1 HTTP/1.1" 200 192
+INFO 2023-08-10 00:39:43,783 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\permission_view.py changed, reloading.
+INFO 2023-08-10 00:39:44,867 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 00:39:46,748 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\permission_view.py changed, reloading.
+INFO 2023-08-10 00:39:47,716 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 00:39:49,550 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\permission_view.py changed, reloading.
+INFO 2023-08-10 00:39:50,541 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 00:39:57,894 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\permission_view.py changed, reloading.
+INFO 2023-08-10 00:39:58,895 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 00:39:59,525 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 200 2168
+INFO 2023-08-10 00:39:59,819 basehttp basehttp.py: 161 "GET /swagger/?format=openapi HTTP/1.1" 200 13849
+INFO 2023-08-10 00:40:29,352 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 00:40:31,458 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 200 2168
+INFO 2023-08-10 00:40:31,816 basehttp basehttp.py: 161 "GET /swagger/?format=openapi HTTP/1.1" 200 13900
+INFO 2023-08-10 00:41:38,594 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\menu_view.py changed, reloading.
+INFO 2023-08-10 00:41:39,672 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 00:50:37,169 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 200 2168
+INFO 2023-08-10 00:50:37,540 basehttp basehttp.py: 161 "GET /swagger/?format=openapi HTTP/1.1" 200 13900
+INFO 2023-08-10 00:51:08,170 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 200 2168
+INFO 2023-08-10 00:51:40,618 basehttp basehttp.py: 161 "GET /swagger/?format=openapi HTTP/1.1" 200 13900
+INFO 2023-08-10 00:57:42,601 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 00:57:56,280 basehttp basehttp.py: 161 "POST /user/login/ HTTP/1.1" 200 206
+INFO 2023-08-10 00:58:38,581 basehttp basehttp.py: 161 "POST /user/login/ HTTP/1.1" 200 206
+INFO 2023-08-10 00:59:00,857 basehttp basehttp.py: 161 "POST /user/login/ HTTP/1.1" 200 206
+INFO 2023-08-10 00:59:11,999 basehttp basehttp.py: 161 "POST /user/login/ HTTP/1.1" 200 206
+INFO 2023-08-10 01:00:07,549 basehttp basehttp.py: 161 "POST /user/login/ HTTP/1.1" 200 206
+INFO 2023-08-10 01:02:46,925 basehttp basehttp.py: 161 "GET /swagger/?format=openapi HTTP/1.1" 200 13900
+INFO 2023-08-10 11:55:17,556 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+WARNING 2023-08-10 11:55:30,087 log log.py: 224 Not Found: /index/
+WARNING 2023-08-10 11:55:30,088 basehttp basehttp.py: 161 "GET /index/ HTTP/1.1" 404 7904
+WARNING 2023-08-10 11:55:30,431 log log.py: 224 Not Found: /favicon.ico
+WARNING 2023-08-10 11:55:30,431 basehttp basehttp.py: 161 "GET /favicon.ico HTTP/1.1" 404 7919
+INFO 2023-08-10 11:55:35,849 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 200 2168
+INFO 2023-08-10 11:55:35,911 basehttp basehttp.py: 161 "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2093
+INFO 2023-08-10 11:55:35,913 basehttp basehttp.py: 161 "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 14964
+INFO 2023-08-10 11:55:35,915 basehttp basehttp.py: 161 "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904
+INFO 2023-08-10 11:55:35,921 basehttp basehttp.py: 161 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 322863
+INFO 2023-08-10 11:55:35,934 basehttp basehttp.py: 161 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1046583
+INFO 2023-08-10 11:55:36,194 basehttp basehttp.py: 161 "GET /swagger/?format=openapi HTTP/1.1" 200 13900
+WARNING 2023-08-10 11:57:16,814 log log.py: 224 Unauthorized: /menu/
+WARNING 2023-08-10 11:57:16,814 basehttp basehttp.py: 161 "GET /menu/ HTTP/1.1" 401 43
+INFO 2023-08-10 11:57:25,528 basehttp basehttp.py: 161 "GET /menu/ HTTP/1.1" 200 861
+INFO 2023-08-10 11:57:43,479 basehttp basehttp.py: 161 "GET /permission/ HTTP/1.1" 200 3459
+INFO 2023-08-10 11:57:49,122 basehttp basehttp.py: 161 "GET /role/ HTTP/1.1" 200 1221
+WARNING 2023-08-10 11:58:36,334 log log.py: 224 Bad Request: /permission/batchdestroy/
+WARNING 2023-08-10 11:58:36,335 basehttp basehttp.py: 161 "DELETE /permission/batchdestroy/ HTTP/1.1" 400 46
+INFO 2023-08-10 11:59:49,343 basehttp basehttp.py: 161 "GET /menu/ HTTP/1.1" 200 861
+INFO 2023-08-10 12:00:08,661 basehttp basehttp.py: 161 "DELETE /menu/batch_destroy/ HTTP/1.1" 204 0
+INFO 2023-08-10 12:00:15,796 basehttp basehttp.py: 161 "GET /menu/ HTTP/1.1" 200 520
+INFO 2023-08-10 12:02:01,187 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\menu_view.py changed, reloading.
+INFO 2023-08-10 12:02:02,200 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+WARNING 2023-08-10 12:02:08,807 log log.py: 224 Bad Request: /permission/batchdestroy/
+WARNING 2023-08-10 12:02:08,807 basehttp basehttp.py: 161 "DELETE /permission/batchdestroy/ HTTP/1.1" 400 46
+WARNING 2023-08-10 12:02:20,846 log log.py: 224 Bad Request: /permission/batchdestroy/
+WARNING 2023-08-10 12:02:20,846 basehttp basehttp.py: 161 "DELETE /permission/batchdestroy/ HTTP/1.1" 400 46
+WARNING 2023-08-10 12:02:31,200 log log.py: 224 Bad Request: /permission/batchdestroy/
+WARNING 2023-08-10 12:02:31,200 basehttp basehttp.py: 161 "DELETE /permission/batchdestroy/ HTTP/1.1" 400 46
+INFO 2023-08-10 12:03:01,217 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 12:04:32,585 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+WARNING 2023-08-10 12:04:39,383 log log.py: 224 Bad Request: /permission/batchdestroy/
+WARNING 2023-08-10 12:04:39,384 basehttp basehttp.py: 161 "DELETE /permission/batchdestroy/ HTTP/1.1" 400 51
+INFO 2023-08-10 12:04:48,727 basehttp basehttp.py: 161 "GET /permission/ HTTP/1.1" 200 3459
+INFO 2023-08-10 12:05:58,451 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 12:06:44,151 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 12:06:47,562 basehttp basehttp.py: 161 "DELETE /permission/batchdestroy/ HTTP/1.1" 204 0
+INFO 2023-08-10 12:07:04,696 basehttp basehttp.py: 161 "GET /permission/ HTTP/1.1" 200 2437
+INFO 2023-08-10 12:46:36,879 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\urls.py changed, reloading.
+INFO 2023-08-10 12:46:38,487 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 12:46:39,095 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 200 2168
+INFO 2023-08-10 12:46:39,458 basehttp basehttp.py: 161 "GET /swagger/?format=openapi HTTP/1.1" 200 17171
+INFO 2023-08-10 12:47:04,768 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\dept_view.py changed, reloading.
+INFO 2023-08-10 12:47:05,956 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 12:47:06,453 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 200 2168
+INFO 2023-08-10 12:47:06,678 basehttp basehttp.py: 161 "GET /swagger/?format=openapi HTTP/1.1" 200 17579
+INFO 2023-08-10 12:47:28,847 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\dept_view.py changed, reloading.
+INFO 2023-08-10 12:47:29,823 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 12:47:30,529 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 200 2168
+INFO 2023-08-10 12:47:30,826 basehttp basehttp.py: 161 "GET /swagger/?format=openapi HTTP/1.1" 200 17674
+INFO 2023-08-10 12:47:55,923 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\permission_view.py changed, reloading.
+INFO 2023-08-10 12:47:56,977 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 12:47:57,436 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 200 2168
+INFO 2023-08-10 12:47:57,705 basehttp basehttp.py: 161 "GET /swagger/?format=openapi HTTP/1.1" 200 17769
+WARNING 2023-08-10 12:48:08,068 log log.py: 224 Unauthorized: /dept/
+WARNING 2023-08-10 12:48:08,068 basehttp basehttp.py: 161 "GET /dept/ HTTP/1.1" 401 43
+ERROR 2023-08-10 12:48:20,423 log log.py: 224 Internal Server Error: /dept/
+Traceback (most recent call last):
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\py3.8-virtual\erp_system\lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\dept_view.py", line 61, in get_queryset
+    int_pid = int(pid)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+ERROR 2023-08-10 12:48:20,425 basehttp basehttp.py: 161 "GET /dept/?page=1&page_size=3 HTTP/1.1" 500 20446
+INFO 2023-08-10 12:50:30,589 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\dept_view.py changed, reloading.
+INFO 2023-08-10 12:50:31,598 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 12:51:06,317 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 12:51:07,520 basehttp basehttp.py: 161 "GET /dept/?page=1&page_size=3 HTTP/1.1" 200 52
+WARNING 2023-08-10 12:51:43,949 log log.py: 224 Bad Request: /dept/
+WARNING 2023-08-10 12:51:43,949 basehttp basehttp.py: 161 "POST /dept/ HTTP/1.1" 400 58
+INFO 2023-08-10 12:52:42,317 basehttp basehttp.py: 161 "GET /dept/?page=1&page_size=3 HTTP/1.1" 200 52
+WARNING 2023-08-10 12:52:57,164 log log.py: 224 Bad Request: /dept/
+WARNING 2023-08-10 12:52:57,164 basehttp basehttp.py: 161 "POST /dept/ HTTP/1.1" 400 58
+WARNING 2023-08-10 12:53:28,232 log log.py: 224 Bad Request: /dept/
+WARNING 2023-08-10 12:53:28,233 basehttp basehttp.py: 161 "POST /dept/ HTTP/1.1" 400 58
+INFO 2023-08-10 12:54:25,517 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\models.py changed, reloading.
+INFO 2023-08-10 12:54:26,477 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 12:54:39,986 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 12:54:52,548 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 200 2168
+INFO 2023-08-10 12:54:52,850 basehttp basehttp.py: 161 "GET /swagger/?format=openapi HTTP/1.1" 200 17763
+WARNING 2023-08-10 12:55:30,192 log log.py: 224 Bad Request: /dept/
+WARNING 2023-08-10 12:55:30,192 basehttp basehttp.py: 161 "POST /dept/ HTTP/1.1" 400 58
+INFO 2023-08-10 12:56:56,902 signals signals.py: 25 创建菜单时为菜单添加权限
+INFO 2023-08-10 12:56:56,913 basehttp basehttp.py: 161 "POST /menu/ HTTP/1.1" 201 177
+INFO 2023-08-10 12:58:10,060 basehttp basehttp.py: 161 "GET /swagger/?format=openapi HTTP/1.1" 200 17763
+INFO 2023-08-10 12:58:17,415 basehttp basehttp.py: 161 "GET /swagger/?format=openapi HTTP/1.1" 200 17763
+WARNING 2023-08-10 12:58:52,348 log log.py: 224 Unauthorized: /dept/
+WARNING 2023-08-10 12:58:52,349 basehttp basehttp.py: 161 "POST /dept/ HTTP/1.1" 401 38
+WARNING 2023-08-10 12:59:01,314 log log.py: 224 Bad Request: /user/login/
+WARNING 2023-08-10 12:59:01,314 basehttp basehttp.py: 161 "POST /user/login/ HTTP/1.1" 400 81
+INFO 2023-08-10 12:59:26,249 basehttp basehttp.py: 161 "POST /user/login/ HTTP/1.1" 200 206
+WARNING 2023-08-10 12:59:38,332 log log.py: 224 Unauthorized: /dept/
+WARNING 2023-08-10 12:59:38,333 basehttp basehttp.py: 161 "POST /dept/ HTTP/1.1" 401 38
+INFO 2023-08-10 13:00:11,398 basehttp basehttp.py: 161 "POST /user/login/ HTTP/1.1" 200 206
+INFO 2023-08-10 13:00:23,852 basehttp basehttp.py: 161 "POST /dept/ HTTP/1.1" 201 169
+INFO 2023-08-10 13:00:48,128 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 200 2168
+INFO 2023-08-10 13:00:48,436 basehttp basehttp.py: 161 "GET /swagger/?format=openapi HTTP/1.1" 200 17763
+INFO 2023-08-10 13:01:10,856 basehttp basehttp.py: 161 "POST /dept/ HTTP/1.1" 201 163
+INFO 2023-08-10 13:01:28,305 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 200 2168
+INFO 2023-08-10 13:01:28,504 basehttp basehttp.py: 161 "GET /swagger/?format=openapi HTTP/1.1" 200 17763
+INFO 2023-08-10 13:02:09,393 basehttp basehttp.py: 161 "POST /dept/ HTTP/1.1" 201 148
+INFO 2023-08-10 13:02:21,139 basehttp basehttp.py: 161 "GET /dept/?page=1&page_size=3 HTTP/1.1" 200 534
+INFO 2023-08-10 13:02:48,365 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\serializer\dept_serializer.py changed, reloading.
+INFO 2023-08-10 13:02:49,482 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 13:03:24,517 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 13:03:26,175 basehttp basehttp.py: 161 "GET /dept/?page=1&page_size=3 HTTP/1.1" 200 513
+WARNING 2023-08-10 13:04:06,603 log log.py: 224 Not Found: /dept/
+WARNING 2023-08-10 13:04:06,604 basehttp basehttp.py: 161 "GET /dept/?page=&page_size=&pid=0 HTTP/1.1" 404 28
+INFO 2023-08-10 13:04:12,329 basehttp basehttp.py: 161 "GET /dept/?page=1&page_size=3&pid=0 HTTP/1.1" 200 513
+INFO 2023-08-10 13:05:06,729 basehttp basehttp.py: 161 "POST /dept/ HTTP/1.1" 201 138
+INFO 2023-08-10 13:05:15,835 basehttp basehttp.py: 161 "POST /dept/ HTTP/1.1" 201 138
+INFO 2023-08-10 13:05:23,256 basehttp basehttp.py: 161 "GET /dept/?page=1&page_size=3&pid=3 HTTP/1.1" 200 329
+INFO 2023-08-10 13:05:34,069 basehttp basehttp.py: 161 "GET /dept/1/ HTTP/1.1" 200 162
+INFO 2023-08-10 13:05:36,875 basehttp basehttp.py: 161 "GET /dept/3/ HTTP/1.1" 200 141
+INFO 2023-08-10 13:05:40,330 basehttp basehttp.py: 161 "GET /dept/4/ HTTP/1.1" 200 138
+INFO 2023-08-10 13:06:23,242 basehttp basehttp.py: 161 "PUT /dept/1/ HTTP/1.1" 200 141
+INFO 2023-08-10 13:06:32,853 basehttp basehttp.py: 161 "GET /dept/?page=1&page_size=3 HTTP/1.1" 200 536
+INFO 2023-08-10 13:07:41,538 basehttp basehttp.py: 161 "PATCH /dept/1/ HTTP/1.1" 200 144
+INFO 2023-08-10 13:10:40,188 basehttp basehttp.py: 161 "GET /dept/?page=1&page_size=3 HTTP/1.1" 200 539
+INFO 2023-08-10 13:10:44,568 basehttp basehttp.py: 161 "GET /dept/?page=2&page_size=3 HTTP/1.1" 200 366
+INFO 2023-08-10 13:10:52,041 basehttp basehttp.py: 161 "DELETE /dept/5/ HTTP/1.1" 204 0
+INFO 2023-08-10 13:10:58,266 basehttp basehttp.py: 161 "GET /dept/?page=2&page_size=3 HTTP/1.1" 200 227
+INFO 2023-08-10 13:11:15,736 basehttp basehttp.py: 161 "DELETE /dept/batchdestroy/ HTTP/1.1" 204 0
+WARNING 2023-08-10 13:11:21,562 log log.py: 224 Not Found: /dept/
+WARNING 2023-08-10 13:11:21,563 basehttp basehttp.py: 161 "GET /dept/?page=2&page_size=3 HTTP/1.1" 404 28
+INFO 2023-08-10 13:11:25,548 basehttp basehttp.py: 161 "GET /dept/?page=1&page_size=3 HTTP/1.1" 200 196
+INFO 2023-08-10 15:58:13,529 basehttp basehttp.py: 161 "GET /swagger/?format=openapi HTTP/1.1" 200 17762
+INFO 2023-08-10 16:48:14,741 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\serializer\role_serializer.py changed, reloading.
+INFO 2023-08-10 16:48:21,481 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 16:50:39,464 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\serializer\role_serializer.py changed, reloading.
+INFO 2023-08-10 16:50:40,947 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 16:51:01,871 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\serializer\user_serializer.py changed, reloading.
+INFO 2023-08-10 16:51:03,041 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 16:51:34,226 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\serializer\user_serializer.py changed, reloading.
+INFO 2023-08-10 16:51:35,203 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 16:53:24,029 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\serializer\user_serializer.py changed, reloading.
+INFO 2023-08-10 16:53:25,073 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 16:53:30,211 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\serializer\user_serializer.py changed, reloading.
+INFO 2023-08-10 16:53:31,599 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 16:54:33,429 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\serializer\user_serializer.py changed, reloading.
+INFO 2023-08-10 16:54:35,174 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 16:55:31,679 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\serializer\user_serializer.py changed, reloading.
+INFO 2023-08-10 16:55:32,853 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 16:55:53,117 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\serializer\user_serializer.py changed, reloading.
+INFO 2023-08-10 16:55:54,419 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 16:56:10,394 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\serializer\user_serializer.py changed, reloading.
+INFO 2023-08-10 16:56:11,357 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 16:56:25,009 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\serializer\user_serializer.py changed, reloading.
+INFO 2023-08-10 16:56:26,321 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 16:56:44,718 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\serializer\user_serializer.py changed, reloading.
+INFO 2023-08-10 16:56:45,922 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 16:56:59,608 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\serializer\user_serializer.py changed, reloading.
+INFO 2023-08-10 16:57:00,847 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 16:57:05,791 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\serializer\user_serializer.py changed, reloading.
+INFO 2023-08-10 16:57:06,715 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 16:57:08,338 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\serializer\user_serializer.py changed, reloading.
+INFO 2023-08-10 16:57:09,924 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 16:57:32,891 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\serializer\user_serializer.py changed, reloading.
+INFO 2023-08-10 16:57:34,319 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 16:58:17,364 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\serializer\user_serializer.py changed, reloading.
+INFO 2023-08-10 16:58:18,731 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 16:59:26,075 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\serializer\user_serializer.py changed, reloading.
+INFO 2023-08-10 16:59:27,691 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 17:00:14,194 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\user_view.py changed, reloading.
+INFO 2023-08-10 17:00:15,236 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 17:00:30,033 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\user_view.py changed, reloading.
+INFO 2023-08-10 17:00:31,392 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 17:00:57,052 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\user_view.py changed, reloading.
+INFO 2023-08-10 17:00:58,272 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 17:01:05,400 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\user_view.py changed, reloading.
+INFO 2023-08-10 17:01:06,639 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 17:01:24,722 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\user_view.py changed, reloading.
+INFO 2023-08-10 17:01:25,948 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 17:01:33,197 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\user_view.py changed, reloading.
+INFO 2023-08-10 17:01:34,436 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 17:01:47,075 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\user_view.py changed, reloading.
+INFO 2023-08-10 17:01:48,515 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 17:01:52,339 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\user_view.py changed, reloading.
+INFO 2023-08-10 17:01:53,288 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 17:01:58,179 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\user_view.py changed, reloading.
+INFO 2023-08-10 17:01:59,524 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 17:04:09,175 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\user_view.py changed, reloading.
+INFO 2023-08-10 17:04:10,197 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 17:04:38,660 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\user_view.py changed, reloading.
+INFO 2023-08-10 17:04:39,741 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 17:04:56,990 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\user_view.py changed, reloading.
+INFO 2023-08-10 17:04:58,165 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 17:05:33,109 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\user_view.py changed, reloading.
+INFO 2023-08-10 17:05:34,418 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 17:06:23,964 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\user_view.py changed, reloading.
+INFO 2023-08-10 17:06:25,075 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 17:06:36,617 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\user_view.py changed, reloading.
+INFO 2023-08-10 17:06:38,210 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 17:06:58,575 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\user_view.py changed, reloading.
+INFO 2023-08-10 17:06:59,858 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 17:08:31,145 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\user_view.py changed, reloading.
+INFO 2023-08-10 17:08:32,238 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 17:08:32,751 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 200 2168
+INFO 2023-08-10 17:08:33,122 basehttp basehttp.py: 161 "GET /swagger/?format=openapi HTTP/1.1" 200 17762
+INFO 2023-08-10 17:09:33,978 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\urls.py changed, reloading.
+INFO 2023-08-10 17:09:35,299 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 17:09:51,067 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\urls.py changed, reloading.
+INFO 2023-08-10 17:09:52,324 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 17:09:52,828 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 200 2168
+INFO 2023-08-10 17:09:53,049 basehttp basehttp.py: 161 "GET /swagger/?format=openapi HTTP/1.1" 200 21714
+INFO 2023-08-10 17:10:33,236 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\user_view.py changed, reloading.
+INFO 2023-08-10 17:10:34,166 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 17:10:59,195 autoreload autoreload.py: 251 D:\python 项目\ERP_system\erp_system\erp_system\apps\erp_systems\views\user_view.py changed, reloading.
+INFO 2023-08-10 17:11:00,266 autoreload autoreload.py: 637 Watching for file changes with StatReloader
+INFO 2023-08-10 17:11:01,163 basehttp basehttp.py: 161 "GET /swagger/ HTTP/1.1" 200 2168
+INFO 2023-08-10 17:11:01,487 basehttp basehttp.py: 161 "GET /swagger/?format=openapi HTTP/1.1" 200 21848
+WARNING 2023-08-10 17:11:09,896 log log.py: 224 Unauthorized: /users/
+WARNING 2023-08-10 17:11:09,896 basehttp basehttp.py: 161 "GET /users/?page=1&page_size=3 HTTP/1.1" 401 43
+INFO 2023-08-10 17:11:19,359 basehttp basehttp.py: 161 "GET /users/?page=1&page_size=3 HTTP/1.1" 200 241
+INFO 2023-08-10 17:13:30,263 basehttp basehttp.py: 161 "PATCH /users/1/ HTTP/1.1" 200 76
+INFO 2023-08-10 17:13:37,813 basehttp basehttp.py: 161 "GET /users/?page=1&page_size=3 HTTP/1.1" 200 1600
+INFO 2023-08-10 17:14:35,286 basehttp basehttp.py: 161 "DELETE /users/batchdestroy/ HTTP/1.1" 204 0
+INFO 2023-08-10 17:14:41,646 basehttp basehttp.py: 161 "GET /users/?page=1&page_size=3 HTTP/1.1" 200 1507
