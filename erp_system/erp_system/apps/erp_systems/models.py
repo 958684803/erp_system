@@ -102,3 +102,5 @@ class DeptModel(BaseModel):
         verbose_name_plural = verbose_name
         ordering = ['id']
 
+    def __str__(self):
+        return self.name

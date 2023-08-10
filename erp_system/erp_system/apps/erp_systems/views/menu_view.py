@@ -76,7 +76,6 @@ class MenuView(viewsets.ModelViewSet):
 
     def destroy(self, request, *args, **kwargs):
 
-
         instance = self.get_object()
         instance.delete_flag = '1'
         instance.save()
@@ -84,8 +83,9 @@ class MenuView(viewsets.ModelViewSet):
         MenuModel.objects.filter(parent_id=instance.id).update(delete_flag='1')
         return Response(status=status.HTTP_204_NO_CONTENT)
 
-    del_ids = openapi.Schema(type=openapi.TYPE_OBJECT,required=['ids'],properties={
-        'ids': openapi.Schema(type=openapi.TYPE_ARRAY,items=openapi.Schema(type=openapi.TYPE_INTEGER),description='需要删除的菜单id列表')
+    del_ids = openapi.Schema(type=openapi.TYPE_OBJECT, required=['ids'], properties={
+        'ids': openapi.Schema(type=openapi.TYPE_ARRAY, items=openapi.Schema(type=openapi.TYPE_INTEGER),
+                              description='需要删除的菜单id列表')
     })
 
     @swagger_auto_schema(methods=['delete'], request_body=del_ids)
