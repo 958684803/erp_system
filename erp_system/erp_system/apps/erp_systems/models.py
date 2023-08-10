@@ -30,6 +30,7 @@ class UserModel(AbstractUser):
     phone = models.CharField(verbose_name='手机号', max_length=11, blank=True, null=True)
     real_name = models.CharField(verbose_name='真实姓名', max_length=50, blank=True, null=True)
     roles = models.ManyToManyField('RoleModel', verbose_name='用户拥有的角色', blank=True)
+    dept = models.ForeignKey('DeptModel', verbose_name='用户所属部门', on_delete=models.SET_NULL, blank=True, null=True)
 
     class Meta:
         db_table = 't_user'
@@ -85,3 +86,19 @@ class RoleModel(BaseModel):
 
 def __str__(self):
     return self.name
+
+
+class DeptModel(BaseModel):
+    """
+    部门模型类
+    """
+    name = models.CharField(verbose_name='部门名字', unique=True, max_length=50)
+    address = models.CharField(verbose_name='部门地址', max_length=50, blank=True, null=True)
+    parent = models.ForeignKey('self', verbose_name='上级部门', on_delete=models.CASCADE, blank=True, null=True)
+
+    class Meta:
+        db_table = 't_dept'
+        verbose_name = '部门'
+        verbose_name_plural = verbose_name
+        ordering = ['id']
+
