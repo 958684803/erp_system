@@ -1,11 +1,13 @@
 from rest_framework import viewsets, mixins
-from rest_framework.generics import CreateAPIView
+from rest_framework.generics import CreateAPIView, UpdateAPIView, GenericAPIView
+from rest_framework.response import Response
 from rest_framework.viewsets import GenericViewSet
 
 from erp_system.utils.batch_destroy import BatchDestroy
 from erp_system.utils.global_page import GlobalPagination
 from erp_systems.models import UserModel
-from erp_systems.serializer.user_serializer import RegisterUserSerializer, UserUpdateDeleteSerializer, UserGetSerializer
+from erp_systems.serializer.user_serializer import RegisterUserSerializer, UserUpdateDeleteSerializer, \
+    UserGetSerializer, UpdatePassWordSerializer
 
 
 class RegisterUserView(CreateAPIView):
@@ -62,3 +64,17 @@ class UserView(mixins.UpdateModelMixin,
             return UserUpdateDeleteSerializer
         else:
             return UserGetSerializer
+
+
+class UpdatePassWordView(mixins.UpdateModelMixin, GenericAPIView):
+    """
+    patch:
+    用户--修改密码
+
+    修改密码，status：200（成功），return：修改后的用户信息
+    """
+    queryset = UserModel.objects.all()
+    serializer_class = UpdatePassWordSerializer
+
+    def patch(self, request, *args, **kwargs):
+        return self.partial_update(request, *args, **kwargs)
