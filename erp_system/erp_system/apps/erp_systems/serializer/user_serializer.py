@@ -92,9 +92,9 @@ class UpdatePassWordSerializer(serializers.ModelSerializer):
             raise ValidationError('两次密码不一致')
         return attrs
 
-    # def save(self, **kwargs):
-    #     if not self.instance.check_password(self.validated_data.get('password')):
-    #         raise ValidationError('原密码错误')
-    #     self.instance.set_password(self.validated_data.get('new_password'))
-    #     self.instance.save()
-    #     return self.instance
+    def save(self, **kwargs):
+        if not self.instance.check_password(self.validated_data.get('password')):
+            raise ValidationError('原密码错误')
+        self.instance.set_password(self.validated_data.get('new_password'))
+        self.instance.save()
+        return self.instance
